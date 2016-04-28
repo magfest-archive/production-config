@@ -59,8 +59,8 @@ uber::config::consent_form_url: ""
 
 uber::config::badge_types:
   staff_badge:
-    range_start: 152
-    range_end: 999
+    range_start: 1
+    range_end: 99
   supporter_badge:
     range_start: 100
     range_end: 299
@@ -72,7 +72,7 @@ uber::config::badge_types:
     range_end: 39999
 
 uber::config::initial_attendee: 50    # badge price
-#uber::config::badge_prices:
+uber::config::badge_prices:
 #  single_day:
 #    - { 'Friday': 35 }
 #    - { 'Saturday': 40 }
