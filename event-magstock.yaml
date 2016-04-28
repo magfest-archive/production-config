@@ -130,7 +130,7 @@ uber::config::food_price: 20
 uber::config::shirt_level: 20
 uber::config::supporter_level: 50
 
-uber::config::ribbon_types:
+uber::config::extra_ribbon_types:
   roughing_it: "Roughing It"
 
 uber::config::interest_list:
