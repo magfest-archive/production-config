@@ -125,7 +125,7 @@ uber::config::coming_as_types:
   unknown:        "I don't know yet"
 
 uber::config::supporter_stock: 50
-uber::config::food_stock: 120
+uber::config::food_stock: 130
 uber::config::food_price: 20
 uber::config::shirt_level: 20
 uber::config::supporter_level: 50
