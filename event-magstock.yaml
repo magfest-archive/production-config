@@ -23,8 +23,8 @@ uber::config::year: 6
 uber::config::groups_enabled: 'False'
 uber::config::kiosk_cc_enabled: True
 
-uber::config::epoch: '2016-06-19 08'
-uber::config::eschaton: '2016-06-21 18'
+uber::config::epoch: '2016-06-17 08'
+uber::config::eschaton: '2016-06-19 18'
 uber::config::prereg_open: '2016-04-29 10'
 uber::config::prereg_takedown: '2016-06-12'
 uber::config::placeholder_deadline: '2016-06-12'
