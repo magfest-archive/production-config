@@ -338,6 +338,11 @@ uber::config::dept_head_checklist:
     deadline: "2015-12-29"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/magprime_dept_checklist/tech_requirements"
+  room_layout:
+    name: "Function room layouts"
+    deadline: "2016-12-05"
+    description: "What do you need in terms of getting your room setup and layed out"
+    path: "/magprime_dept_checklist/room_layout"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2016-03-01"
