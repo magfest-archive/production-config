@@ -1,13 +1,19 @@
 ---
 classes:
 - roles::uber_server
-- uber::plugin_panels
-- uber::plugin_bands
 
 uber::plugins::extra_plugins:
   magstock:
     git_repo: 'https://github.com/magfest/magstock'
     git_branch: 'master'
+  # magstock wants these but they need some config work. TODO
+  #bands:
+  #  git_repo: 'https://github.com/magfest/bands'
+  #  git_branch: 'master'
+  # required by bands plugin
+  #panels:
+  #  git_repo: 'https://github.com/magfest/panels'
+  #  git_branch: 'master'
 
 uber::config::numbered_badges: 'False'
 
@@ -67,6 +73,10 @@ uber::config::badge_types:
 
 uber::config::initial_attendee: 50    # badge price
 uber::config::badge_prices:
+#  single_day:
+#    - { 'Friday': 35 }
+#    - { 'Saturday': 40 }
+#    - { 'Sunday': 40 }
   attendee:
     - { '2016-05-29': 60 }
     - { '2016-06-16': 70 }
@@ -83,12 +93,9 @@ uber::config::job_locations:
   cat_herding: "Cat Herding"
   food: "Food"
   misc: "Standby/Misc"
-  concerts: "Concert Tent"
+  music: "Music"
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
-
-uber::config::event_locations:
-  concerts: "Concerts"
 
 uber::config::noise_levels:
   quiet:   "As quiet as possible at night"
@@ -150,10 +157,3 @@ uber::config::dept_head_checklist:
     deadline: "2015-05-01"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
-
-# unset panel rooms for magstock because magstock doesn't have any locations called "panels1", which causes errors
-uber::plugin_panels::panel_rooms: ","   # empty list
-
-uber::plugin_panels::hide_schedule: true
-
-uber::plugin_bands::stage_agreement_deadline: "2016-05-15 22" # TODO: change to a better date
