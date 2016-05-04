@@ -78,6 +78,7 @@ uber::config::job_interests:
   music: "Music"
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
+  activities: "Events"
 
 uber::config::job_locations:
   cat_herding: "Cat Herding"
@@ -86,6 +87,7 @@ uber::config::job_locations:
   music: "Concert Tent"
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
+  activities: "Events"
 
 uber::config::event_locations:
   concerts: "Concerts"
@@ -142,12 +144,12 @@ uber::config::volunteer_checklist:
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2016-04-12"
+    deadline: "2016-05-12"
     description: "The managment team is happy to assist you in creating shifts. Please let us know if you need assistance with this step."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2015-05-01"
+    deadline: "2015-06-01"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
 
@@ -156,4 +158,4 @@ uber::plugin_panels::panel_rooms: ","   # empty list
 
 uber::plugin_panels::hide_schedule: true
 
-uber::plugin_bands::stage_agreement_deadline: "2016-05-15 22" # TODO: change to a better date
+uber::plugin_bands::stage_agreement_deadline: "2016-06-1 22" # TODO: change to a better date
