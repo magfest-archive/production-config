@@ -72,9 +72,9 @@ uber::config::badge_prices:
     - { '2016-06-16': 70 }
 
 uber::config::job_interests:
-  cat_herding: "Cat Herding"
+#  cat_herding: "Cat_herding" - Not being usedas an option for general, to be assigned by Admin team
   food: "Food"
-  misc: "Standby/Misc"
+  misc: "General Support"
   music: "Music"
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
@@ -83,7 +83,7 @@ uber::config::job_interests:
 uber::config::job_locations:
   cat_herding: "Cat Herding"
   food: "Food"
-  misc: "Standby/Misc"
+  misc: "General Support"
   music: "Concert Tent"
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
@@ -91,6 +91,8 @@ uber::config::job_locations:
 
 uber::config::event_locations:
   concerts: "Concerts"
+  events: "Events"
+  slip-n-slide: "Slip -N- Slide"
 
 uber::config::noise_levels:
   quiet:   "As quiet as possible at night"
