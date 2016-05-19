@@ -86,17 +86,18 @@ uber::config::badge_types:
     range_start: 6000
     range_end: 7999
 
-uber::config::initial_attendee: 50    # badge price
+uber::config::initial_attendee: 40    # badge price
+uber::config::group_discount: 5
 uber::config::dealer_badge_price: 20
 uber::config::default_table_price: 80
 uber::config::max_dealers: 8
 uber::config::badge_prices:
   single_day:
-    - { 'Friday': 35 }
-    - { 'Saturday': 35 }
-    - { 'Sunday': 25 }
+    - { 'Friday': 30 }
+    - { 'Saturday': 30 }
+    - { 'Sunday': 20 }
   attendee:
-    - { '2016-08-01': 60 }
+
 
 uber::config::shift_custom_badges: true
 
