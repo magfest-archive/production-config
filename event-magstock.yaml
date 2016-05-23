@@ -149,12 +149,12 @@ uber::config::volunteer_checklist:
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2016-05-12"
+    deadline: "2016-06-1"
     description: "The managment team is happy to assist you in creating shifts. Please let us know if you need assistance with this step."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2015-06-01"
+    deadline: "2015-06-13"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
 
