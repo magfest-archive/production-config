@@ -74,7 +74,7 @@ uber::config::badge_types:
 uber::config::initial_attendee: 50    # badge price
 uber::config::badge_prices:
   attendee:
-    - { '2016-05-29': 60 }
+    - { '2016-05-30': 60 }
     - { '2016-06-16': 70 }
 
 uber::config::job_interests:
