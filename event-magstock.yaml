@@ -74,8 +74,8 @@ uber::config::badge_types:
 uber::config::initial_attendee: 50    # badge price
 uber::config::badge_prices:
   attendee:
-    - { '2016-05-30': 60 }
-    - { '2016-06-15': 70 }
+    - { '2016-06-01': 60 }
+    - { '2016-06-16': 70 }
 
 uber::config::job_interests:
 #  cat_herding: "Cat_herding" - Not being usedas an option for general, to be assigned by Admin team
