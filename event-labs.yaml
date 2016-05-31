@@ -97,7 +97,7 @@ uber::config::badge_prices:
     - { 'Saturday': 30 }
     - { 'Sunday': 20 }
   attendee:
-
+    - { '2016-09-09': 50 }
 
 uber::config::shift_custom_badges: true
 
