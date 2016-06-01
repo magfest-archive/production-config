@@ -152,7 +152,7 @@ uber::config::volunteer_checklist:
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2016-06-1"
+    deadline: "2016-06-6"
     description: "The managment team is happy to assist you in creating shifts. Please let us know if you need assistance with this step."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
