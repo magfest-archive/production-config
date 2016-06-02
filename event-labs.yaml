@@ -24,6 +24,7 @@ uber::config::event_venue: 'The Hilton Alexandria Mark Center'
 uber::config::event_venue_address: '5000 Seminary Rd, Alexandria, VA 22311'
 
 uber::config::groups_enabled: 'True'
+uber::config::group_discount: 5,
 
 uber::config::epoch: '2016-09-09 08'
 uber::config::eschaton: '2016-09-11 18'
