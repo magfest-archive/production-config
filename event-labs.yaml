@@ -111,7 +111,6 @@ uber::config::job_interests:
   tabletop: "Tabletop Games"
   loading_crew: "Loading Crew"
   registration: "Registration"
-  bridge_simulator: "Starship Horizons"
   techops: "Tech Ops / AV"
   lan: "LAN"
   tournaments: "Tournaments"
@@ -136,7 +135,6 @@ uber::config::job_locations:
   stops: "Stops"
   fest_ops: "Fest Ops"
   charity: "Charity"
-  dispatch: "Dispatch"
   dorsai: "Dorsai"
   mops: "Mediatron!"
   merch: "Merchandise"
@@ -148,8 +146,6 @@ uber::config::job_locations:
   tea_room: "Tea Room"
   treasury: "Treasury"
   concert_security: "Concert Security"
-  lan_events: "LAN Events"
-  rock_island: "Rock Island"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
