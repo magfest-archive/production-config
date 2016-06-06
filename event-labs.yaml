@@ -116,7 +116,7 @@ uber::config::job_interests:
   tournaments: "Tournaments"
   jamspace: "Jamspace"
   staff_suite: "Staff Suite"
-
+  
 uber::config::job_locations:
   console: "Consoles"
   arcade: "Arcade"
@@ -133,7 +133,7 @@ uber::config::job_locations:
   staff_suite: "Staff Suite"
   marketplace: "Marketplace"
   stops: "Stops"
-  fest_ops: "Fest Ops"
+  fest_ops: "Guest"
   charity: "Charity"
   dorsai: "Dorsai"
   mops: "Mediatron!"
