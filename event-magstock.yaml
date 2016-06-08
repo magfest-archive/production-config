@@ -87,7 +87,7 @@ uber::config::job_interests:
   activities: "Events"
 
 uber::config::job_locations:
-  cat_herding: "Cat Herding"
+  cat_herding: "Security"
   food: "Food"
   misc: "General Support"
   music: "Concert Tent"
