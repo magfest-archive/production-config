@@ -170,12 +170,12 @@ uber::plugin_bands::band_email:           'MAGStock Music Department <music@mags
 uber::plugin_bands::band_email_signature: '- MAGStock Music Department'
 
 uber::plugin_bands::band_panel_deadline:      ''  # disabled for magstock
-uber::plugin_bands::band_bio_deadline:        '2016-06-10 20'
-uber::plugin_bands::band_agreement_deadline:  '2016-06-10 20'
-uber::plugin_bands::band_w9_deadline:         '2016-06-10 20'
-uber::plugin_bands::band_merch_deadline:      '2016-06-10 20'
+uber::plugin_bands::band_bio_deadline:        '2016-06-14 20'
+uber::plugin_bands::band_agreement_deadline:  '2016-06-14 20'
+uber::plugin_bands::band_w9_deadline:         '2016-06-14 20'
+uber::plugin_bands::band_merch_deadline:      '2016-06-14 20'
 uber::plugin_bands::band_charity_deadline:    ''  # disabled for magstock
-uber::plugin_bands::band_badge_deadline:      '2016-06-10 20'
-uber::plugin_bands::stage_agreement_deadline: '2016-06-10 20'
+uber::plugin_bands::band_badge_deadline:      '2016-06-14 20'
+uber::plugin_bands::stage_agreement_deadline: '2016-06-14 20'
 
 uber::plugin_bands::require_dedicated_band_table_presence: false
