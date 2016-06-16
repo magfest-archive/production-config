@@ -72,6 +72,7 @@ uber::config::badge_types:
     range_end: 39999
 
 uber::config::initial_attendee: 50    # badge price
+uber::config::one_days_enabled: false
 uber::config::badge_prices:
   attendee:
     - { '2016-06-01': 60 }
