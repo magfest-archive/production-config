@@ -36,10 +36,10 @@ uber::config::uber_takedown: '2016-09-11'
 
 uber::config::placeholder_deadline: '2016-09-09'
 uber::config::supporter_deadline: '2016-08-20'
-uber::config::room_deadline: '2016-08-29'
+uber::config::room_deadline: '2016-08-10'
 uber::config::shirt_deadline: '2016-08-20'
-uber::config::printed_badge_deadline: '2016-08-31'
-uber::config::shifts_created: '2016-08-15'
+uber::config::printed_badge_deadline: '2016-08-12'
+uber::config::shifts_created: '2016-08-06'
 
 # TODO: uncomment this when dealer registration date is decided
 # uber::config::dealer_reg_start: '2016-07-31 19'       # dealer reg not allowed before this date
@@ -138,7 +138,6 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   mops: "Mediatron!"
   merch: "Merchandise"
-  reg_managers: "Reg Managers"
   rescuers: "Rescuers"
   security: "Security"
   staff_support: "Staff Support"
@@ -162,7 +161,6 @@ uber::config::event_locations:
   registration: "Registration"
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
-  pentathlon: "MAGOlympics Pentathlon"
 
 # entries here must also exist in event_locations
 uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
@@ -236,7 +234,7 @@ uber::config::dept_head_checklist:
 uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
 uber::plugin_panels::hide_schedule: true
 
-uber::plugin_bands::band_email:           'MAGLabs Music Department <music@magfest.org>'
+uber::plugin_bands::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
 uber::plugin_bands::band_email_signature: '- MAGLabs Music Department'
 
 uber::plugin_bands::auction_start:            '2016-09-11 11' # TODO: verify. likely.
