@@ -41,8 +41,7 @@ uber::config::shirt_deadline: '2016-08-20'
 uber::config::printed_badge_deadline: '2016-08-31'
 uber::config::shifts_created: '2016-08-15'
 
-# TODO: uncomment this when dealer registration date is decided
-# uber::config::dealer_reg_start: '2016-07-31 19'       # dealer reg not allowed before this date
+uber::config::dealer_reg_start: '2016-07-07'       # dealer reg not allowed before this date
 uber::config::dealer_reg_deadline: '2016-08-02 03'    # after this date, applications are auto-waitlisted
 uber::config::dealer_reg_shutdown: '2016-08-07'       # after this date, no new applications allowed
 uber::config::dealer_payment_due: '2016-09-01'        # dealers must pay by this date
