@@ -91,13 +91,13 @@ uber::config::badge_types:
 uber::config::initial_attendee: 40    # badge price
 uber::config::dealer_badge_price: 20
 uber::config::max_dealers: 10
-uber::config::default_table_price: 225
+uber::config::default_table_price: 80
 
 uber::config::table_prices:
   1: 80
-  2: 115
-  3: 160
-  4: 225
+  2: 80
+  3: 80
+  4: 80
 
 uber::config::badge_prices:
   single_day:
