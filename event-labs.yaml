@@ -194,19 +194,33 @@ uber::config::volunteer_checklist:
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2016-08-22"
+    deadline: "2016-08-06"
     description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from M8.5.  Please let us know if you need assistance with this step or what changes you have."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2016-08-22"
+    deadline: "2016-08-06"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
+  treasury:
+    name: "Cash / MPoint Needs"
+    deadline: "2016-08-06"
+    description: "Tell us whether you need any cash/mpoints for your department."
+    path: "/treasury/allotments"
+  allotments:
+    name: "Treasury Information"
+    deadline: "2016-08-06"
+    description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
+    path: "/magprime_dept_checklist/allotments"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2016-08-26"
+    deadline: "2016-08-12"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
+  tech_requirements:
+    deadline: "2016-08-12"
+    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
+    path: "/techops/tech_requirements"
   approve_setup_teardown:
     name: "Approve/Decline Requests to Help With Setup/Teardown"
     deadline: "2016-08-26"
@@ -223,20 +237,11 @@ uber::config::dept_head_checklist:
   office_supplies:
     deadline: "2016-09-06"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
-  treasury:
-    name: "Cash / MPoint Needs"
-    deadline: "2016-09-06"
-    description: "Tell us whether you need any cash/mpoints for your department."
-    path: "/treasury/allotments"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2016-09-18"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
-  tech_requirements:
-    deadline: "2016-09-02"
-    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/techops/tech_requirements"
 
 uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
 uber::plugin_panels::hide_schedule: true
