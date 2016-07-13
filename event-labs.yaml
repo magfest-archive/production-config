@@ -280,7 +280,7 @@ uber::config::marketplace_sig: |
     - Shane Borrelli,
     MAGFest Laboratories Marketplace Coordinator
 
-uber::config::guest_email_signature:
+uber::config::guest_sig:
     - C. Adam Bullock
     MAGFest Guest Relations
   
