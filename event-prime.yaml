@@ -160,8 +160,9 @@ uber::config::job_interests:
 uber::config::job_locations:
   console: "Consoles"
   arcade: "Arcade"
+  arcade_crew: "Arcade_Crew"
   attendee_service: "Attendee Services"
-  lanlounge: "LAN Events"
+  autographs: "Autographs"
   artemis: "Artemis"
   challenges: "Challenges"
   charity: "Charity"
@@ -185,6 +186,7 @@ uber::config::job_locations:
   marketplace: "Marketplace"
   merch: "Merchandise"
   mops: "MEDIATRON!"
+  museum: "museum"
   nga: "Nexus Gaming Alliance"
   regdesk: "Regdesk"
   reg_managers: "Reg Managers"
