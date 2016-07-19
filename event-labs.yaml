@@ -37,7 +37,7 @@ uber::config::uber_takedown: '2016-09-11'
 
 uber::config::placeholder_deadline: '2016-09-09'
 uber::config::supporter_deadline: '2016-08-20'
-uber::config::room_deadline: '2016-08-10'
+uber::config::room_deadline: '2016-08-13'
 uber::config::shirt_deadline: '2016-08-20'
 uber::config::printed_badge_deadline: '2016-08-12'
 uber::config::shifts_created: '2016-08-06'
