@@ -199,7 +199,7 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.c
 uber::config::dept_head_checklist:
   creating_shifts:
     deadline: "2016-08-06"
-    description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from M8.5.  Please let us know if you need assistance with this step or what changes you have."
+    description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from MAGClassic.  Please let us know if you need assistance with this step or what changes you have."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
@@ -222,7 +222,7 @@ uber::config::dept_head_checklist:
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
   tech_requirements:
-    deadline: "2016-08-12"
+    deadline: "2016-08-11"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/magfest_dept_checklist/tech_requirements"
   approve_setup_teardown:
