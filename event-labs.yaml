@@ -152,6 +152,7 @@ uber::config::job_locations:
   tea_room: "Tea Room"
   treasury: "Treasury"
   concert_security: "Concert Security"
+  makerspace: "Maker Space"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
@@ -164,13 +165,13 @@ uber::config::event_locations:
   outdoors: "Outdoor Events"
   panels_1: "Panels 1"
   panels_2: "Panels 2"
-  panels_3: "Panels 3"
   registration: "Registration"
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
+  makerspace: "Maker Space Workshops"
 
 # entries here must also exist in event_locations
-uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
+uber::plugin_panels::panel_rooms: "panels_1,panels_2"
 
 uber::config::shirt_level: 20
 uber::config::supporter_level: 50
