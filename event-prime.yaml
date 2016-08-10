@@ -68,15 +68,41 @@ uber::config::post_con: 'False'
 
 uber::config::donation_tier:
   No thanks: 0
-  Ribbon: 5
-  Button: 10
-  Shirt: SHIRT_LEVEL
-  Guitar Keychain: 40
+  T-Shirt Bundle: SHIRT_LEVEL
+  I <3 Magfest: 50
   Supporter Package: SUPPORTER_LEVEL
-  Battery Pack: 100
-  Season Pass: SEASON_LEVEL
-  Canvas Art Print: 250
-  Decorative Air Guitar: 500
+  Vampire: 200
+  #### enable the stuff below later in the year ####
+  # Wall Meat: 500
+  # Disembodied Department Head: 1000
+
+# everything in here must match the "name" of something from donation_tier
+uber::config::donation_tier_descriptions:
+  no_thanks:
+    name: "No thanks"
+    icon: "http://placehold.it/50x50?text=icon"
+    description: "No thanks"
+    link: "../static_views/supporters.html"
+  shirt:
+    name: "T-Shirt Bundle"
+    icon: "http://placehold.it/50x50?text=icon"
+    description: "Shirt bundle etc"
+    link: "../static_views/supporters.html"
+  i_heart_magfest:
+    name: "I <3 Magfest"
+    icon: "http://placehold.it/50x50?text=icon"
+    description: "Necklace thing squarewave stuff"
+    link: "../static_views/supporters.html"
+  supporter_package:
+    name: "Supporter Package"
+    icon: "http://placehold.it/50x50?text=icon"
+    description: "A BUNCH OF STUFF"
+    link: "../static_views/supporters.html"
+  vampire:
+    name: "Vampire"
+    icon: "http://placehold.it/50x50?text=icon"
+    description: "Better than a stake through the heart"
+    link: "../static_views/supporters.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
