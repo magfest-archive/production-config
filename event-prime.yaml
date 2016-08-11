@@ -249,6 +249,7 @@ uber::config::supporter_level: 80
 uber::config::season_level: 160
 
 uber::config::shirt_sizes:
+  Select a size: 24
   No Shirt: 0
   S Unisex: 1
   M Unisex: 2
