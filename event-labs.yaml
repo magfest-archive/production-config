@@ -39,7 +39,7 @@ uber::config::placeholder_deadline: '2016-09-09'
 uber::config::supporter_deadline: '2016-08-20'
 uber::config::room_deadline: '2016-08-19'
 uber::config::shirt_deadline: '2016-08-20'
-uber::config::printed_badge_deadline: '2016-08-12'
+uber::config::printed_badge_deadline: '2016-08-20'
 uber::config::shifts_created: '2016-08-06'
 
 uber::config::dealer_reg_start: '2016-07-07'       # dealer reg not allowed before this date
