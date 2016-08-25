@@ -163,7 +163,7 @@ uber::config::event_locations:
   console: "Console Room"
   horizons: "Escape Room"
   lan_1: "LAN Free Play"
-  lan_2: "LAN Tournaments:
+  lan_2: "LAN Tournaments"
   outdoors: "Outdoor Events"
   panels_1: "Panels 1"
   panels_2: "Panels 2"
