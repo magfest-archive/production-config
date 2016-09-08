@@ -89,6 +89,10 @@ uber::config::badge_types:
     range_start: 6000
     range_end: 7999
 
+uber::config::age_groups:
+  under_13:
+    discount: 10
+
 uber::config::initial_attendee: 40    # badge price
 uber::config::dealer_badge_price: 20
 uber::config::max_dealers: 10
