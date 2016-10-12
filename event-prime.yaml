@@ -422,7 +422,7 @@ uber::plugin_bands::band_merch_enums:
 
 uber::plugin_mivs::round_one_deadline:    "2016-09-10"
 uber::plugin_mivs::round_two_deadline:    "2016-10-10"
-uber::plugin_mivs::judging_deadline:      "2016-09-17"
+uber::plugin_mivs::judging_deadline:      "2016-10-30"
 uber::plugin_mivs::round_two_complete:    "2016-10-30"
 uber::plugin_mivs::mivs_confirm_deadline: "2016-11-06"
 
