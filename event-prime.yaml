@@ -240,7 +240,7 @@ uber::config::job_locations:
   merch_contractor: "Yetee Staff"
   mops: "MEDIATRON!"
   museum: "Museum"
-  nga: "Nexus Gaming Alliance"
+ # nga: "Nexus Gaming Alliance"
   public_safety: "Public Safety"
   regdesk: "Regdesk"
   reg_managers: "Reg Managers"
@@ -315,7 +315,7 @@ uber::config::event_locations:
   console_stage: "Arena (Chesapeake 4,5,6)"
   starship_horizons: "Starship Horizons (Baltimore 1&2)"
   simulations: "Artemis" #Location TBD
-  console_nga: "Console (NGA Tournaments)"
+ # console_nga: "Console (NGA Tournaments)" May need to re-name this console_tournaments
   console_attendee: "Console (Attendee Tournaments)"
   arcade_tournaments_1: "Arcade (Tournaments 1)"
   arcade_tournaments_2: "Arcade (Tournaments 2)"
