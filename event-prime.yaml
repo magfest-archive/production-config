@@ -348,7 +348,7 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "https://magops.wufoo.
 uber::config::dept_head_checklist:
   creating_shifts:
     deadline: "2016-10-25"
-    description: "STOPS is happy to assist you in creating shifts. Since the days of the week are different than M13, we recomend only using M13 as a simple guideline.  Please let us know if you need assistance with this step."
+    description: "We have the ability to import shifts from MAGFest 2016 to MAGFest 2017, if you are only making minor changes and want assistance with this step, please let us know"
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
