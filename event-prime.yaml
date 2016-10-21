@@ -258,7 +258,7 @@ uber::config::job_locations:
   tea_room: "Tea Room"
   zombie_tag: "Zombie Tag"
 
-uber::config::shiftless_depts: "dorsai,marketplace,nga,simulations,merch_contractor"
+uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor"
 
 uber::config::shirt_level: 20
 uber::config::supporter_level: 80
