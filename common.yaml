@@ -49,11 +49,8 @@ uber::config::sandwich:
 
 uber::config::food_restriction:
     gluten: "No gluten"
-    dairy: "No dairy"
     pork: "No pork"
-    eggs: "No eggs"
     nuts: "No nuts"
-    red_meat: "No red meat"
 
 # note: these are somewhat public so, make sure anything you put in here
 # you are cool sharing with the public.
