@@ -40,10 +40,6 @@ uber::config::year: 2017
 uber::config::event_venue: 'The Gaylord National Hotel and Convention Center'
 uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745'
 
-uber::config::peglegs_sig: |
-    - Tom Hyre,
-    MAGFest Director of Panel Operations
-
 uber::config::epoch: '2017-01-05 08'
 uber::config::eschaton: '2017-01-08 18'
 
@@ -342,9 +338,6 @@ uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
-uber::config::dept_head_overrides:
-  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
-
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
 uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
 uber::plugin_magfest::techops_dept_checklist_form_url:    "http://techops.magfe.st/requirements"
@@ -403,6 +396,14 @@ uber::config::dept_head_checklist:
     deadline: "2017-01-24"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
+
+# Section for Signature Changes specific to event:
+uber::config::dept_head_overrides:
+  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
+
+uber::config::peglegs_sig: |
+    - Tom Hyre,
+    MAGFest Director of Panel Operations
 
 uber::plugin_bands::band_email:           'MAGFest Music Department <music@magfest.org>'
 uber::plugin_bands::band_email_signature: '- MAGFest Music Department'
