@@ -54,7 +54,7 @@ uber::config::group_prereg_takedown: '2017-01-03'
 uber::config::uber_takedown: '2017-01-07'
 
 uber::config::placeholder_deadline: '2016-12-26'
-uber::config::supporter_deadline: '2016-11-29'
+uber::config::supporter_deadline: '2016-11-23'
 uber::config::shirt_deadline: '2016-12-15'
 uber::config::printed_badge_deadline: '2016-11-23'
 
