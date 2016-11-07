@@ -221,6 +221,7 @@ uber::config::job_locations:
   con_ops: "Fest Ops"
   dispatch: "Dispatch"
   dorsai: "Dorsai"
+  escape_room: "Escape Room"
   panels: "Events"
   food_prep: "Staff Suite"
   film_fest: "Games on Film"
