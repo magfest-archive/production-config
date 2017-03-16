@@ -32,7 +32,7 @@ uber::plugin_hotel::hotel_req_hours: 24
 
 uber::config::room_deadline: '2017-07-29'
 
-uber::config::groups_enabled: True
+uber::config::groups_enabled: False
 
 uber::config::event_name: 'MAGWest'
 uber::config::year: 2017
@@ -57,8 +57,8 @@ uber::config::printed_badge_deadline: '2017-07-25'
 uber::config::shifts_created: '2016-03-01'   # TODO: set this once we import, if we do.
 
 uber::config::dealer_reg_start: '2017-04-01 20'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2017-05-01 20'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2017-06-01 23'       # after this date, no new applications allowed
+uber::config::dealer_reg_deadline: '2017-06-01 20'    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2017-07-01 20'       # after this date, no new applications allowed
 uber::config::dealer_payment_due: '2017-07-30'        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
@@ -96,7 +96,7 @@ uber::config::donation_tier_descriptions:
   supporter_package:
     name: "Supporter Package"
     icon: "../static/icons/star.png"
-    description: "Personalized Keepsake |Swag Bag"
+    description: "Personalized Keepsake Swadge|Swag Bag"
     link: "../static_views/keepsakebadge.html|../static_views/swagbag.html"
   vampire:
     name: "Golden Bagel"
@@ -107,15 +107,14 @@ uber::config::donation_tier_descriptions:
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
   child_badge:            "Minor"
-  supporter_badge:        "Supporter"
   staff_badge:            "Staff"
   guest_badge:            "Guest"
   one_day_badge:          "One Day"
 
 uber::config::badge_stocks:
-  friday: 1300
-  saturday: 1500
-  sunday: 700
+  friday: 300
+  saturday: 500
+  sunday: 100
 
 # prereg form UI options
 uber::config::donations_enabled: true
@@ -126,27 +125,24 @@ uber::config::extra_ribbon_types:
 
 uber::config::badge_types:
   staff_badge:
-    range_start: 103
-    range_end: 2999
-  supporter_badge:
-    range_start: 3000
-    range_end: 3999
+    range_start: 49
+    range_end: 199
   guest_badge:
-    range_start: 4000
-    range_end: 4999
+    range_start: 200
+    range_end: 299
   attendee_badge:
-    range_start: 5000
-    range_end: 9999
+    range_start: 300
+    range_end:  2299
   one_day_badge:
-    range_start: 10000
-    range_end: 14999
+    range_start: 2300
+    range_end: 3199
   child_badge:
-    range_start: 20000
-    range_end: 24999
+    range_start: 3200
+    range_end: 3500
 
 uber::config::initial_attendee: 50    # badge price
 uber::config::dealer_badge_price: 35
-uber::config::max_dealers: 20  # max # of dealer badges they can select to buy
+uber::config::max_dealers: 10  # max # of dealer badges they can select to buy
 uber::config::default_table_price: 150
 
 uber::config::table_prices:
@@ -157,9 +153,8 @@ uber::config::table_prices:
 
 uber::config::badge_prices:
   single_day:
-    Thursday: 40
     Friday: 45
-    Saturday: 45
+    Saturday: 50
     Sunday: 25
 
   attendee:
@@ -207,7 +202,7 @@ uber::config::job_locations:
   arcade_crew: "Arcade_Crew"
   attendee_service: "Attendee Services"
   autographs: "Autographs"
-  challenges: "Challenges"
+#  challenges: "Challenges"
   charity: "Charity"
   chipspace: "Chipspace"
   concert_ops: "Main Theater Operations" #includes stage hands and concert security
@@ -215,12 +210,11 @@ uber::config::job_locations:
   con_ops: "Fest Ops"
   dispatch: "Dispatch"
   dorsai: "Dorsai"
-  escape_room: "Escape Room"
-  panels: "Events"
-  panels1: "Panels" #post event we need to fix to be a Panels and Events departments, changing Job location now would do weird things.
-  grand_championship: "MAGFest Grand Championship"
+#  escape_room: "Escape Room"
+  panels: "Panels and Events"
+#  grand_championship: "MAGFest Grand Championship"
   food_prep: "Staff Suite"
-  film_fest: "Games on Film"
+#  film_fest: "Games on Film"
   indie_games: "Indie Games"
   jamspace: "Jam Space"
   lan: "LAN"
@@ -292,7 +286,7 @@ uber::config::interest_list:
   music: "Concerts"
   Jams: "Jam Space"
   panels: "Guests/Panels"
-  tabletop: "Tabletop games"
+  tabletop: "Tabletop Games"
   dealers: "Dealers"
   tournaments: "Tournaments"
 
@@ -401,11 +395,10 @@ uber::config::dept_head_overrides:
   - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
 
 uber::config::peglegs_sig: |
-    - Tom Hyre,
-    MAGFest Director of Panel Operations
+    - MAGFest Director of Panel Operations
 
-uber::plugin_bands::band_email:           'MAGFest Music Department <music@magwest.org>'
-uber::plugin_bands::band_email_signature: '- MAGFest Music Department'
+uber::plugin_bands::band_email:           'MAGWest Music Department <musicians@magwest.org>'
+uber::plugin_bands::band_email_signature: '- MAGWest Music Department'
 
 uber::plugin_bands::auction_start:            '2017-08-27 11' # placeholder
 
