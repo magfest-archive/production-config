@@ -153,6 +153,7 @@ uber::config::job_interests:
   tournaments: "Tournaments"
   jamspace: "Jamspace"
   staff_suite: "Staff Suite"
+  makerspace: "Makerspace"
   
 uber::config::job_locations:
   console: "Consoles"
@@ -182,7 +183,7 @@ uber::config::job_locations:
   tea_room: "Tea Room"
   treasury: "Treasury"
   concert_security: "Concert Security"
-  makerspace: "Maker Space"
+  makerspace: "Makerspace"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
@@ -217,6 +218,7 @@ uber::config::interest_list:
   tabletop: "Tabletop games"
   dealers: "Dealers"
   tournaments: "Tournaments"
+  makerspace: "Makerspace"
 
 uber::plugin_hotel::hotel_req_hours: 24
 
