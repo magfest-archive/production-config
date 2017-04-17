@@ -152,7 +152,6 @@ uber::config::job_interests:
   lan: "LAN"
   tournaments: "Tournaments"
   jamspace: "Jamspace"
-  staff_suite: "Staff Suite"
   makerspace: "Makerspace"
   
 uber::config::job_locations:
@@ -168,7 +167,6 @@ uber::config::job_locations:
   techops: "Tech Ops / AV"
   lan: "LAN"
   jamspace: "Jamspace"
-  staff_suite: "Staff Suite"
   marketplace: "Marketplace"
   stops: "Stops"
   fest_ops: "Guest"
@@ -200,7 +198,7 @@ uber::config::event_locations:
   registration: "Registration"
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
-  makerspace: "Maker Space Workshops"
+  makerspace: "Makerspace Workshops"
 
 # entries here must also exist in event_locations
 uber::plugin_panels::panel_rooms: "panels_1,panels_2"
@@ -223,6 +221,7 @@ uber::config::interest_list:
 uber::plugin_hotel::hotel_req_hours: 24
 
 uber::config::volunteer_checklist:
+  3: ''
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
