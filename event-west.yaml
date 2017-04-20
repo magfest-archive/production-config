@@ -56,10 +56,10 @@ uber::config::printed_badge_deadline: '2017-07-25'
 
 uber::config::shifts_created: '2016-03-01'   # TODO: set this once we import, if we do.
 
-uber::config::dealer_reg_start: '2017-07-01 20'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2017-06-01 20'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2017-07-01 23'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2017-07-30'        # dealers must pay by this date
+uber::config::dealer_reg_start: ''       # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: ''    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: ''       # after this date, no new applications allowed
+uber::config::dealer_payment_due: ''        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
