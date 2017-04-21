@@ -14,7 +14,7 @@ uber::config::stops_sig: "Thank You,\nStaff Operations: MAGFest Inc.\nhttp://www
 uber::config::collect_exact_birthdate: 'True'
 uber::config::event_timezone: "US/Eastern"
 uber::config::contact_url: 'http://magfest.org/contact'
-uber::config::consent_form_url: 'http://magfest.org/parentalconsentform'
+uber::config::consent_form_url: ''
 
 uber::nginx::onsite_uber_address: 'https://onsite.uber.magfest.org' # leave off trailing slash
 
