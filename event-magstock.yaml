@@ -5,11 +5,9 @@ classes:
 - uber::plugin_panels
 - uber::plugin_bands
 - uber::plugin_magfest
+- uber::plugin_magstock
 
 uber::plugins::extra_plugins:
-  magstock:
-    git_repo: 'https://github.com/magfest/magstock'
-    git_branch: 'master'
   reports:
     git_repo: 'https://github.com/magfest/reports'
     git_branch: 'master'
@@ -24,12 +22,14 @@ uber::config::year: 7
 uber::config::event_venue: 'Small Country Campground'
 uber::config::event_venue_address: '4400 Byrd Mill Road, Louisa, VA 23093'
 
+uber::config::use_checkin_barcode: False
+
 uber::config::groups_enabled: 'False'
 uber::config::kiosk_cc_enabled: True
 
 uber::config::epoch: '2017-06-08 18'
 uber::config::eschaton: '2017-06-11 18'
-uber::config::prereg_open: '2017-07-29 10'
+uber::config::prereg_open: '2017-03-19 15'
 uber::config::prereg_takedown: '2017-06-07'
 uber::config::placeholder_deadline: '2017-06-12'
 uber::config::shirt_deadline: '2017-05-15'
@@ -39,7 +39,7 @@ uber::config::supporter_deadline: '2017-05-20'
 uber::config::shifts_created: '2017-06-06'    # change to whatever date shifts were imported
 uber::config::uber_takedown: '2017-06-08'
 
-uber::config::max_badge_sales: 550   # review this as we get closer to cap
+uber::config::max_badge_sales: 450   # review this as we get closer to cap
 
 uber::config::at_the_con: 'False'
 uber::config::post_con: 'False'
@@ -83,7 +83,7 @@ uber::config::badge_prices:
     '2017-06-16': 70
 
 uber::config::job_interests:
-#  cat_herding: "Cat_herding" - Not being usedas an option for general, to be assigned by Admin team
+#  cat_herding: "Cat_herding" - Not being used as an option for general, to be assigned by Admin team
   food: "Food"
   misc: "General Support"
   music: "Music"
@@ -105,29 +105,29 @@ uber::config::event_locations:
   events: "Events"
   slip-n-slide: "Slip -N- Slide"
 
-uber::config::noise_levels:
+uber::plugin_magstock::noise_levels:
   quiet:   "As quiet as possible at night"
   conversational: "I can sleep when people talk"
   normal:  "I can sleep through reasonable levels of noise"
   noisy:   "While others sleep, I PARTY!"
   WUAAAGAAAAHHH: "I can't get enough WUAAAGAAAHHH in my life"
 
-uber::config::shirt_colors:
-  no_shirt:     "No shirt"
+uber::plugin_magstock::shirt_colors:
+  no_shirt_color:     "No shirt"
   black_shirt:  "Black Shirt"
   white_shirt:  "White Shirt (for tie-dyeing later)"
 
-uber::config::site_types:
-  primitive:  "Primitive - NO ELECTRIC OR WATER (but you get a button)"
+uber::plugin_magstock::site_types:
+  primitive:  "Primitive - NO ELECTRIC OR WATER (but you get a token of our appreciation)"
   normal:     "Normal - has electric and water hookups"
 
-uber::config::camping_types:
+uber::plugin_magstock::camping_types:
   small_tent:  "Small Tent (6 or fewer)"
   large_tent:  "Large Tent (more than 6)"
   car:         "Sleeping in car"
-  rv:          "RV or other larger vehicle"
+  rv:          "RV or other larger vehicle (Additional fees may apply; please contact us)"
 
-uber::config::coming_as_types:
+uber::plugin_magstock::coming_as_types:
   tent_leader:    "I am the Tent Leader"
   tent_follower:  "I'm not the one coordinating my group"
   alone:          "I'm coming alone"
@@ -136,8 +136,8 @@ uber::config::coming_as_types:
 # number of people allowed to buy meals.
 # this number does NOT include people who get free meals automatically like: staff badges, performers, and their +1s
 # the amount of meals we need to serve may end up ~40 higher than this number.
-uber::config::food_stock: 101       # only affects MAGSTOCK instances
-uber::config::food_price: 20        # only affects MAGSTOCK instances
+uber::plugin_magstock::food_stock: 150
+uber::plugin_magstock::food_price: 25
 
 uber::config::supporter_stock: 50
 uber::config::supporter_level: 50

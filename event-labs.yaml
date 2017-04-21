@@ -34,7 +34,7 @@ uber::config::group_discount: 5,
 uber::config::epoch: '2017-09-01 08'
 uber::config::eschaton: '2017-09-03 18'
 
-uber::config::prereg_open: '2017-06-02'
+uber::config::prereg_open: '2017-04-01'
 uber::config::prereg_takedown: '2017-08-31'
 uber::config::group_prereg_takedown: '2017-08-25'
 uber::config::uber_takedown: '2017-09-01'
@@ -62,6 +62,29 @@ uber::config::donation_tier:
  No thanks: 0
  Shirt: SHIRT_LEVEL
  Supporter Pack: SUPPORTER_LEVEL
+ Super Supporter: 170
+
+uber::config::donation_tier_descriptions:
+  no_thanks:
+    name: "No thanks"
+    icon: ""
+    description: "No thanks"
+    link: ""
+  shirt:
+    name: "Shirt"
+    icon: "../static/icons/iconshirt.png"
+    description: "Ribbon|T-Shirt"
+    link: "../static_views/ribbon.html|../static_views/tshirt.html"
+  supporter_pack:
+    name: "Supporter Pack"
+    icon: "../static/icons/heart-necklace.png"
+    description: "Upgraded electronic badge|Swag Bag"
+    link: ""
+  super_supporter:
+    name: "Super Supporter"
+    icon: "../static/icons/menace.png"
+    description: "More upgraded electronic badge|Something else"
+    link: ""
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
@@ -95,7 +118,7 @@ uber::config::age_groups:
   under_13:
     discount: 10
 
-uber::config::initial_attendee: 40    # badge price
+uber::config::initial_attendee: 50    # badge price
 uber::config::dealer_badge_price: 20
 uber::config::max_dealers: 10
 uber::config::default_table_price: 80
@@ -129,7 +152,7 @@ uber::config::job_interests:
   lan: "LAN"
   tournaments: "Tournaments"
   jamspace: "Jamspace"
-  staff_suite: "Staff Suite"
+  makerspace: "Makerspace"
   
 uber::config::job_locations:
   console: "Consoles"
@@ -144,7 +167,6 @@ uber::config::job_locations:
   techops: "Tech Ops / AV"
   lan: "LAN"
   jamspace: "Jamspace"
-  staff_suite: "Staff Suite"
   marketplace: "Marketplace"
   stops: "Stops"
   fest_ops: "Guest"
@@ -159,7 +181,7 @@ uber::config::job_locations:
   tea_room: "Tea Room"
   treasury: "Treasury"
   concert_security: "Concert Security"
-  makerspace: "Maker Space"
+  makerspace: "Makerspace"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
@@ -176,13 +198,13 @@ uber::config::event_locations:
   registration: "Registration"
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
-  makerspace: "Maker Space Workshops"
+  makerspace: "Makerspace Workshops"
 
 # entries here must also exist in event_locations
 uber::plugin_panels::panel_rooms: "panels_1,panels_2"
 
 uber::config::shirt_level: 20
-uber::config::supporter_level: 50
+uber::config::supporter_level: 70
 uber::config::season_level: 160
 
 uber::config::interest_list:
@@ -194,10 +216,12 @@ uber::config::interest_list:
   tabletop: "Tabletop games"
   dealers: "Dealers"
   tournaments: "Tournaments"
+  makerspace: "Makerspace"
 
 uber::plugin_hotel::hotel_req_hours: 24
 
 uber::config::volunteer_checklist:
+  3: ''
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 

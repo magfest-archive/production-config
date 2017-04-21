@@ -26,7 +26,7 @@ uber::plugins::extra_plugins:
 # disable after the first launch is done.
 uber::config::hardcore_optimizations_enabled: 'False'
 
-uber::config::priority_plugins: "uber, panels, bands, barcode_scanning"
+uber::config::priority_plugins: "uber, panels, bands"
 
 uber::plugin_hotel::hotel_req_hours: 30
 

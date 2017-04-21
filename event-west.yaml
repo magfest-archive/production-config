@@ -44,7 +44,7 @@ uber::config::epoch: '2017-08-25 08'
 uber::config::eschaton: '2017-08-27 18'
 
 uber::config::hide_prereg_open_date: 'True'
-uber::config::prereg_open: '2017-06-30 16'
+uber::config::prereg_open: '2017-04-19 16'
 uber::config::prereg_takedown: '2017-08-24'
 uber::config::group_prereg_takedown: '2017-08-22'
 uber::config::uber_takedown: '2017-08-22'
@@ -56,10 +56,10 @@ uber::config::printed_badge_deadline: '2017-07-25'
 
 uber::config::shifts_created: '2016-03-01'   # TODO: set this once we import, if we do.
 
-uber::config::dealer_reg_start: '2017-04-01 20'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2017-06-01 20'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2017-07-01 20'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2017-07-30'        # dealers must pay by this date
+uber::config::dealer_reg_start: ''       # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: ''    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: ''       # after this date, no new applications allowed
+uber::config::dealer_payment_due: ''        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
@@ -76,7 +76,7 @@ uber::config::donation_tier:
   T-Shirt Bundle: SHIRT_LEVEL
   # I <3 Magfest: 50
   Supporter Package: SUPPORTER_LEVEL
-  Golden Bagel: 200
+  # Golden Bagel: 200
   #### enable the stuff below later in the year ####
   # Wall Meat: 500
   # Disembodied Department Head: 1000
@@ -98,11 +98,6 @@ uber::config::donation_tier_descriptions:
     icon: "../static/icons/star.png"
     description: "Personalized Keepsake Swadge|Swag Bag"
     link: "../static_views/keepsakebadge.html|../static_views/swagbag.html"
-  vampire:
-    name: "Golden Bagel"
-    icon: "../static/icons/menace.png"
-    description: "Bagel of Power|Some Crazy Shit"
-    link: "../static_views/morecowbell.html|../static_views/secrets.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
@@ -158,17 +153,17 @@ uber::config::badge_prices:
     Sunday: 25
 
   attendee:
-    '2017-03-01': 55
-    '2017-05-01': 60
-    '2017-07-01': 65
-    '2017-08-24': 70
+    '2017-06-01': 55
+    '2017-07-01': 60
+    '2017-08-01': 65
+    '2017-08-25': 70
     #4000: 55
     #5000: 60
     #6000: 65
     #7000: 70
     #9000: 75
     #11000: 80
-    
+
 uber::config::shift_custom_badges: true
 
 uber::config::job_interests:
@@ -176,20 +171,20 @@ uber::config::job_interests:
   arcade: "Arcade"
 #  challenges: "Challenges Booth"
   charity: "Charity"
-#  chipspace: "Chipspace"
+  chipspace: "Chipspace"
   concert: "Main Theater Operations"
   console: "Consoles"
 #  film_fest: "Film Festival"
 #  indie_games: "Indie Showcase"
 #  shedspace: "Jam Clinic"
   jamspace: "Jam Space"
-#  lan: "LAN"
+  lan: "LAN"
 #  larp: "LARP"
 #  museum: "Museum"
   panels: "Panels"
   regdesk: "Regdesk"
   security: "Security"
-  food_prep: "Staff Suite"
+#  food_prep: "Staff Suite"
   staff_support: "Staff Support"
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
@@ -201,7 +196,7 @@ uber::config::job_locations:
   arcade: "Arcade"
   arcade_crew: "Arcade_Crew"
   attendee_service: "Attendee Services"
-  autographs: "Autographs"
+#  autographs: "Autographs"
 #  challenges: "Challenges"
   charity: "Charity"
   chipspace: "Chipspace"
@@ -213,40 +208,40 @@ uber::config::job_locations:
 #  escape_room: "Escape Room"
   panels: "Panels and Events"
 #  grand_championship: "MAGFest Grand Championship"
-  food_prep: "Staff Suite"
+#  food_prep: "Staff Suite"
 #  film_fest: "Games on Film"
   indie_games: "Indie Games"
   jamspace: "Jam Space"
   lan: "LAN"
-  larp: "LARP"
+#  larp: "LARP"
   loadin: "Logistics"
   loudr: "Rock Island"
-  mages: "MAGES"
+#  mages: "MAGES"
   marketplace: "Marketplace"
   merch: "Merchandise"
-  merch_contractor: "Yetee Staff"
+#  merch_contractor: "Yetee Staff"
   mops: "MEDIATRON!"
-  museum: "Museum"
+#  museum: "Museum"
  # nga: "Nexus Gaming Alliance"
-  public_safety: "Public Safety"
+#  public_safety: "Public Safety"
   regdesk: "Regdesk"
   reg_managers: "Reg Managers"
   rescuers: "Rescuers"
   security: "Security"
   shedspace: "Jam Clinic"
-  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
+#  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
   staff_support: "Staff Support"
   stops: "Staffing Ops"
   tabletop: "Tabletop"
-  tabletop_rpg: "Tabletop (Pathfinder)"
-  tabletop_ddal: "Tabletop (DDAL)"
-  tabletop_ccg: "Tabletop (CCG)"
+#  tabletop_rpg: "Tabletop (Pathfinder)"
+#  tabletop_ddal: "Tabletop (DDAL)"
+#  tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
   tech_ops: "Tech Ops"
   tea_room: "Tea Room"
-  zombie_tag: "Zombie Tag"
+#  zombie_tag: "Zombie Tag"
 
-uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops" 
+uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops"
 #Con/Fest Ops primarily used for Outside Contractors - Signage, Light/Sound production, these are groups we pay but still want in the system.
 
 uber::config::shirt_level: 20
@@ -290,7 +285,7 @@ uber::config::interest_list:
   dealers: "Dealers"
   tournaments: "Tournaments"
 
-#Event Locations needs to updated once layout is finalized. 
+#Event Locations needs to updated once layout is finalized.
 uber::config::event_locations:
   panels_1: "Panels 1 (Woodrow Wilson Ballroom)"
   panels_2: "Panels 2 (Woodrow Wilson Ballroom)"
@@ -326,7 +321,7 @@ uber::config::event_locations:
   magolympics: "Grand Championship"
   zombie_tag: "Zombie Tag (Magnolia 2)"
   escape_room: "Escape Room (Baltimore 1,2)"
-  
+
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'

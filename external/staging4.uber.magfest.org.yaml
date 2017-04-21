@@ -1,0 +1,23 @@
+---
+
+# switch this staging server to pull all plugin config via the dom_cleanup_css_js_use_jinja branch for testing
+# this is all a little hacky because it duplicates code from common.yaml, but should work fine.
+
+uber::plugins::sideboard_plugins:
+  uber:
+    git_repo: 'https://github.com/magfest/ubersystem'
+    git_branch: 'dom_cleanup_css_js_use_jinja'
+  uber_analytics:
+    git_repo: 'https://github.com/magfest/uber_analytics'
+    git_branch: 'dom_cleanup_css_js_use_jinja'
+
+uber::plugins::extra_plugins:
+  reports:
+    git_repo: 'https://github.com/magfest/reports'
+    git_branch: 'dom_cleanup_css_js_use_jinja'
+
+uber::plugin_barcode::git_branch:  'dom_cleanup_css_js_use_jinja'
+uber::plugin_panels::git_branch:   'dom_cleanup_css_js_use_jinja'
+uber::plugin_bands::git_branch:    'dom_cleanup_css_js_use_jinja'
+uber::plugin_magfest::git_branch:  'dom_cleanup_css_js_use_jinja'
+uber::plugin_magstock::git_branch: 'dom_cleanup_css_js_use_jinja'
