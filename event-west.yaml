@@ -168,7 +168,7 @@ uber::config::badge_prices:
     #7000: 70
     #9000: 75
     #11000: 80
-    
+
 uber::config::shift_custom_badges: true
 
 uber::config::job_interests:
@@ -201,8 +201,8 @@ uber::config::job_locations:
   arcade: "Arcade"
   arcade_crew: "Arcade_Crew"
   attendee_service: "Attendee Services"
-  autographs: "Autographs"
-  challenges: "Challenges"
+#  autographs: "Autographs"
+#  challenges: "Challenges"
   charity: "Charity"
   chipspace: "Chipspace"
   concert_ops: "Main Theater Operations" #includes stage hands and concert security
@@ -210,44 +210,44 @@ uber::config::job_locations:
   con_ops: "Fest Ops"
   dispatch: "Dispatch"
   dorsai: "Dorsai"
-  escape_room: "Escape Room"
-  panels: "Events"
+#  escape_room: "Escape Room"
+#  panels: "Events"
   panels1: "Panels" #post event we need to fix to be a Panels and Events departments, changing Job location now would do weird things.
-  grand_championship: "MAGFest Grand Championship"
-  food_prep: "Staff Suite"
-  film_fest: "Games on Film"
+#  grand_championship: "MAGFest Grand Championship"
+#  food_prep: "Staff Suite"
+#  film_fest: "Games on Film"
   indie_games: "Indie Games"
   jamspace: "Jam Space"
   lan: "LAN"
-  larp: "LARP"
+#  larp: "LARP"
   loadin: "Logistics"
   loudr: "Rock Island"
-  mages: "MAGES"
+#  mages: "MAGES"
   marketplace: "Marketplace"
   merch: "Merchandise"
-  merch_contractor: "Yetee Staff"
+#  merch_contractor: "Yetee Staff"
   mops: "MEDIATRON!"
-  museum: "Museum"
+#  museum: "Museum"
  # nga: "Nexus Gaming Alliance"
-  public_safety: "Public Safety"
+#  public_safety: "Public Safety"
   regdesk: "Regdesk"
   reg_managers: "Reg Managers"
   rescuers: "Rescuers"
   security: "Security"
   shedspace: "Jam Clinic"
-  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
+#  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
   staff_support: "Staff Support"
   stops: "Staffing Ops"
   tabletop: "Tabletop"
-  tabletop_rpg: "Tabletop (Pathfinder)"
-  tabletop_ddal: "Tabletop (DDAL)"
-  tabletop_ccg: "Tabletop (CCG)"
+#  tabletop_rpg: "Tabletop (Pathfinder)"
+#  tabletop_ddal: "Tabletop (DDAL)"
+#  tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
   tech_ops: "Tech Ops"
   tea_room: "Tea Room"
-  zombie_tag: "Zombie Tag"
+#  zombie_tag: "Zombie Tag"
 
-uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops" 
+uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops"
 #Con/Fest Ops primarily used for Outside Contractors - Signage, Light/Sound production, these are groups we pay but still want in the system.
 
 uber::config::shirt_level: 20
@@ -291,7 +291,7 @@ uber::config::interest_list:
   dealers: "Dealers"
   tournaments: "Tournaments"
 
-#Event Locations needs to updated once layout is finalized. 
+#Event Locations needs to updated once layout is finalized.
 uber::config::event_locations:
   panels_1: "Panels 1 (Woodrow Wilson Ballroom)"
   panels_2: "Panels 2 (Woodrow Wilson Ballroom)"
@@ -327,7 +327,7 @@ uber::config::event_locations:
   magolympics: "Grand Championship"
   zombie_tag: "Zombie Tag (Magnolia 2)"
   escape_room: "Escape Room (Baltimore 1,2)"
-  
+
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
