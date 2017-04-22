@@ -54,7 +54,7 @@ uber::config::supporter_deadline: '2017-08-01'
 uber::config::shirt_deadline: '2017-07-29'
 uber::config::printed_badge_deadline: '2017-07-25'
 
-uber::config::shifts_created: '2016-03-01'   # TODO: set this once we import, if we do.
+uber::config::shifts_created: '2016-06-01'   # TODO: set this once we import, if we do.
 
 uber::config::dealer_reg_start: ''       # dealer reg not allowed before this date
 uber::config::dealer_reg_deadline: ''    # after this date, applications are auto-waitlisted
