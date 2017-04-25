@@ -39,6 +39,7 @@ uber::config::year: 2017
 
 uber::config::event_venue: 'The Hyatt Regency Santa Clara'
 uber::config::event_venue_address: '5101 Great America Pkwy, Santa Clara, CA 95054'
+uber::config:event_timezone: 'US/Pacific'
 
 uber::config::epoch: '2017-08-25 08'
 uber::config::eschaton: '2017-08-27 18'
