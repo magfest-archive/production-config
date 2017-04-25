@@ -391,6 +391,8 @@ uber::config::dept_head_overrides:
 
 uber::config::peglegs_sig: |
     - MAGFest Director of Panel Operations
+    
+uber::config::panels_email: 'MAGWest Panels <panels@magwest.org>'
 
 uber::plugin_bands::band_email:           'MAGWest Music Department <musicians@magwest.org>'
 uber::plugin_bands::band_email_signature: '- MAGWest Music Department'
