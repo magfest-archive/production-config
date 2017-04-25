@@ -287,40 +287,19 @@ uber::config::interest_list:
 
 #Event Locations needs to updated once layout is finalized.
 uber::config::event_locations:
-  panels_1: "Panels 1 (Woodrow Wilson Ballroom)"
-  panels_2: "Panels 2 (Woodrow Wilson Ballroom)"
-  panels_3: "Panels 3 (Cherry Blossom Ballroom)"
-  panels_4: "Panels 4 (Chesapeake D,E,F)"
-  mages_1: "MAGES 1 (Chesapeake G,H,I)"
-  mages_2: "MAGES 2 (Chesapeake 7,8,9)"
-  forum: "Forum (Chesapeake J,K,L)"
-  the_forge: "Creation Area (Chesapeake J,K,L)"
-  autographs: "Autographs A (Expo Hall E)"
-  autographs_1: "Autographs 1 (Expo Hall E)"
-  film_fest: "Games on Film (Maryland C)"
-  console_stage: "Arena (Maryland D)"
-  starship_horizons: "Starship Horizons (Annapolis 1-4)"
-  simulations: "Artemis (Expo Hall C)"
+  panels_1: "Panels 1 (Santa Clara Ballroom)"
+  panels_2: "Panels 2 (Santa Clara Ballroom)"
+  console_stage: "Arena (Grand Ballroom D)"
   console_tournament: "Console (Gameroom Tournaments)"
   console_attendee: "Console (Attendee Tournaments)"
   arcade_tournaments_1: "Arcade (Tournaments 1)"
   arcade_tournaments_2: "Arcade (Tournaments 2)"
-  arcade_tournaments_3: "Arcade (Tournaments 3)"
-  arcade_tournaments_4: "Arcade (Pinball)"
   lan_1: "LAN 1"
   lan_2: "LAN 2"
   lan_3: "LAN 3"
-  lan_theater: "Lan Theater"
-  larp: "LARP (Magnolia 1)"
   tabletop_tournaments: "Tabletop (Tournaments)"
-  tabletop_ccg: "Tabletop CCG (National Harbor 4,5,6,7)"
-  pathfinder: "Pathfinder D&D (National Harbor 12,13)"
-  ddal: "D&D Adventurers League, 5th edition (National Harbor 12,13)"
-  concerts: "Concerts (Potomac Ballrooms)"
-  chiptunes: "Chipspace (Potomac Hallway)"
-  magolympics: "Grand Championship"
-  zombie_tag: "Zombie Tag (Magnolia 2)"
-  escape_room: "Escape Room (Baltimore 1,2)"
+  tabletop_ccg: "Tabletop CCG (Unknown)"
+  concerts: "Concerts (Convention Ballroom)"
 
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
@@ -394,7 +373,7 @@ uber::config::peglegs_sig: |
     
 uber::config::panels_email: 'MAGWest Panels <panels@magwest.org>'
 
-uber::plugin_bands::band_email:           'MAGWest Music Department <musicians@magwest.org>'
+uber::plugin_bands::band_email:           'MAGWest Music Department <music@magwest.org>'
 uber::plugin_bands::band_email_signature: '- MAGWest Music Department'
 
 uber::plugin_bands::auction_start:            '2017-08-27 11' # placeholder
