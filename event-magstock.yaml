@@ -75,6 +75,8 @@ uber::config::badge_types:
     range_start: 30000
     range_end: 39999
 
+uber::config::preassigned_badge_types: ','
+
 uber::config::initial_attendee: 50    # badge price
 uber::config::one_days_enabled: false
 uber::config::badge_prices:
