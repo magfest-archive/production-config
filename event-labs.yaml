@@ -83,7 +83,7 @@ uber::config::donation_tier_descriptions:
   super_supporter:
     name: "Super Supporter"
     icon: "../static/icons/flask.png"
-    description: "Messenger bag|Suprise item"
+    description: "Messenger bag|Surprise item"
     link: "../static_views/messenger_bag.html|../static_views/surprise.html"
 
 uber::config::badge_enums:
