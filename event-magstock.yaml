@@ -124,10 +124,13 @@ uber::plugin_magstock::site_types:
   normal:     "Normal - has electric and water hookups"
 
 uber::plugin_magstock::camping_types:
-  small_tent:  "Small Tent (6 or fewer)"
-  large_tent:  "Large Tent (more than 6)"
-  car:         "Sleeping in car"
-  rv:          "RV or other larger vehicle (Additional fees may apply; please contact us)"
+  small_tent:  "Small Tent (small footprint)"
+  medium_sent: "Medium Tent (around 4 people)"
+  large_tent:  "Large Tent (Part City)"
+  car:         "Car - I plan to sleep in my car at my site for an additonal fee."
+  rv:          "RV - I plan to sleep in an RV or similar for an additonal fee."
+  special_site: "Special - I plan to do anything else at a campsite that will take up a lot of space."
+  cabin:      "Cabin - I plan to be boring and sleep in a cabin."
 
 uber::plugin_magstock::coming_as_types:
   tent_leader:    "I am the Tent Leader"
