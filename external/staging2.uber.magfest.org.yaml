@@ -1,6 +1,6 @@
 ---
 
-uber::config::at_the_con: 'False'
+uber::config::at_the_con: 'True'
 
 # classes:
 # - uber::db_replication_master
