@@ -201,9 +201,6 @@ uber::config::event_locations:
   tabletop_ccg: "Tabletop (CCG)"
   makerspace: "Makerspace Workshops"
 
-# entries here must also exist in event_locations
-uber::plugin_panels::panel_rooms: "panels_1,panels_2"
-
 uber::config::shirt_level: 20
 uber::config::supporter_level: 70
 uber::config::season_level: 160
@@ -281,8 +278,12 @@ uber::config::dept_head_checklist:
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
 
-uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
-uber::plugin_panels::hide_schedule: false
+# entries here must also exist in event_locations
+uber::plugin_panels::panel_rooms: "panels_1,panels_2"
+uber::plugin_panels::hide_schedule: true
+
+uber::plugin_panels::panel_app_deadline: '2017-07-31 20'
+uber::plugin_panels::expected_response: 'August 2017'
 
 uber::plugin_bands::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
 uber::plugin_bands::band_email_signature: '- MAGLabs Music Department'
