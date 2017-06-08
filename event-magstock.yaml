@@ -129,8 +129,8 @@ uber::plugin_magstock::camping_types:
   large_tent:  "Large Tent (large and in charge)"
   car:         "Car - I plan to sleep in my car at my site for an additonal fee."
   rv:          "RV - I plan to sleep in an RV or something similar for an additonal fee."
-  special_site: "Special - I plan to do something else at my campsite that will take up a lot of space."
-  cabin:      "Cabin - I plan to sleep in a cabin or house at the campground."
+  special_site: "Special - I'm planning something that takes up a lot of space."
+  cabin:      "Cabin - I plan to sleep in a cabin or house provided by the campground."
 
 uber::plugin_magstock::coming_as_types:
   tent_leader:    "I am the Tent Leader"
