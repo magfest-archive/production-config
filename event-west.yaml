@@ -69,7 +69,7 @@ uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
 uber::plugin_panels::hide_schedule: 'True'
 
-uber::plugin_panels::panel_app_deadline: '2017-06-29 20'
+uber::plugin_panels::panel_app_deadline: '2017-07-15 20'
 uber::plugin_panels::expected_response: 'July 2017'
 
 uber::config::at_the_con: 'False'
