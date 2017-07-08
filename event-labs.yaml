@@ -46,7 +46,7 @@ uber::config::supporter_deadline: '2017-08-05'
 uber::config::room_deadline: '2017-08-10'
 uber::config::shirt_deadline: '2017-08-11'
 uber::config::printed_badge_deadline: '2017-08-05'
-uber::config::shifts_created: '2017-08-06' # CHANGE to whatever date you import shifts
+uber::config::shifts_created: '2017-07-11' # CHANGE to whatever date you import shifts
 
 uber::config::dealer_reg_start: '2017-07-01'          # dealer reg not allowed before this date
 uber::config::dealer_reg_deadline: '2017-07-15 03'    # after this date, applications are auto-waitlisted
@@ -157,7 +157,7 @@ uber::config::job_interests:
   tournaments: "Tournaments"
   jamspace: "Jamspace"
   makerspace: "Makerspace"
-  
+
 uber::config::job_locations:
   console: "Consoles"
   arcade: "Arcade"
@@ -233,48 +233,48 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.c
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2017-08-01"
+    deadline: "2017-07-11"
     description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from MAGClassic.  Please let us know if you need assistance with this step or what changes you have."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2017-08-01"
+    deadline: "2017-07-16"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2017-08-01"
+    deadline: "2017-07-26"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
-    deadline: "2017-08-01"
+    deadline: "2017-07-26"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/magfest_dept_checklist/allotments"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2017-08-05"
+    deadline: "2017-07-21"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
   tech_requirements:
-    deadline: "2017-08-05"
+    deadline: "2017-07-16"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/magfest_dept_checklist/tech_requirements"
   approve_setup_teardown:
     name: "Approve/Decline Requests to Help With Setup/Teardown"
-    deadline: "2017-08-20"
+    deadline: "2017-08-11"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department={department}"
   placeholders:
     name: "Checking Placeholder Registrations"
-    deadline: "2017-08-25"
+    deadline: "2017-08-11"
     description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
     path: "/registration/placeholders?department={department}"
   printed_signs:
-    deadline: "2017-08-25"
+    deadline: "2017-08-21"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
   office_supplies:
-    deadline: "2017-08-15"
+    deadline: "2017-08-07"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
@@ -322,4 +322,4 @@ uber::config::marketplace_sig: |
 uber::config::guest_sig: |
     - C. Adam Bullock,
     MAGFest Guest Relations
-  
+
