@@ -306,6 +306,7 @@ uber::config::event_locations:
   concerts: "Concerts (Convention Ballroom)"
 
 uber::config::volunteer_checklist:
+  3: ''   # need to leave blank for magstock to work - skip food allergies
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
