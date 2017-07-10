@@ -157,6 +157,7 @@ uber::config::job_interests:
   tournaments: "Tournaments"
   jamspace: "Jamspace"
   makerspace: "Makerspace"
+  test_chambers: "Test Chambers"
 
 uber::config::job_locations:
   console: "Consoles"
@@ -188,6 +189,7 @@ uber::config::job_locations:
   concert_security: "Concert Security"
   makerspace: "Makerspace"
   museum: "Computer Museum"
+  lego_room: "Lego Room"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
