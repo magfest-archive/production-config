@@ -42,6 +42,7 @@ uber::config::event_venue: 'The Gaylord National Hotel and Convention Center'
 uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745'
 
 uber::config::use_checkin_barcode: 'True'
+uber::config::prereg_confirm_email_enabled: True
 
 uber::config::epoch: '2018-01-05 08'
 uber::config::eschaton: '2018-01-08 18'
