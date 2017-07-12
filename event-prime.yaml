@@ -43,6 +43,10 @@ uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745
 
 uber::config::use_checkin_barcode: 'True'
 
+# The number of hours after prereg_open that the "Request Hotel Booking Info"
+# checkbox will be available
+uber::config::prereg_request_hotel_info_duration: 24
+
 uber::config::epoch: '2018-01-05 08'
 uber::config::eschaton: '2018-01-08 18'
 
@@ -82,7 +86,7 @@ uber::config::donation_tier:
   T-Shirt Bundle: SHIRT_LEVEL
   I <3 Magfest: 50
   Supporter Package: SUPPORTER_LEVEL
-  #### If we enable any additional tiers, we'll also have to tweak the layout.       #### 
+  #### If we enable any additional tiers, we'll also have to tweak the layout.       ####
   #### In static/theme/prereg.css, change "flex-wrap: nowrap;" to "flex-wrap: wrap;" ####
   # Vampire: 200
   # Wall Meat: 500
