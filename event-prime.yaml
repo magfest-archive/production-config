@@ -69,7 +69,7 @@ uber::config::dealer_reg_deadline: '2017-08-01 15'  # after this date, applicati
 uber::config::dealer_reg_shutdown: '2017-08-21 23'  # after this date, no new applications allowed
 uber::config::dealer_payment_due: '2017-12-15'      # dealers must pay by this date
 
-uber::config::badge_price_waived: '2018-01-08 12'
+uber::config::badge_price_waived: '2018-01-07 12'
 
 uber::config::max_badge_sales: 20000
 
@@ -139,55 +139,50 @@ uber::config::extra_ribbon_types:
 uber::config::badge_types:
   staff_badge:
     range_start: 25
-    range_end: 1799
-  supporter_badge:
-    range_start: 1800
-    range_end: 1999
-  guest_badge:
-    range_start: 2000
     range_end: 2999
-  attendee_badge:
+  supporter_badge:
     range_start: 3000
-    range_end: 29999
-  one_day_badge:
-    range_start: 30000
+    range_end: 9999
+  guest_badge:
+    range_start: 3000
+    range_end: 9999
+  attendee_badge:
+    range_start: 10000
     range_end: 39999
-  child_badge:
+  one_day_badge:
     range_start: 40000
-    range_end: 44999
+    range_end: 49999
+  child_badge:
+    range_start: 50000
+    range_end: 59999
 
-uber::config::initial_attendee: 50    # badge price
-uber::config::one_days_enabled: false
+uber::config::initial_attendee: 59 # Base badge price
+uber::config::one_days_enabled: True
 uber::config::presell_one_days: false
-uber::config::dealer_badge_price: 35
+uber::config::dealer_badge_price: 45
 uber::config::max_dealers: 20
 uber::config::max_dealer_apps: 500
 uber::config::default_table_price: 350
 
 uber::config::table_prices:
   1: 150
-  2: 225
-  3: 350
-  4: 500
+  2: 250
+  3: 400
+  4: 550
 
 uber::config::badge_prices:
   attendee:
-    '2017-08-15 0225': 55
-    '2017-08-16 1804': 60
-    '2017-08-17 1700': 65
-    '2017-08-19 2325': 70
-    '2017-10-12': 75
-    '2017-11-25 1600': 80
-    '2018-01-05': 85
-    '2018-01-06': 75
-    '2018-01-07': 55
-    '2018-01-08': 20
-    4000: 55
-    5000: 60
-    6000: 65
-    7000: 70
-    9000: 75
-    11000: 80
+    '2017-08-31': 69  # First date based price bump
+    '2017-09-30': 79
+    '2017-10-31': 85
+    '2018-01-04': 85  # Day 1 at the con
+    '2018-01-05': 70  # Day 2
+    '2018-01-06': 55  # Day 3
+    '2018-01-07': 20  # Day 4
+    3000: 59  # Base badge price bucket
+    6000: 69  # First bucket based price bump
+    10500: 79
+    20000: 85
 
 uber::config::shift_custom_badges: true
 
