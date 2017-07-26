@@ -118,7 +118,6 @@ uber::config::donation_tier_descriptions:
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
   child_badge:            "Minor"
-  supporter_badge:        "Supporter"
   staff_badge:            "Staff"
   guest_badge:            "Guest"
   one_day_badge:          "One Day"
@@ -140,9 +139,6 @@ uber::config::badge_types:
   staff_badge:
     range_start: 25
     range_end: 2999
-  supporter_badge:
-    range_start: 3000
-    range_end: 9999
   guest_badge:
     range_start: 3000
     range_end: 9999
