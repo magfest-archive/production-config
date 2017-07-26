@@ -157,7 +157,7 @@ uber::config::badge_types:
     range_end: 59999
 
 uber::config::initial_attendee: 59 # Base badge price
-uber::config::one_days_enabled: True
+uber::config::one_days_enabled: false
 uber::config::presell_one_days: false
 uber::config::dealer_badge_price: 45
 uber::config::max_dealers: 20
