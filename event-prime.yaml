@@ -65,8 +65,8 @@ uber::config::printed_badge_deadline: '2017-11-22'
 uber::config::shifts_created: '2017-10-26'
 
 uber::config::dealer_reg_start: '2017-07-30 12'     # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2017-07-31 12'  # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2017-08-01 15'   # after this date, no new applications allowed
+uber::config::dealer_reg_deadline: '2017-08-01 12'  # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2017-08-02 12'   # after this date, no new applications allowed
 uber::config::dealer_payment_due: '2017-12-15'      # dealers must pay by this date
 
 uber::config::badge_price_waived: '2018-01-07 12'
