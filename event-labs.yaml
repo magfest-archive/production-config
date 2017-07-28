@@ -60,6 +60,7 @@ uber::config::at_the_con: 'False'   # WHEN SETTING THIS FROM TRUE TO FALSE, MAKE
 uber::config::post_con: 'False'
 
 uber::config::out_of_shirts: 'False'
+uber::config::out_of_shirts: 1
 
 uber::config::donation_tier:
  No thanks: 0
