@@ -183,7 +183,7 @@ uber::config::badge_prices:
     '2018-01-06': 55  # Day 3
     '2018-01-07': 20  # Day 4
     3000: 69  # First bucket based price bump
-    6000: 79  
+    6000: 79
     10500: 85
 
 uber::config::shift_custom_badges: true
@@ -380,7 +380,7 @@ uber::config::dept_head_checklist:
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/magfest_dept_checklist/allotments"
   approve_setup_teardown:
-    name: "Approve/Decline additional hotel nights to help with Setup/Teardown"
+    name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2017-11-22"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department={department}"
