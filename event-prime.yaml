@@ -85,6 +85,21 @@ uber::plugin_panels::hide_schedule: false
 uber::plugin_panels::panel_app_deadline: '2017-10-31 20'
 uber::plugin_panels::expected_response: 'December 2017'
 uber::plugin_panels::alt_schedule_url: 'https://guidebook.com/guide/85396/schedule'
+uber::plugin_panels::presentation_enums:
+  basic: "Lecture"
+  group_discussion: "Group Discussion with Moderator"
+  qa: "Question & Answer"
+  gameshow: "Gameshow"
+  workshop: "Workshop"
+  learn_to_play: "Learn to Play"
+  participation: "Audience Participation"
+  physical_activity: "Physical Activity (either group participation or performance)"
+  performance: "Comedy Performance"
+  music: "Music Performance"
+  advanced_av: "Podcast/Vodcast Recording"
+  karaoke: "Karaoke/Sing a Long"
+  movie: "Movie Screening"
+  other: "Other"
 
 uber::config::at_the_con: 'False'
 uber::config::post_con: 'False'
