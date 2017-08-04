@@ -206,10 +206,9 @@ uber::config::shift_custom_badges: true
 uber::config::job_interests:
   anything: "Anything"
   arcade: "Arcade"
- # challenges: "Challenges Booth" (Not a thing for M2018)
+  challenges: "Challenges Booth"  # (May not be needed for M2018, but just in case)
   charity: "Charity"
- # chipspace: "Chipspace" (Has no open Shift hours for M2018)
-  concert: "Main Theater Operations"
+  chipspace: "Chipspace"
   console: "Consoles"
   film_fest: "Film Festival"
   indie_games: "Indie Showcase"
@@ -217,15 +216,16 @@ uber::config::job_interests:
   jamspace: "Jam Space"
   lan: "LAN"
  # larp: "LARP" (Has no open Shift hours for M2018)
+  concert: "Main Theater Operations"
   museum: "Museum"
- # panels: "Panels" (Panels has all the people they need for M2018)
+  panels: "Panels"
   regdesk: "Regdesk"
   security: "Security"
   food_prep: "Staff Suite"
   staff_support: "Staff Support"
+  tea_room: "Staff Tea Room" # (May not be needed for M2018, but just in case)
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
- # tea_room: "Tea Room" (Tea Room wasn't meant for general volunteers shifts, and it's full for M2018)
   other: "Other"
 
 uber::config::job_locations:
@@ -243,9 +243,9 @@ uber::config::job_locations:
   dispatch: "Dispatch"
   dorsai: "Dorsai"
   escape_room: "Escape Room"
-  panels: "Events"
-  panels1: "Panels" #post event we need to fix to be a Panels and Events departments, changing Job location now would do weird things.
- # grand_championship: "MAGFest Grand Championship" removed for 2018 - revisit in the future do to staffing issue.
+  events: "Events"
+  panels: "Panels"
+ # grand_championship: "MAGFest Grand Championship" removed for 2017 - revisit in the future do to staffing issue.
   food_prep: "Staff Suite"
   film_fest: "Games on Film"
   indie_games: "Indie Games"
@@ -269,6 +269,7 @@ uber::config::job_locations:
   shedspace: "Jam Clinic"
   simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
   staff_support: "Staff Support"
+  tea_room: "Staff Tea Room"
   stops: "Staffing Ops"
   tabletop: "Tabletop"
   tabletop_rpg: "Tabletop (Pathfinder)"
@@ -276,7 +277,6 @@ uber::config::job_locations:
   tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
   tech_ops: "Tech Ops"
-  tea_room: "Tea Room"
   zombie_tag: "Zombie Tag"
 
 uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops"
