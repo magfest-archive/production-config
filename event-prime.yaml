@@ -227,6 +227,7 @@ uber::config::job_interests:
   museum: "Museum"
   panels: "Panels"
   regdesk: "Regdesk"
+  loudr: "Rock Island (Merch)"
   security: "Security"
   food_prep: "Staff Suite"
   staff_support: "Staff Support"
