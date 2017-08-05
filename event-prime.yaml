@@ -449,14 +449,14 @@ uber::plugin_bands::band_email_signature: '- MAGFest Music Department'
 
 uber::plugin_bands::auction_start:            '2018-01-08 11' # placeholder
 
-uber::plugin_bands::band_panel_deadline:      '2017-10-31'
-uber::plugin_bands::band_bio_deadline:        '2017-10-24'
-uber::plugin_bands::band_agreement_deadline:  '2017-10-24'
-uber::plugin_bands::band_w9_deadline:         '2017-10-31'
-uber::plugin_bands::band_merch_deadline:      '2017-11-07'
+uber::plugin_bands::band_panel_deadline:      '2017-09-30'
+uber::plugin_bands::band_bio_deadline:        '2017-08-31'
+uber::plugin_bands::band_agreement_deadline:  '2017-08-31'
+uber::plugin_bands::band_w9_deadline:         '2017-08-31'
+uber::plugin_bands::band_merch_deadline:      '2017-09-30'
 uber::plugin_bands::band_charity_deadline:    '2017-12-15'
 uber::plugin_bands::band_badge_deadline:      '2017-12-15'
-uber::plugin_bands::stage_agreement_deadline: '2017-11-14'
+uber::plugin_bands::stage_agreement_deadline: '2017-10-01'
 
 uber::plugin_bands::band_merch_enums:
   no_merch:     "Not selling merch"
