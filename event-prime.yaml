@@ -37,7 +37,7 @@ uber::config::collect_extra_donation: True
 
 uber::config::event_name: 'MAGFest'
 uber::config::year: 2018
-uber::config::consent_form_url: 'http://magfest.org/parentalconsentform'
+uber::config::consent_form_url: 'http://super.magfest.org/parentalconsentform'
 uber::config::prereg_faq_url: 'http://super.magfest.org/faq/'
 
 uber::config::event_venue: 'The Gaylord National Hotel and Convention Center'
