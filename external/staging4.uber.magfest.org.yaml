@@ -6,6 +6,9 @@
 # Set to 'True' to fake at-the-con mode to test on-site reg functionality
 uber::config::at_the_con: 'False'
 
+# Enable emails to @mailinator.com accounts on staging4
+uber::config::dev_box: 'True'
+uber::config::send_emails: 'True'
 
 # open prereg early on this particular server
 # so we can test before prereg really opens
