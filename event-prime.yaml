@@ -39,6 +39,7 @@ uber::config::event_name: 'MAGFest'
 uber::config::year: 2018
 uber::config::consent_form_url: 'http://super.magfest.org/parentalconsentform'
 uber::config::prereg_faq_url: 'http://super.magfest.org/faq/'
+uber::config::contact_url: 'http://super.magfest.org/contact'
 
 uber::config::event_venue: 'The Gaylord National Hotel and Convention Center'
 uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745'
