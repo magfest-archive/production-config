@@ -58,7 +58,7 @@ uber::config::prereg_hotel_info_email_sender: 'Do Not Reply <noreply@magfest.org
 uber::config::prereg_hotel_info_email_signature: 'MAGFest'
 
 uber::config::regdesk_sig: |
-  Super MAGFest Registration Department
+  MAGFest Registration Department
   MAGFest Inc.
   http://super.magfest.org
 
