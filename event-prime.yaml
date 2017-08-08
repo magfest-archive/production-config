@@ -57,6 +57,11 @@ uber::config::prereg_hotel_info_email_sender: 'Do Not Reply <noreply@magfest.org
 # This will be used as the signature for the hotel booking info email.
 uber::config::prereg_hotel_info_email_signature: 'MAGFest'
 
+uber::config::regdesk_sig: |
+  Super MAGFest Registration Department
+  MAGFest Inc.
+  http://super.magfest.org
+
 uber::config::epoch: '2018-01-04 08'
 uber::config::eschaton: '2018-01-07 18'
 
