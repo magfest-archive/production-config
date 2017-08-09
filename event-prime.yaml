@@ -48,8 +48,8 @@ uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745
 uber::config::use_checkin_barcode: 'True'
 
 # The number of hours after prereg_open that the "Request Hotel Booking Info"
-# checkbox will be available (170 = about a week. probably need to adjust with final timing)
-uber::config::prereg_request_hotel_info_duration: 170
+# checkbox will be available (168 = 1 week x 7 days * 24 hours, probably need to adjust with final timing)
+uber::config::prereg_request_hotel_info_duration: 168
 
 # This will be used as the sender for the hotel booking info email.
 uber::config::prereg_hotel_info_email_sender: 'Do Not Reply <noreply@magfest.org>'
