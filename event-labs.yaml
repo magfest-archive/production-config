@@ -203,6 +203,7 @@ uber::config::event_locations:
   outdoors: "Outdoor Events"
   panels_1: "Panels 1"
   panels_2: "Panels 2"
+  panels_3: "Panels 3"
   registration: "Registration"
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
