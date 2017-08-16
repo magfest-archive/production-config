@@ -57,7 +57,7 @@ uber::config::group_prereg_takedown: '2017-08-22'
 uber::config::uber_takedown: '2017-08-22'
 
 uber::config::placeholder_deadline: '2017-08-15'
-uber::config::supporter_deadline: '2017-08-01'
+uber::config::supporter_deadline: '2017-08-23'
 uber::config::shirt_deadline: '2017-07-29'
 uber::config::printed_badge_deadline: '2017-07-25'
 
@@ -103,8 +103,8 @@ uber::config::donation_tier_descriptions:
   supporter_package:
     name: "Supporter Package"
     icon: "../static/icons/star.png"
-    description: "Personalized Keepsake Swadge|Swag Bag"
-    link: "../static_views/keepsakebadge.html|../static_views/swagbag.html"
+    description: "Keepsake Swadge|Swagtastic Lanyard|Enamel Pin|Light-Up Tiara|Earrings (Clip-on or Hook)|Participation Trophy"
+    link: "../static_views/keepsakebadge.html|../static_views/lanyard.html|../static_views/pin.html|../static_views/tiara.html|../static_views/earrings.html|../static_views/trophy.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
