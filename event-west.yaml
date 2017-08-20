@@ -104,7 +104,7 @@ uber::config::donation_tier_descriptions:
     name: "Supporter Package"
     icon: "../static/icons/star.png"
     description: "Keepsake Swadge|Swagtastic Lanyard|Enamel Pin|Light-Up Tiara|Earrings (Clip-on or Hook)|Participation Trophy"
-    link: "../static_views/keepsakebadge.html|../static_views/lanyard.html|../static_views/pin.html|../static_views/tiara.html|../static_views/earrings.html|../static_views/trophy.html"
+    link: "../static_views/swadge.html|../static_views/lanyard.html|../static_views/pin.html|../static_views/tiara.html|../static_views/earrings.html|../static_views/trophy.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
