@@ -57,8 +57,8 @@ uber::config::group_prereg_takedown: '2017-08-22'
 uber::config::uber_takedown: '2017-08-22'
 
 uber::config::placeholder_deadline: '2017-08-15'
-uber::config::supporter_deadline: '2017-08-23'
-uber::config::shirt_deadline: '2017-07-29'
+uber::config::supporter_deadline: '2017-08-27 18'
+uber::config::shirt_deadline: '2017-08-27 18'
 uber::config::printed_badge_deadline: '2017-07-25'
 
 uber::config::shifts_created: '2016-06-01'   # TODO: set this once we import, if we do.
