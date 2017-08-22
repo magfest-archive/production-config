@@ -68,6 +68,9 @@ uber::config::dealer_reg_deadline: ''    # after this date, applications are aut
 uber::config::dealer_reg_shutdown: ''       # after this date, no new applications allowed
 uber::config::dealer_payment_due: ''        # dealers must pay by this date
 
+# how many staff uniform shirts each staffer gets
+uber::config::shirts_per_staffer: 1
+
 uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
 uber::plugin_panels::hide_schedule: 'True'
