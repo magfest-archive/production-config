@@ -75,7 +75,7 @@ uber::plugin_panels::hide_schedule: 'True'
 uber::plugin_panels::panel_app_deadline: '2017-07-30'
 uber::plugin_panels::expected_response: 'July 2017'
 
-uber::config::at_the_con: 'False'
+uber::config::at_the_con: True
 uber::config::post_con: 'False'
 
 uber::config::donation_tier:
