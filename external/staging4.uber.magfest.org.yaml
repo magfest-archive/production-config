@@ -4,10 +4,8 @@
 # placeholder_only: 'do not remove this line if there is nothing else in the config file'
 
 # Set to 'True' to fake at-the-con mode to test on-site reg functionality
-uber::config::at_the_con: 'False'
+# uber::config::at_the_con: False
 
-uber::config::dev_box: 'True'     # TODO: remove this line from here, shouldn't need anymore
-uber::config::send_emails: 'True' # TODO: remove this line from here, shouldn't need anymore
 
 # open prereg early on this particular server
 # so we can test before prereg really opens
