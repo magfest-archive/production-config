@@ -77,7 +77,7 @@ uber::plugin_panels::expected_response: 'July 2017'
 
 uber::config::at_the_con: False
 uber::config::post_con: True
-uber::config::send_emails: False
+uber::config::send_emails: True
 
 uber::config::donation_tier:
   No thanks: 0
