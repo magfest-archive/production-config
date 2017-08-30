@@ -371,7 +371,7 @@ uber::config::dept_head_checklist:
     path: "/magfest_dept_checklist/tech_requirements"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
-    deadline: "2017-09-10"
+    deadline: "2017-09-05"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
 
