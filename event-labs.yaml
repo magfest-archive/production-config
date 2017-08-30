@@ -190,6 +190,7 @@ uber::config::job_locations:
   lego_room: "Lego Room"
   music_av: "Music A/V"
   games_on_film: "Games on Film"
+  vrcade: "VRCade"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
