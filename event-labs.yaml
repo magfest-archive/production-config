@@ -57,7 +57,7 @@ uber::config::dealer_payment_due: '2017-08-15'        # dealers must pay by this
 
 uber::config::max_badge_sales: 2000
 
-uber::config::at_the_con: 'False'   # WHEN SETTING THIS FROM TRUE TO FALSE, MAKE SURE TO SET post_con=TRUE
+uber::config::at_the_con: 'True'   # WHEN SETTING THIS FROM TRUE TO FALSE, MAKE SURE TO SET post_con=TRUE
 uber::config::post_con: 'False'
 
 uber::config::out_of_shirts: 'False'
