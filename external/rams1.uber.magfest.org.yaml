@@ -1,11 +1,11 @@
 ---
 # set this so that onsite emails sent from the onsite server have the correct base URL
-uber::config::url_base: 'https://west2017.uber.magfest.org/uber'
+uber::config::url_base: 'https://labs2.uber.magfest.org/uber'
 
-uber::config::at_the_con: 'True'
-uber::config::post_con: 'False'
+uber::config::at_the_con: False
+uber::config::post_con: True
 
-uber::config::send_emails: 'False'  # safety. enable when we bring up this server for real. 8/20/17 -Dom
+uber::config::send_emails: False  # safety. enable when we bring up this server for real. 8/20/17 -Dom
 
 # ----------------------
 # database replication
