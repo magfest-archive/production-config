@@ -296,7 +296,7 @@ uber::config::job_locations:
   tech_ops: "Tech Ops"
   zombie_tag: "Zombie Tag"
 
-uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops"
+uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops,arcade_crew"
 #Con/Fest Ops primarily used for Outside Contractors - Signage, Light/Sound production, these are groups we pay but still want in the system.
 
 uber::config::shirt_level: 25
