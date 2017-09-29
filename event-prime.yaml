@@ -260,6 +260,7 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   escape_room: "Escape Room"
   events: "Events"
+  hotel: "Hotel"
   panels: "Panels"
  # grand_championship: "MAGFest Grand Championship" removed for 2017 - revisit in the future do to staffing issue.
   food_prep: "Staff Suite"
