@@ -21,6 +21,9 @@ uber::plugins::extra_plugins:
   reports:
     git_repo: 'https://github.com/magfest/reports'
     git_branch: 'master'
+  mits:
+    git_repo: 'https://github.com/magfest/mits'
+    git_branch: 'master'
 
 # optimizations designed for handling the heaviest load, use for magprime prereg launch flood.
 # disable after the first launch is done.
