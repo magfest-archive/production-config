@@ -407,24 +407,44 @@ uber::config::dept_head_checklist:
     path: "/jobs/staffers?location={department}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2017-11-15"
+    deadline: "2017-11-8"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
-    deadline: "2017-11-15"
+    deadline: "2017-11-8"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/magfest_dept_checklist/allotments"
+  hotel_setup:
+    name: "Hotel Setup Information"
+    deadline: "2017-11-15"
+    description: "[NEW!] Do you need tables, chairs, trash cans, water dispensers, etc? (Not yet available)"
+    path: "/dept_checklist/index#"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2017-11-22"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department={department}"
+  placeholders:
+    name: "Checking Placeholder Registrations"
+    deadline: "2017-11-22"
+    description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
+    path: "/registration/placeholders?department={department}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2017-11-29"
+    deadline: "2017-11-22"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
+  tech_requirements:
+    name: "Tech Requirements"
+    deadline: "2017-11-29"
+    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
+    path: "/magfest_dept_checklist/tech_requirements"
+  logistics:
+    name: "Logistics needs"
+    deadline: "2017-11-29"
+    description: "[NEW!] What do you need brought from the warehouse? (Not yet available)"
+    path: "/dept_checklist/index#"
   printed_signs:
     deadline: "2017-12-06"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
@@ -434,16 +454,6 @@ uber::config::dept_head_checklist:
   custom_ribbons:
     deadline: "2017-12-06"
     description: "Besides the ribbons given out at registration, you may need your own ribbon type to help manage access to certain restricted areas. If so, please let us know what they should say, how many you'll need, and what color you'd like them to be. These ribbons will be given to you at the beginning of MAGFest to distribute to whoever needs them.  (Note: Small orders of ribbons are very expensive - please request a ribbon type only if you need it, and tell us why you need it so we can make sure there's no duplication between departments.)"
-  placeholders:
-    name: "Checking Placeholder Registrations"
-    deadline: "2017-11-22"
-    description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
-    path: "/registration/placeholders?department={department}"
-  tech_requirements:
-    name: "Tech Requirements"
-    deadline: "2017-11-29"
-    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/magfest_dept_checklist/tech_requirements"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2018-01-24"
