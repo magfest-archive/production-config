@@ -407,12 +407,12 @@ uber::config::dept_head_checklist:
     path: "/jobs/staffers?location={department}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2017-11-8"
+    deadline: "2017-11-08"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
-    deadline: "2017-11-8"
+    deadline: "2017-11-08"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/magfest_dept_checklist/allotments"
   hotel_setup:
