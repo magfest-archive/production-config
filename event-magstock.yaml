@@ -204,4 +204,15 @@ uber::plugin_guests::band_charity_deadline:    ''  # disabled for magstock
 uber::plugin_guests::band_badges_deadline:      '2017-06-01 20'
 uber::plugin_guests::band_stage_plot_deadline: '2017-04-01 20'
 
+uber::plugin_guests::guest_panel_deadline: ''
+uber::plugin_guests::guest_bio_deadline: '2017-04-20 20'
+uber::plugin_guests::guest_taxes_deadline: '2017-06-01 20'
+uber::plugin_guests::guest_merch_deadline: '2017-06-01 20'
+uber::plugin_guests::guest_charity_deadline: '2017-03-20 20'
+uber::plugin_guests::guest_autograph_deadline: '2017-03-20 20'
+uber::plugin_guests::guest_interview_deadline: '2017-03-20 20'
+uber::plugin_guests::guest_travel_plans_deadline: '2017-03-20 20'
+uber::plugin_guests::guest_info_deadline: '2017-03-20 20'
+uber::plugin_guests::guest_badges_deadline: '2017-06-01 20'
+
 uber::plugin_guests::require_dedicated_guest_table_presence: false

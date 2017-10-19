@@ -390,14 +390,25 @@ uber::plugin_guests::band_email_signature: '- MAGWest Music Department'
 
 uber::plugin_guests::auction_start:            '2017-08-27 11' # placeholder
 
-uber::plugin_guests::band_panel_deadline:      '2017-06-29'
-uber::plugin_guests::band_bio_deadline:        '2017-06-24'
-uber::plugin_guests::band_info_deadline:  '2017-06-24'
-uber::plugin_guests::band_taxes_deadline:         '2017-06-29'
-uber::plugin_guests::band_merch_deadline:      '2017-07-07'
-uber::plugin_guests::band_charity_deadline:    '2017-08-15'
-uber::plugin_guests::band_badges_deadline:      '2017-08-15'
+uber::plugin_guests::band_panel_deadline: '2017-06-29'
+uber::plugin_guests::band_bio_deadline: '2017-06-24'
+uber::plugin_guests::band_info_deadline: '2017-06-24'
+uber::plugin_guests::band_taxes_deadline: '2017-06-29'
+uber::plugin_guests::band_merch_deadline: '2017-07-07'
+uber::plugin_guests::band_charity_deadline: '2017-08-15'
+uber::plugin_guests::band_badges_deadline: '2017-08-15'
 uber::plugin_guests::band_stage_plot_deadline: '2017-07-18'
+
+uber::plugin_guests::guest_panel_deadline: '2017-06-29'
+uber::plugin_guests::guest_bio_deadline: '2017-06-24'
+uber::plugin_guests::guest_taxes_deadline: '2017-06-29'
+uber::plugin_guests::guest_merch_deadline: '2017-07-07'
+uber::plugin_guests::guest_charity_deadline: '2017-08-15'
+uber::plugin_guests::guest_autograph_deadline: '2017-06-24'
+uber::plugin_guests::guest_interview_deadline: '2017-06-24'
+uber::plugin_guests::guest_travel_plans_deadline: '2017-06-24'
+uber::plugin_guests::guest_info_deadline: '2017-06-24'
+uber::plugin_guests::guest_badges_deadline: '2017-08-15'
 
 uber::plugin_guests::guest_merch_enums:
   no_merch:     "Not selling merch"
