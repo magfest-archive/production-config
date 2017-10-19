@@ -423,3 +423,4 @@ uber::plugin_mivs::judging_deadline:      "2017-06-30"
 uber::plugin_mivs::round_two_complete:    "2017-06-30"
 uber::plugin_mivs::mivs_confirm_deadline: 14
 uber::plugin_mivs::mivs_start_year: 2017
+uber::plugin_mivs::submission_grace_period: 10
