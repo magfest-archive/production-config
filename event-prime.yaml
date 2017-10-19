@@ -21,6 +21,9 @@ uber::plugins::extra_plugins:
   reports:
     git_repo: 'https://github.com/magfest/reports'
     git_branch: 'master'
+  mits:
+    git_repo: 'https://github.com/magfest/mits'
+    git_branch: 'master'
 
 # optimizations designed for handling the heaviest load, use for magprime prereg launch flood.
 # disable after the first launch is done.
@@ -77,7 +80,7 @@ uber::config::supporter_deadline: '2017-11-01'
 uber::config::shirt_deadline: '2017-12-01'
 uber::config::printed_badge_deadline: '2017-11-22'
 
-uber::config::shifts_created: '2017-10-26'
+uber::config::shifts_created: '2017-11-02'
 
 uber::config::dealer_reg_start: '2017-07-30 12'     # dealer reg not allowed before this date
 uber::config::dealer_reg_deadline: '2017-08-01 12'  # after this date, applications are auto-waitlisted
@@ -260,6 +263,7 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   escape_room: "Escape Room"
   events: "Events"
+  hotel: "Hotel"
   panels: "Panels"
  # grand_championship: "MAGFest Grand Championship" removed for 2017 - revisit in the future do to staffing issue.
   food_prep: "Staff Suite"
@@ -393,7 +397,7 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "http://techops.magfe.
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2017-10-25"
+    deadline: "2017-11-01"
     description: "We have the ability to import shifts from MAGFest 2017 to MAGFest 2018, if you are only making minor changes and want assistance with this step, please let us know"
     path: "/jobs/index?location={department}"
   assigned_volunteers:
@@ -403,24 +407,44 @@ uber::config::dept_head_checklist:
     path: "/jobs/staffers?location={department}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2017-11-15"
+    deadline: "2017-11-08"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
-    deadline: "2017-11-15"
+    deadline: "2017-11-08"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/magfest_dept_checklist/allotments"
+  hotel_setup:
+    name: "Hotel Setup Information"
+    deadline: "2017-11-15"
+    description: "[NEW!] Do you need tables, chairs, trash cans, water dispensers, etc? (Not yet available)"
+    path: "/dept_checklist/index#"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2017-11-22"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department={department}"
+  placeholders:
+    name: "Checking Placeholder Registrations"
+    deadline: "2017-11-22"
+    description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
+    path: "/registration/placeholders?department={department}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2017-11-29"
+    deadline: "2017-11-22"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
+  tech_requirements:
+    name: "Tech Requirements"
+    deadline: "2017-11-29"
+    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
+    path: "/magfest_dept_checklist/tech_requirements"
+  logistics:
+    name: "Logistics needs"
+    deadline: "2017-11-29"
+    description: "[NEW!] What do you need brought from the warehouse? (Not yet available)"
+    path: "/dept_checklist/index#"
   printed_signs:
     deadline: "2017-12-06"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
@@ -430,16 +454,6 @@ uber::config::dept_head_checklist:
   custom_ribbons:
     deadline: "2017-12-06"
     description: "Besides the ribbons given out at registration, you may need your own ribbon type to help manage access to certain restricted areas. If so, please let us know what they should say, how many you'll need, and what color you'd like them to be. These ribbons will be given to you at the beginning of MAGFest to distribute to whoever needs them.  (Note: Small orders of ribbons are very expensive - please request a ribbon type only if you need it, and tell us why you need it so we can make sure there's no duplication between departments.)"
-  placeholders:
-    name: "Checking Placeholder Registrations"
-    deadline: "2017-11-22"
-    description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
-    path: "/registration/placeholders?department={department}"
-  tech_requirements:
-    name: "Tech Requirements"
-    deadline: "2017-11-29"
-    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/magfest_dept_checklist/tech_requirements"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2018-01-24"
@@ -469,6 +483,17 @@ uber::plugin_guests::band_charity_deadline:    '2017-12-15'
 uber::plugin_guests::band_badges_deadline:      '2017-12-15'
 uber::plugin_guests::band_stage_plot_deadline: '2017-10-01'
 
+uber::plugin_guests::guest_panel_deadline: '2017-10-21'
+uber::plugin_guests::guest_bio_deadline: '2017-10-21'
+uber::plugin_guests::guest_taxes_deadline: '2017-10-21'
+uber::plugin_guests::guest_merch_deadline: '2017-10-21'
+uber::plugin_guests::guest_charity_deadline: '2017-10-21'
+uber::plugin_guests::guest_autograph_deadline: '2017-10-21'
+uber::plugin_guests::guest_interview_deadline: '2017-10-21'
+uber::plugin_guests::guest_travel_plans_deadline: '2017-10-21'
+uber::plugin_guests::guest_info_deadline: '2017-11-01'
+uber::plugin_guests::guest_badges_deadline: '2017-12-01'
+
 uber::plugin_guests::guest_merch_enums:
   no_merch:     "Not selling merch"
   own_table:    "Dedicated table"
@@ -477,9 +502,10 @@ uber::plugin_guests::guest_merch_enums:
 
 uber::plugin_mivs::round_one_deadline:    "2017-09-03"
 uber::plugin_mivs::video_response_expected: "by September 16th"
-uber::plugin_mivs::round_two_deadline:    "2017-09-30"
+uber::plugin_mivs::round_two_start:       "2017-10-01"
+uber::plugin_mivs::round_two_deadline:    "2017-10-09"
 uber::plugin_mivs::judging_deadline:      "2017-10-29"
 uber::plugin_mivs::round_two_complete:    "2017-11-05"
-uber::plugin_mivs::mivs_confirm_deadline: "2017-11-16"
-
-uber::plugin_mivs::allow_game_submission: True
+uber::plugin_mivs::mivs_confirm_deadline: 14
+uber::plugin_mivs::mivs_start_year: 2013
+uber::plugin_mivs::submission_grace_period: 10

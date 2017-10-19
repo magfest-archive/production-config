@@ -311,6 +311,17 @@ uber::plugin_guests::band_charity_deadline:    '2017-08-24 08'
 uber::plugin_guests::band_badges_deadline:      '2017-08-10 08'
 uber::plugin_guests::band_stage_plot_deadline: '2017-08-15 08'
 
+uber::plugin_guests::guest_panel_deadline: '2017-08-01 08'
+uber::plugin_guests::guest_bio_deadline: '2017-07-01 08'
+uber::plugin_guests::guest_taxes_deadline: '2017-07-25 08'
+uber::plugin_guests::guest_merch_deadline: '2017-08-01 08'
+uber::plugin_guests::guest_charity_deadline: '2017-08-24 08'
+uber::plugin_guests::guest_autograph_deadline: '2017-08-24 08'
+uber::plugin_guests::guest_interview_deadline: '2017-08-24 08'
+uber::plugin_guests::guest_travel_plans_deadline: '2017-08-24 08'
+uber::plugin_guests::guest_info_deadline: '2017-06-25 08'
+uber::plugin_guests::guest_badges_deadline: '2017-08-10 08'
+
 uber::plugin_guests::require_dedicated_guest_table_presence: false
 
 uber::plugin_guests::guest_merch_enums:
@@ -335,4 +346,4 @@ uber::config::panels_email: 'MAGLabs Panels <labs-panels@magfest.org>'
 uber::config::peglegs_sig: |
     - Dustin East,
     MAGFest Laboratories Panels Dept Head
-    
+

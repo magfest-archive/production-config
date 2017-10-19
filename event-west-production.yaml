@@ -1,0 +1,2 @@
+---
+uber::nginx::ssl_ca_crt: "puppet:///modules/uber/magwest-ca.crt"
