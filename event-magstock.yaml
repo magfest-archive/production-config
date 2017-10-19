@@ -42,8 +42,9 @@ uber::config::uber_takedown: '2017-06-08'
 
 uber::config::max_badge_sales: 1000   # review this as we get closer to cap
 
-uber::config::at_the_con: 'True'
-uber::config::post_con: 'False'
+uber::config::at_the_con: False
+uber::config::post_con: True
+uber::config::send_emails: False
 
 uber::config::donation_tier:
  No thanks: 0
