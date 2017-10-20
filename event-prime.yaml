@@ -472,6 +472,8 @@ uber::config::peglegs_sig: |
 uber::plugin_guests::band_email:           'MAGFest Music Department <music@magfest.org>'
 uber::plugin_guests::band_email_signature: '- MAGFest Music Department'
 
+uber::plugin_guests::rock_island_groups: "band,guest"
+
 uber::plugin_guests::auction_start:            '2018-01-08 11' # placeholder
 
 uber::plugin_guests::band_panel_deadline:      '2017-09-30'
