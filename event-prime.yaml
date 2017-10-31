@@ -397,12 +397,12 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "http://techops.magfe.
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2017-11-01"
+    deadline: "2017-11-06"
     description: "We have the ability to import shifts from MAGFest 2017 to MAGFest 2018, if you are only making minor changes and want assistance with this step, please let us know"
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2017-11-01"
+    deadline: "2017-11-07"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
   treasury:
