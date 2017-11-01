@@ -299,6 +299,7 @@ uber::config::job_locations:
   tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
   tech_ops: "Tech Ops"
+  vrzone: "VRZone"
   zombie_tag: "Zombie Tag"
 
 uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops,arcade_crew"
