@@ -270,6 +270,7 @@ uber::config::job_locations:
   film_fest: "Games on Film"
   indie_arcade: "Indie Arcade"
   indie_games: "Indie Games"
+  indie_tabletop: "Indie Tabletop"
   jamspace: "Jam Space"
   lan: "LAN"
   larp: "LARP"
