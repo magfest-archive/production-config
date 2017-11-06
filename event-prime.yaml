@@ -245,6 +245,7 @@ uber::config::job_interests:
   tea_room: "Staff Tea Room" # (May not be needed for M2018, but just in case)
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
+  loadin: "Loading Crew/Logistics"
   other: "Other"
 
 uber::config::job_locations:
