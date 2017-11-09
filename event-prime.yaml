@@ -389,6 +389,8 @@ uber::config::event_locations:
   zombie_tag: "Zombie Tag (Magnolia 2)"
   escape_room: "Escape Room (Baltimore 1,2)"
   MegaManathon: "Mega Man-athon 5 (Maryland Hallway)"
+  pose_lounge: "POSE Lounge"
+  lobby_bar: "Lobby Bar"
 
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
