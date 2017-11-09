@@ -421,8 +421,7 @@ uber::config::dept_head_checklist:
   hotel_setup:
     name: "Hotel Setup Information"
     deadline: "2017-11-15"
-    description: "[NEW!] Do you need tables, chairs, trash cans, water dispensers, etc? (Not yet available)"
-    path: "/dept_checklist/index#"
+    description: "Do you need tables, chairs, trash cans, water dispensers, etc?"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2017-11-22"
