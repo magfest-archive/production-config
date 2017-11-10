@@ -389,6 +389,8 @@ uber::config::event_locations:
   zombie_tag: "Zombie Tag (Magnolia 2)"
   escape_room: "Escape Room (Baltimore 1,2)"
   MegaManathon: "Mega Man-athon 6 (Maryland Hallway)"
+  pose_lounge: "POSE Lounge"
+  lobby_bar: "Lobby Bar"
 
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
@@ -421,8 +423,7 @@ uber::config::dept_head_checklist:
   hotel_setup:
     name: "Hotel Setup Information"
     deadline: "2017-11-15"
-    description: "[NEW!] Do you need tables, chairs, trash cans, water dispensers, etc? (Not yet available)"
-    path: "/dept_checklist/index#"
+    description: "Do you need tables, chairs, trash cans, water dispensers, etc?"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2017-11-22"
