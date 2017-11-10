@@ -1,7 +1,7 @@
 ---
 
-uber::nginx::ssl_crt:  'puppet:///modules/uber/magfest.org.new.crt-bundle'
-uber::nginx::ssl_key:  'puppet:///modules/uber/magfest.org.new.key'
+uber::nginx::ssl_crt:  'puppet:///modules/uber/uber_magfest_org.crt-bundle'
+uber::nginx::ssl_key:  'puppet:///modules/uber/uber_magfest_org.key'
 
 # event settings
 uber::config::organization_name:  'MAGFest INC'
