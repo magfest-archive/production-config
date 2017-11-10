@@ -391,6 +391,8 @@ uber::config::event_locations:
   MegaManathon: "Mega Man-athon 6 (Maryland Hallway)"
   pose_lounge: "POSE Lounge"
   lobby_bar: "Lobby Bar"
+  jamspace: "Jamspace (Eastern Shore 1-3)"
+  jam_clinic: "Jam Clinic (Chesapeake ABC)"
 
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
