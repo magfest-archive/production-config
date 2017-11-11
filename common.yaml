@@ -117,3 +117,4 @@ uber::firewall::blacklisted_ips:
  - 199.180.114.192  # spamming junk into the prereg form fields
  - 37.147.108.24    # spamming junk into the prereg form fields
  - 46.161.9.3       # spamming junk into the prereg form fields
+ - 54.85.182.120    # Amazon bot repeatedly requesting POST only URLs
