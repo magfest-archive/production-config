@@ -1,3 +1,2 @@
 ---
-uber::engine_autoreload: False
 uber::nginx::ssl_ca_crt: "puppet:///modules/uber/magprime-ca.crt"
