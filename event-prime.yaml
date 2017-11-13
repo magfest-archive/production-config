@@ -349,10 +349,10 @@ uber::config::interest_list:
 
 #Event Locations needs to updated once layout is finalized.
 uber::config::event_locations:
-  panels_1: "Panels 1 (Woodrow Wilson Ballroom)"
+  panels_1: "Panels 1 (Cherry Blossom Ballroom)"
   panels_2: "Panels 2 (Woodrow Wilson Ballroom)"
-  panels_3: "Panels 3 (Cherry Blossom Ballroom)"
-  panels_4: "Panels 4 (Chesapeake D,E,F)"
+  panels_3: "Panels 3 (Woodrow Wilson Ballroom)"
+  panels_4: "Panels 4 (Annapolis 1-4)"
   mages_1: "MAGES 1 (Chesapeake G,H,I)"
   mages_2: "MAGES 2 (Chesapeake 7,8,9)"
   forum: "Forum (Chesapeake K,L)"
