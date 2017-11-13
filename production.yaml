@@ -7,3 +7,6 @@ uber::log-filebeat::server_name_and_port:  'docker.magfest.net:9200'
 # tell our logs to always indent multiline log output.  this makes it easier to parse them later
 # in external log processing apps for multiline things like tracebacks.
 uber::config::log_force_multiline_indent: True
+
+# Turn off autoreloader in production
+uber::config::engine_autoreload: False
