@@ -448,10 +448,10 @@ uber::config::dept_head_checklist:
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/magfest_dept_checklist/tech_requirements?department_id={department_id}"
   logistics:
-    name: "Logistics needs"
+    name: "Logistics Needs"
     deadline: "2017-11-29"
-    description: "[NEW!] What do you need brought from the warehouse? (Not yet available)"
-    path: "/dept_checklist/index#"
+    description: "What do you need brought from the warehouse?"
+    path: "/dept_checklist/logistics?department_id={department_id}"
   printed_signs:
     deadline: "2017-12-06"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
