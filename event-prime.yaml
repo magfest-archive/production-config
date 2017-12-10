@@ -356,7 +356,7 @@ uber::config::event_locations:
   mages_1: "MAGES 1 (Chesapeake G,H,I)"
   mages_2: "MAGES 2 (Chesapeake 7,8,9)"
   forum: "Forum (Chesapeake K,L)"
-  the_forge: "Creation Area (Chesapeake 1,2,3)"
+  the_forge: "Forge (Chesapeake 1,2,3)"
   soapbox: "The Soapbox (Camellia 3,4)"
   autographs: "Autographs A (Expo Hall E)"
   autographs_1: "Autographs 1 (Expo Hall E)"
