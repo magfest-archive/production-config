@@ -173,7 +173,7 @@ uber::config::donations_enabled: true
 uber::config::extra_ribbon_types:
   band: "RockStar"
   under_13: "Under 13"
-  mivs: "MIVS Indie"
+  mivs: "Indie Dev"
 
 uber::config::badge_types:
   staff_badge:
