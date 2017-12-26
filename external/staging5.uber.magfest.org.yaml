@@ -1,6 +1,6 @@
 ---
 
-# MAGWEST 2017 onsite testing server
+# set this up as an onsite testing server
 
 uber::config::at_the_con: 'True'
 
