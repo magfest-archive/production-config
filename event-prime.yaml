@@ -96,7 +96,7 @@ uber::config::staff_eligible_for_swag_shirt: False
 
 uber::config::badge_price_waived: '2018-01-07 12'
 
-uber::config::max_badge_sales: 20000
+uber::config::max_badge_sales: 19000
 
 uber::plugin_panels::hide_schedule: false
 
