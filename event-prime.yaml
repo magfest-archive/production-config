@@ -120,8 +120,8 @@ uber::plugin_panels::presentation_enums:
   movie: "Movie Screening"
   other: "Other"
 
-uber::config::at_the_con: True
-uber::config::post_con: 'False'
+uber::config::at_the_con: False
+uber::config::post_con: False
 
 uber::config::donation_tier:
   No thanks: 0
