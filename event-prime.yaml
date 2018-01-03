@@ -155,7 +155,9 @@ uber::config::donation_tier_descriptions:
     icon: "../static/icons/super_star.png"
     description: "Star Rod Wand|Star Umbrella|Invitation"
     link: "../static_views/star_rod_wand.html|../static_views/star_umbrella.html|../static_views/invitation.html"
-    merch_items: "Star Wand, Star Umbrella"
+    merch_items:
+      - Star Wand
+      - Star Umbrella
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
