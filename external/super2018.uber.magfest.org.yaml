@@ -4,18 +4,18 @@
 # database replication
 # ----------------------
 
-#classes:
-#- uber::db_replication_slave
+classes:
+- uber::db_replication_slave
 
-#uber::db::replication_mode:                         slave
+uber::db::replication_mode:                         slave
 # uber::db_replication_master::replication_password:  [PASSWORD]   # this is set in the mcp secret settings
-#uber::db_replication_slave::replicate_from:         rams1.uber.magfest.org
+uber::db_replication_slave::replicate_from:         rams1.uber.magfest.org
 
 # --------------
 
-uber::nginx::redirect_all_traffic_onsite: False
+uber::nginx::redirect_all_traffic_onsite: True
 
 # if not in AT-THE-CON mode yet, disable emails
-# uber::config::send_emails:      'False'
+uber::config::send_emails: False
 
 # test_only_delete_this_later: True # not sure why we need this but we do.
