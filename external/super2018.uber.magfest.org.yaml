@@ -9,7 +9,7 @@ classes:
 
 uber::db::replication_mode:                         slave
 # uber::db_replication_master::replication_password:  [PASSWORD]   # this is set in the mcp secret settings
-uber::db_replication_slave::replicate_from:         rams1.uber.magfest.org
+uber::db_replication_slave::replicate_from:         onsite.uber.magfest.org
 
 # --------------
 
