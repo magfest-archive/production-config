@@ -149,7 +149,6 @@ uber::config::donation_tier_descriptions:
     icon: "../static/icons/supporter.png"
     description: "Super Swag Bag|Swadge"
     link: "../static_views/super_swag_bag.html|../static_views/swadge.html"
-    merch_items: "Supporter Swag Bag"
   super_star:
     name: "Super Star"
     icon: "../static/icons/super_star.png"
