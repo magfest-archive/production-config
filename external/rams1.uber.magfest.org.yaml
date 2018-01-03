@@ -6,6 +6,7 @@ uber::config::at_the_con: False
 uber::config::post_con: False
 
 uber::config::send_emails: True
+uber::config::send_sms: True
 
 # ----------------------
 # database replication
