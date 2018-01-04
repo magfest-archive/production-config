@@ -50,7 +50,7 @@ uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745
 
 uber::config::use_checkin_barcode: 'True'
 uber::config::badge_promo_codes_enabled: True
-uber::config::only_prepay_at_door: True
+uber::config::only_prepay_at_door: False
 
 # The number of hours after prereg_open that the "Request Hotel Booking Info"
 # checkbox will be available (168 = 1 week x 7 days x 24 hours, probably need to adjust with final timing)
