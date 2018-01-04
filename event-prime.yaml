@@ -35,7 +35,7 @@ uber::plugin_hotel::hotel_req_hours: 30
 
 uber::config::room_deadline: '2017-11-29'
 
-uber::config::groups_enabled: True
+uber::config::groups_enabled: False
 uber::config::collect_extra_donation: True
 
 uber::config::event_name: 'MAGFest'
