@@ -97,7 +97,7 @@ uber::config::staff_eligible_for_swag_shirt: False
 
 uber::config::badge_price_waived: '2018-01-07 12'
 
-uber::config::max_badge_sales: 20000
+uber::config::max_badge_sales: 21000
 
 uber::plugin_panels::hide_schedule: false
 
@@ -185,9 +185,9 @@ uber::config::badge_types:
     range_end: 2999
   guest_badge:
     range_start: 3000
-    range_end: 9999
+    range_end: 3600
   attendee_badge:
-    range_start: 10000
+    range_start: 3601
     range_end: 39999
   one_day_badge:
     range_start: 40000
