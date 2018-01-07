@@ -121,7 +121,7 @@ uber::plugin_panels::presentation_enums:
   other: "Other"
 
 uber::config::at_the_con: False
-uber::config::post_con: False
+uber::config::post_con: True
 
 uber::config::donation_tier:
   No thanks: 0
