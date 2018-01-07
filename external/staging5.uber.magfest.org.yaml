@@ -5,6 +5,11 @@
 uber::config::at_the_con: False
 uber::config::post_con: True
 
+uber::config::send_emails: False
+uber::config::send_sms: False
+
+uber::config::redirect_all_traffic_onsite: False
+
 # classes:
 # - uber::db_replication_master
 
