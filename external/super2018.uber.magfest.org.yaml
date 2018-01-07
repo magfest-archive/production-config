@@ -21,8 +21,7 @@ uber::nginx::redirect_all_traffic_onsite: False
 uber::config::at_the_con: False
 uber::config::post_con: True
 
-# if not in AT-THE-CON mode yet, disable emails
-uber::config::send_emails: False
+uber::config::send_emails: True
 uber::config::send_sms: False
 
 # test_only_delete_this_later: True # not sure why we need this but we do.
