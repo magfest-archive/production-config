@@ -2,7 +2,8 @@
 
 # set this up as an onsite testing server
 
-uber::config::at_the_con: 'True'
+uber::config::at_the_con: False
+uber::config::post_con: True
 
 # classes:
 # - uber::db_replication_master
