@@ -17,16 +17,16 @@ uber::config::group_discount: 5,
 uber::config::epoch: '2018-09-07 08'
 uber::config::eschaton: '2018-09-09 18'
 
-uber::config::prereg_open: '2017-09-01 11'
+uber::config::prereg_open: '2017-02-01 11'
 uber::config::prereg_takedown: '2018-09-10'
 uber::config::group_prereg_takedown: '2018-08-25'
 uber::config::uber_takedown: '2018-09-10'
 
-uber::config::placeholder_deadline: '2018-08-28'
-uber::config::supporter_deadline: '2018-08-05'
+uber::config::placeholder_deadline: '2018-08-10'
+uber::config::supporter_deadline: '2018-08-03'
 uber::config::room_deadline: '2018-07-28'
-uber::config::shirt_deadline: '2018-08-11'
-uber::config::printed_badge_deadline: '2018-08-05'
+uber::config::shirt_deadline: '2018-08-10'
+uber::config::printed_badge_deadline: '2018-08-03'
 uber::config::shifts_created: '2018-07-11' # CHANGE to whatever date you import shifts
 
 uber::config::dealer_reg_start: '2018-07-01'          # dealer reg not allowed before this date
@@ -99,7 +99,7 @@ uber::config::badge_types:
     range_start: 6000
     range_end: 7999
 
-uber::config::initial_attendee: 50    # badge price
+uber::config::initial_attendee: 55    # badge price
 uber::config::dealer_badge_price: 20
 uber::config::max_dealers: 10
 uber::config::default_table_price: 80
@@ -116,8 +116,7 @@ uber::config::badge_prices:
     Saturday: 35
     Sunday: 15
   attendee:
-    '2018-06-01': 55
-    '2018-09-01': 60
+    '2018-09-07': 60
 
 uber::config::shift_custom_badges: false
 
@@ -270,7 +269,7 @@ uber::config::dept_head_checklist:
     email_post_con: True
 
 # entries here must also exist in event_locations
-uber::plugin_panels::panel_rooms: "panels_1,panels_2"
+uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
 uber::plugin_panels::hide_schedule: true
 
 uber::plugin_panels::panel_app_deadline: '2018-07-31 20'
