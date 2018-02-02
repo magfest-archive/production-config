@@ -8,6 +8,6 @@ uber::nginx::ssl_key:      'puppet:///modules/uber/selfsigned-testonly.key'
 uber::nginx::ssl_ca_crt:     "puppet:///modules/uber/selfsigned-X-ca.crt"
 
 # test barcode values stuff. NEVER USE FOR PRODUCTION, ALWAYS CHANGE
-uber::plugin_barcode::barcode_key: "TEST-ONLY!"
-uber::plugin_barcode::barcode_salt: 255
-uber::plugin_barcode::barcode_event_id: 255
+uber::config::barcode_key: "TEST-ONLY!"
+uber::config::barcode_salt: 255
+uber::config::barcode_event_id: 255
