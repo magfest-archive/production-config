@@ -1,7 +1,6 @@
 ---
 classes:
 - roles::uber_server
-- uber::plugin_barcode
 - uber::plugin_panels
 - uber::plugin_guests
 - uber::plugin_hotel
