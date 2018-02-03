@@ -6,11 +6,6 @@ classes:
 - uber::plugin_magfest
 - uber::plugin_magstock
 
-uber::plugins::extra_plugins:
-  reports:
-    git_repo: 'https://github.com/magfest/reports'
-    git_branch: 'master'
-
 uber::config::priority_plugins: "uber, panels, guests"
 
 uber::config::numbered_badges: 'False'
