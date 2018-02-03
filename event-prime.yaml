@@ -17,9 +17,6 @@ uber::plugins::extra_plugins:
   attendee_tournaments:
     git_repo: 'https://github.com/magfest/attendee_tournaments'
     git_branch: 'master'
-  reports:
-    git_repo: 'https://github.com/magfest/reports'
-    git_branch: 'master'
   mits:
     git_repo: 'https://github.com/magfest/mits'
     git_branch: 'master'
