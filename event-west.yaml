@@ -17,9 +17,6 @@ uber::plugins::extra_plugins:
   attendee_tournaments:
     git_repo: 'https://github.com/magfest/attendee_tournaments'
     git_branch: 'master'
-  reports:
-    git_repo: 'https://github.com/magfest/reports'
-    git_branch: 'master'
 
 # optimizations designed for handling the heaviest load, use for magprime prereg launch flood.
 # disable after the first launch is done.
