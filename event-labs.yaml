@@ -14,9 +14,6 @@ uber::plugins::extra_plugins:
   attendee_tournaments:
     git_repo: 'https://github.com/magfest/attendee_tournaments'
     git_branch: 'master'
-  reports:
-    git_repo: 'https://github.com/magfest/reports'
-    git_branch: 'master'
 
 uber::config::priority_plugins: "uber, panels, guests"
 
