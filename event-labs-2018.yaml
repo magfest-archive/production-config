@@ -207,7 +207,7 @@ uber::config::interest_list:
   tournaments: "Tournaments"
   makerspace: "Makerspace"
 
-uber::plugin_hotel::hotel_req_hours: 24
+uber::config::hotel_req_hours: 24
 
 uber::config::volunteer_checklist:
   3: ''
