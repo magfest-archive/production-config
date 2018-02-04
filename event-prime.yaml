@@ -5,7 +5,6 @@ classes:
 - roles::uber_server
 - uber::plugin_panels
 - uber::plugin_guests
-- uber::plugin_hotel
 - uber::plugin_tabletop
 - uber::plugin_magfest
 - uber::plugin_mivs
@@ -27,7 +26,7 @@ uber::config::hardcore_optimizations_enabled: 'False'
 
 uber::config::priority_plugins: "uber, panels, guests"
 
-uber::plugin_hotel::hotel_req_hours: 30
+uber::config::hotel_req_hours: 30
 
 uber::config::room_deadline: '2017-11-29'
 
