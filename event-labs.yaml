@@ -3,7 +3,6 @@ classes:
 - roles::uber_server
 - uber::plugin_panels
 - uber::plugin_guests
-- uber::plugin_hotel
 - uber::plugin_tabletop
 - uber::plugin_magfest
 
@@ -224,7 +223,7 @@ uber::config::interest_list:
   tournaments: "Tournaments"
   makerspace: "Makerspace"
 
-uber::plugin_hotel::hotel_req_hours: 24
+uber::config::hotel_req_hours: 24
 
 uber::config::volunteer_checklist:
   3: ''
