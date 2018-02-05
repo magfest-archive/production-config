@@ -10,9 +10,6 @@ uber::plugins::extra_plugins:
   magclassic:
     git_repo: 'https://github.com/magfest/magclassic'
     git_branch: 'master'
-  attendee_tournaments:
-    git_repo: 'https://github.com/magfest/attendee_tournaments'
-    git_branch: 'master'
 
 uber::config::priority_plugins: "uber, panels, guests"
 
