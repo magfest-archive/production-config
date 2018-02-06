@@ -3,7 +3,6 @@ classes:
 - roles::uber_server
 - uber::plugin_panels
 - uber::plugin_guests
-- uber::plugin_magfest
 - uber::plugin_magstock
 
 uber::config::priority_plugins: "uber, panels, guests"
