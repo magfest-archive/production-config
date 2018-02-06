@@ -22,12 +22,12 @@ uber::config::priority_plugins: "uber, panels, guests"
 
 uber::config::hotel_req_hours: 24
 
-uber::config::room_deadline: '2017-07-29'
+uber::config::room_deadline: '2018-07-09'
 
 uber::config::groups_enabled: False
 
 uber::config::event_name: 'MAGWest'
-uber::config::year: 2017
+uber::config::year: 2018
 
 uber::config::event_venue: 'The Hyatt Regency Santa Clara'
 uber::config::event_venue_address: '5101 Great America Pkwy, Santa Clara, CA 95054'
@@ -39,19 +39,19 @@ uber::config::guest_sig: ' - Ashley Watts,\nMAGWest Guest Coordinator'
 uber::config::use_checkin_barcode: 'True'
 uber::config::badge_promo_codes_enabled: True
 
-uber::config::epoch: '2017-08-25 08'
-uber::config::eschaton: '2017-08-27 18'
+uber::config::epoch: '2018-08-10 08'
+uber::config::eschaton: '2018-08-12 18'
 
 uber::config::hide_prereg_open_date: 'True'
-uber::config::prereg_open: '2017-04-19 16'
-uber::config::prereg_takedown: '2017-08-24'
-uber::config::group_prereg_takedown: '2017-08-22'
-uber::config::uber_takedown: '2017-08-22'
+uber::config::prereg_open: '2018-02-14 8'
+uber::config::prereg_takedown: '2018-08-09'
+uber::config::group_prereg_takedown: '2018-08-08'
+uber::config::uber_takedown: '2018-08-08'
 
-uber::config::placeholder_deadline: '2017-08-15'
-uber::config::supporter_deadline: '2017-08-27 18'
-uber::config::shirt_deadline: '2017-08-27 18'
-uber::config::printed_badge_deadline: '2017-07-25'
+uber::config::placeholder_deadline: '2018-08-01'
+uber::config::supporter_deadline: '2018-08-12 18'
+uber::config::shirt_deadline: '2018-08-12 18'
+uber::config::printed_badge_deadline: '2018-07-10'
 
 uber::config::shifts_created: '2016-06-01'   # TODO: set this once we import, if we do.
 
@@ -64,11 +64,11 @@ uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
 uber::plugin_panels::hide_schedule: 'True'
 
-uber::plugin_panels::panel_app_deadline: '2017-07-30'
-uber::plugin_panels::expected_response: 'July 2017'
+uber::plugin_panels::panel_app_deadline: '2018-07-03'
+uber::plugin_panels::expected_response: 'July 2018'
 
 uber::config::at_the_con: False
-uber::config::post_con: True
+uber::config::post_con: False
 uber::config::send_emails: False
 
 uber::config::donation_tier:
@@ -121,20 +121,20 @@ uber::config::extra_ribbon_types:
 
 uber::config::badge_types:
   staff_badge:
-    range_start: 49
-    range_end: 199
+    range_start: 13
+    range_end: 313
   guest_badge:
-    range_start: 200
-    range_end: 299
+    range_start: 314
+    range_end: 419
   attendee_badge:
-    range_start: 300
-    range_end:  2299
+    range_start: 420
+    range_end:  2420
   one_day_badge:
-    range_start: 2300
-    range_end: 3199
+    range_start: 2421
+    range_end: 3299
   child_badge:
-    range_start: 3200
-    range_end: 3500
+    range_start: 3300
+    range_end: 3600
 
 uber::config::initial_attendee: 50    # badge price
 uber::config::dealer_badge_price: 35
@@ -314,17 +314,17 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.c
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2017-05-25"
-    description: "We have the ability to import shifts from MAGFest 2016 to MAGFest 2017, if you are only making minor changes and want assistance with this step, please let us know"
+    deadline: "2018-05-25"
+    description: "We have the ability to import shifts from MAGWest 2017 to MAGWest 2018, if you are only making minor changes and want assistance with this step, please let us know"
     path: "/jobs/index?department_id={department_id}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2017-06-01"
+    deadline: "2018-06-01"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?department_id={department_id}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2017-08-23"
+    deadline: "2018-08-08"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury?department_id={department_id}"
   allotments:
@@ -334,36 +334,36 @@ uber::config::dept_head_checklist:
     path: "/magfest_dept_checklist/allotments?department_id={department_id}"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
-    deadline: "2017-08-01"
+    deadline: "2018-07-01"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department_id={department_id}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2017-07-25"
+    deadline: "2018-07-09"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department_id={department_id}"
   printed_signs:
-    deadline: "2017-07-25"
+    deadline: "2018-07-09"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
   office_supplies:
-    deadline: "2017-07-25"
+    deadline: "2018-07-09"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
   custom_ribbons:
-    deadline: "2017-07-25"
+    deadline: "2018-07-09"
     description: "Besides the ribbons given out at registration, you may need your own ribbon type to help manage access to certain restricted areas. If so, please let us know what they should say, how many you'll need, and what color you'd like them to be. These ribbons will be given to you at the beginning of MAGFest to distribute to whoever needs them.  (Note: Small orders of ribbons are very expensive - please request a ribbon type only if you need it, and tell us why you need it so we can make sure there's no duplication between departments.)"
   placeholders:
     name: "Checking Placeholder Registrations"
-    deadline: "2017-07-24"
+    deadline: "2018-07-08"
     description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
     path: "/registration/placeholders?department_id={department_id}"
   tech_requirements:
     name: "Tech Requirements"
-    deadline: "2017-07-29"
+    deadline: "2018-07-13"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/magfest_dept_checklist/tech_requirements?department_id={department_id}"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
-    deadline: "2017-09-05"
+    deadline: "2018-09-05"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?department_id={department_id}"
     email_post_con: True
@@ -380,27 +380,27 @@ uber::config::panels_email: 'MAGWest Panels <panels@magwest.org>'
 uber::plugin_guests::band_email:           'MAGWest Music Department <music@magwest.org>'
 uber::plugin_guests::band_email_signature: '- MAGWest Music Department'
 
-uber::plugin_guests::auction_start:            '2017-08-27 11' # placeholder
+uber::plugin_guests::auction_start:            '2018-08-12 11' # placeholder
 
-uber::plugin_guests::band_panel_deadline: '2017-06-29'
-uber::plugin_guests::band_bio_deadline: '2017-06-24'
-uber::plugin_guests::band_info_deadline: '2017-06-24'
-uber::plugin_guests::band_taxes_deadline: '2017-06-29'
-uber::plugin_guests::band_merch_deadline: '2017-07-07'
-uber::plugin_guests::band_charity_deadline: '2017-08-15'
-uber::plugin_guests::band_badges_deadline: '2017-08-15'
-uber::plugin_guests::band_stage_plot_deadline: '2017-07-18'
+uber::plugin_guests::band_panel_deadline: '2018-06-29'
+uber::plugin_guests::band_bio_deadline: '2018-06-24'
+uber::plugin_guests::band_info_deadline: '2018-06-24'
+uber::plugin_guests::band_taxes_deadline: '2018-06-29'
+uber::plugin_guests::band_merch_deadline: '2018-07-07'
+uber::plugin_guests::band_charity_deadline: '2018-08-05'
+uber::plugin_guests::band_badges_deadline: '2018-08-05'
+uber::plugin_guests::band_stage_plot_deadline: '2018-07-03'
 
-uber::plugin_guests::guest_panel_deadline: '2017-06-29'
-uber::plugin_guests::guest_bio_deadline: '2017-06-24'
-uber::plugin_guests::guest_taxes_deadline: '2017-06-29'
-uber::plugin_guests::guest_merch_deadline: '2017-07-07'
-uber::plugin_guests::guest_charity_deadline: '2017-08-15'
-uber::plugin_guests::guest_autograph_deadline: '2017-06-24'
-uber::plugin_guests::guest_interview_deadline: '2017-06-24'
-uber::plugin_guests::guest_travel_plans_deadline: '2017-06-24'
-uber::plugin_guests::guest_info_deadline: '2017-06-24'
-uber::plugin_guests::guest_badges_deadline: '2017-08-15'
+uber::plugin_guests::guest_panel_deadline: '2018-06-29'
+uber::plugin_guests::guest_bio_deadline: '2018-06-24'
+uber::plugin_guests::guest_taxes_deadline: '2018-06-29'
+uber::plugin_guests::guest_merch_deadline: '2018-07-07'
+uber::plugin_guests::guest_charity_deadline: '2018-08-05'
+uber::plugin_guests::guest_autograph_deadline: '2018-06-24'
+uber::plugin_guests::guest_interview_deadline: '2018-06-24'
+uber::plugin_guests::guest_travel_plans_deadline: '2018-06-24'
+uber::plugin_guests::guest_info_deadline: '2018-06-24'
+uber::plugin_guests::guest_badges_deadline: '2018-08-05'
 
 uber::plugin_guests::guest_merch_enums:
   no_merch:     "Not selling merch"
@@ -408,11 +408,11 @@ uber::plugin_guests::guest_merch_enums:
   rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
-uber::plugin_mivs::mivs_round_one_deadline:    "2017-05-10"
-uber::plugin_mivs::mivs_round_two_start:       "2017-05-11"
-uber::plugin_mivs::mivs_round_two_deadline:    "2017-06-10"
-uber::plugin_mivs::mivs_judging_deadline:      "2017-06-30"
-uber::plugin_mivs::mivs_round_two_complete:    "2017-06-30"
+uber::plugin_mivs::mivs_round_one_deadline:    "2018-04-10"
+uber::plugin_mivs::mivs_round_two_start:       "2018-04-11"
+uber::plugin_mivs::mivs_round_two_deadline:    "2018-05-10"
+uber::plugin_mivs::mivs_judging_deadline:      "2018-05-28"
+uber::plugin_mivs::mivs_round_two_complete:    "2018-05-28"
 uber::plugin_mivs::mivs_confirm_deadline: 14
-uber::plugin_mivs::mivs_start_year: 2017
+uber::plugin_mivs::mivs_start_year: 2018
 uber::plugin_mivs::mivs_submission_grace_period: 10
