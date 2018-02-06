@@ -215,8 +215,8 @@ uber::config::volunteer_checklist:
   5: 'signups/shifts_item.html'
 
 # TODO: changeme: these are last year's forms
-uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1h8tkHJ5JjH7T0fwLnK-5-DifuEHBm4Wzkf20uonPUhA/edit#gid=316806961"
-uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLSeDwhKy5-awt2zZT63y61qKPhaJdbYVNuQDhK0yLHUFsrgYdg/viewform?c=0&w=1"
+uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1h8tkHJ5JjH7T0fwLnK-5-DifuEHBm4Wzkf20uonPUhA/edit#gid=316806961"
+uber::config::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLSeDwhKy5-awt2zZT63y61qKPhaJdbYVNuQDhK0yLHUFsrgYdg/viewform?c=0&w=1"
 
 uber::config::dept_head_checklist:
   creating_shifts:
