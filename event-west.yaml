@@ -6,7 +6,6 @@ classes:
 - uber::plugin_panels
 - uber::plugin_guests
 - uber::plugin_tabletop
-- uber::plugin_magfest
 
 uber::plugins::extra_plugins:
   magwest:
@@ -308,8 +307,8 @@ uber::config::volunteer_checklist:
   5: 'signups/shifts_item.html'
 
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
-uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
-uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.com/a/magwest.org/forms/d/e/1FAIpQLSeU1VK-i9O6L_WuYEaascBPl01knVGSNvkimEEFJKbZHejjwA/viewform?usp=sf_link"
+uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
+uber::config::techops_dept_checklist_form_url:    "https://docs.google.com/a/magwest.org/forms/d/e/1FAIpQLSeU1VK-i9O6L_WuYEaascBPl01knVGSNvkimEEFJKbZHejjwA/viewform?usp=sf_link"
 
 uber::config::dept_head_checklist:
   creating_shifts:
