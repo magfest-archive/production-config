@@ -6,15 +6,10 @@ classes:
 - uber::plugin_panels
 - uber::plugin_guests
 - uber::plugin_tabletop
-- uber::plugin_magfest
-- uber::plugin_mivs
 
 uber::plugins::extra_plugins:
   magprime:
     git_repo: 'https://github.com/magfest/magprime'
-    git_branch: 'master'
-  mits:
-    git_repo: 'https://github.com/magfest/mits'
     git_branch: 'master'
 
 # optimizations designed for handling the heaviest load, use for magprime prereg launch flood.
@@ -396,8 +391,8 @@ uber::config::volunteer_checklist:
   5: 'signups/shifts_item.html'
 
 # TODO: changeme: these are the same forms as magprime 2017 (last year)
-uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
-uber::plugin_magfest::techops_dept_checklist_form_url:    "https://goo.gl/forms/HRZrccSq9PFYnUVc2"
+uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
+uber::config::techops_dept_checklist_form_url:    "https://goo.gl/forms/HRZrccSq9PFYnUVc2"
 
 uber::config::dept_head_checklist:
   creating_shifts:
@@ -506,12 +501,12 @@ uber::plugin_guests::guest_merch_enums:
   rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
-uber::plugin_mivs::mivs_round_one_deadline:    "2017-09-03"
-uber::plugin_mivs::mivs_video_response_expected: "by September 16th"
-uber::plugin_mivs::mivs_round_two_start:       "2017-10-01"
-uber::plugin_mivs::mivs_round_two_deadline:    "2017-10-09"
-uber::plugin_mivs::mivs_judging_deadline:      "2017-10-29"
-uber::plugin_mivs::mivs_round_two_complete:    "2017-11-05"
-uber::plugin_mivs::mivs_confirm_deadline: 14
-uber::plugin_mivs::mivs_start_year: 2013
-uber::plugin_mivs::mivs_submission_grace_period: 10
+uber::config::mivs_round_one_deadline:    "2017-09-03"
+uber::config::mivs_video_response_expected: "by September 16th"
+uber::config::mivs_round_two_start:       "2017-10-01"
+uber::config::mivs_round_two_deadline:    "2017-10-09"
+uber::config::mivs_judging_deadline:      "2017-10-29"
+uber::config::mivs_round_two_complete:    "2017-11-05"
+uber::config::mivs_confirm_deadline: 14
+uber::config::mivs_start_year: 2013
+uber::config::mivs_submission_grace_period: 10
