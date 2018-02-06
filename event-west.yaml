@@ -7,7 +7,6 @@ classes:
 - uber::plugin_guests
 - uber::plugin_tabletop
 - uber::plugin_magfest
-- uber::plugin_mivs
 
 uber::plugins::extra_plugins:
   magwest:
@@ -408,11 +407,11 @@ uber::plugin_guests::guest_merch_enums:
   rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
-uber::plugin_mivs::mivs_round_one_deadline:    "2017-05-10"
-uber::plugin_mivs::mivs_round_two_start:       "2017-05-11"
-uber::plugin_mivs::mivs_round_two_deadline:    "2017-06-10"
-uber::plugin_mivs::mivs_judging_deadline:      "2017-06-30"
-uber::plugin_mivs::mivs_round_two_complete:    "2017-06-30"
-uber::plugin_mivs::mivs_confirm_deadline: 14
-uber::plugin_mivs::mivs_start_year: 2017
-uber::plugin_mivs::mivs_submission_grace_period: 10
+uber::config::mivs_round_one_deadline:    "2017-05-10"
+uber::config::mivs_round_two_start:       "2017-05-11"
+uber::config::mivs_round_two_deadline:    "2017-06-10"
+uber::config::mivs_judging_deadline:      "2017-06-30"
+uber::config::mivs_round_two_complete:    "2017-06-30"
+uber::config::mivs_confirm_deadline: 14
+uber::config::mivs_start_year: 2017
+uber::config::mivs_submission_grace_period: 10
