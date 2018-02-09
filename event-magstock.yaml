@@ -1,11 +1,9 @@
 ---
 classes:
 - roles::uber_server
-- uber::plugin_panels
-- uber::plugin_guests
 - uber::plugin_magstock
 
-uber::config::priority_plugins: "uber, panels, guests"
+uber::config::priority_plugins: "uber,"
 
 uber::config::numbered_badges: 'False'
 
@@ -183,31 +181,31 @@ uber::config::dept_head_checklist:
     email_post_con: True
 
 # unset panel rooms for magstock because magstock doesn't have any locations called "panels1", which causes errors
-uber::plugin_panels::panel_rooms: ","   # empty list
+uber::config::panel_rooms: ","   # empty list
 
-uber::plugin_panels::hide_schedule: true
+uber::config::hide_schedule: true
 
-uber::plugin_guests::band_email:           'MAGStock Music Department <music@magstock.org>'
-uber::plugin_guests::band_email_signature: '- MAGStock Music Department'
+uber::config::band_email:           'MAGStock Music Department <music@magstock.org>'
+uber::config::band_email_signature: '- MAGStock Music Department'
 
-uber::plugin_guests::band_panel_deadline:      ''  # disabled for magstock
-uber::plugin_guests::band_bio_deadline:        '2017-04-20 20'
-uber::plugin_guests::band_info_deadline:  '2017-03-20 20'
-uber::plugin_guests::band_taxes_deadline:         '2017-06-01 20'
-uber::plugin_guests::band_merch_deadline:      '2017-06-01 20'
-uber::plugin_guests::band_charity_deadline:    ''  # disabled for magstock
-uber::plugin_guests::band_badges_deadline:      '2017-06-01 20'
-uber::plugin_guests::band_stage_plot_deadline: '2017-04-01 20'
+uber::config::band_panel_deadline:      ''  # disabled for magstock
+uber::config::band_bio_deadline:        '2017-04-20 20'
+uber::config::band_info_deadline:  '2017-03-20 20'
+uber::config::band_taxes_deadline:         '2017-06-01 20'
+uber::config::band_merch_deadline:      '2017-06-01 20'
+uber::config::band_charity_deadline:    ''  # disabled for magstock
+uber::config::band_badges_deadline:      '2017-06-01 20'
+uber::config::band_stage_plot_deadline: '2017-04-01 20'
 
-uber::plugin_guests::guest_panel_deadline: ''
-uber::plugin_guests::guest_bio_deadline: '2017-04-20 20'
-uber::plugin_guests::guest_taxes_deadline: '2017-06-01 20'
-uber::plugin_guests::guest_merch_deadline: '2017-06-01 20'
-uber::plugin_guests::guest_charity_deadline: '2017-03-20 20'
-uber::plugin_guests::guest_autograph_deadline: '2017-03-20 20'
-uber::plugin_guests::guest_interview_deadline: '2017-03-20 20'
-uber::plugin_guests::guest_travel_plans_deadline: '2017-03-20 20'
-uber::plugin_guests::guest_info_deadline: '2017-03-20 20'
-uber::plugin_guests::guest_badges_deadline: '2017-06-01 20'
+uber::config::guest_panel_deadline: ''
+uber::config::guest_bio_deadline: '2017-04-20 20'
+uber::config::guest_taxes_deadline: '2017-06-01 20'
+uber::config::guest_merch_deadline: '2017-06-01 20'
+uber::config::guest_charity_deadline: '2017-03-20 20'
+uber::config::guest_autograph_deadline: '2017-03-20 20'
+uber::config::guest_interview_deadline: '2017-03-20 20'
+uber::config::guest_travel_plans_deadline: '2017-03-20 20'
+uber::config::guest_info_deadline: '2017-03-20 20'
+uber::config::guest_badges_deadline: '2017-06-01 20'
 
-uber::plugin_guests::require_dedicated_guest_table_presence: false
+uber::config::require_dedicated_guest_table_presence: false
