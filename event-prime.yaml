@@ -13,7 +13,7 @@ uber::plugins::extra_plugins:
 # disable after the first launch is done.
 uber::config::hardcore_optimizations_enabled: 'False'
 
-uber::config::priority_plugins: "uber, panels, guests"
+uber::config::priority_plugins: "uber,"
 
 uber::config::hotel_req_hours: 30
 
