@@ -1,16 +1,13 @@
 ---
 classes:
 - roles::uber_server
-- uber::plugin_panels
-- uber::plugin_guests
-- uber::plugin_tabletop
 
 uber::plugins::extra_plugins:
   magclassic:
     git_repo: 'https://github.com/magfest/magclassic'
     git_branch: 'master'
 
-uber::config::priority_plugins: "uber, panels, guests"
+uber::config::priority_plugins: "uber,"
 
 # event settings
 uber::config::event_name: 'MAGFest Laboratories'
@@ -283,40 +280,40 @@ uber::config::dept_head_checklist:
     email_post_con: True
 
 # entries here must also exist in event_locations
-uber::plugin_panels::panel_rooms: "panels_1,panels_2"
-uber::plugin_panels::hide_schedule: true
+uber::config::panel_rooms: "panels_1,panels_2"
+uber::config::hide_schedule: true
 
-uber::plugin_panels::panel_app_deadline: '2017-07-31 20'
-uber::plugin_panels::expected_response: 'August 2017'
+uber::config::panel_app_deadline: '2017-07-31 20'
+uber::config::expected_response: 'August 2017'
 
-uber::plugin_guests::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
-uber::plugin_guests::band_email_signature: '- MAGLabs Music Department'
+uber::config::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
+uber::config::band_email_signature: '- MAGLabs Music Department'
 
-uber::plugin_guests::auction_start:            '2017-09-03 11'
+uber::config::auction_start:            '2017-09-03 11'
 
-uber::plugin_guests::band_panel_deadline:      '2017-08-01 08'
-uber::plugin_guests::band_bio_deadline:        '2017-07-01 08'
-uber::plugin_guests::band_info_deadline:  '2017-06-25 08'
-uber::plugin_guests::band_taxes_deadline:         '2017-07-25 08'
-uber::plugin_guests::band_merch_deadline:      '2017-08-01 08'
-uber::plugin_guests::band_charity_deadline:    '2017-08-24 08'
-uber::plugin_guests::band_badges_deadline:      '2017-08-10 08'
-uber::plugin_guests::band_stage_plot_deadline: '2017-08-15 08'
+uber::config::band_panel_deadline:      '2017-08-01 08'
+uber::config::band_bio_deadline:        '2017-07-01 08'
+uber::config::band_info_deadline:  '2017-06-25 08'
+uber::config::band_taxes_deadline:         '2017-07-25 08'
+uber::config::band_merch_deadline:      '2017-08-01 08'
+uber::config::band_charity_deadline:    '2017-08-24 08'
+uber::config::band_badges_deadline:      '2017-08-10 08'
+uber::config::band_stage_plot_deadline: '2017-08-15 08'
 
-uber::plugin_guests::guest_panel_deadline: '2017-08-01 08'
-uber::plugin_guests::guest_bio_deadline: '2017-07-01 08'
-uber::plugin_guests::guest_taxes_deadline: '2017-07-25 08'
-uber::plugin_guests::guest_merch_deadline: '2017-08-01 08'
-uber::plugin_guests::guest_charity_deadline: '2017-08-24 08'
-uber::plugin_guests::guest_autograph_deadline: '2017-08-24 08'
-uber::plugin_guests::guest_interview_deadline: '2017-08-24 08'
-uber::plugin_guests::guest_travel_plans_deadline: '2017-08-24 08'
-uber::plugin_guests::guest_info_deadline: '2017-06-25 08'
-uber::plugin_guests::guest_badges_deadline: '2017-08-10 08'
+uber::config::guest_panel_deadline: '2017-08-01 08'
+uber::config::guest_bio_deadline: '2017-07-01 08'
+uber::config::guest_taxes_deadline: '2017-07-25 08'
+uber::config::guest_merch_deadline: '2017-08-01 08'
+uber::config::guest_charity_deadline: '2017-08-24 08'
+uber::config::guest_autograph_deadline: '2017-08-24 08'
+uber::config::guest_interview_deadline: '2017-08-24 08'
+uber::config::guest_travel_plans_deadline: '2017-08-24 08'
+uber::config::guest_info_deadline: '2017-06-25 08'
+uber::config::guest_badges_deadline: '2017-08-10 08'
 
-uber::plugin_guests::require_dedicated_guest_table_presence: false
+uber::config::require_dedicated_guest_table_presence: false
 
-uber::plugin_guests::guest_merch_enums:
+uber::config::guest_merch_enums:
   no_merch:     "Not selling merch"
   own_table:    "Dedicated table"
 #   rock_island:  "Rock Island" # enable rock island
