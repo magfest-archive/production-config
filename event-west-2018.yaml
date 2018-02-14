@@ -303,9 +303,9 @@ uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
-# TODO: changeme: these are the same forms as magprime 2016 (last year)
-uber::config::treasury_dept_checklist_form_url:   "#"
-uber::config::techops_dept_checklist_form_url:    "#"
+# TODO: Verify that both of these are correct for MAGWest 2018
+uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
+uber::config::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLScnOE2dQHf0kyajgmMiMbqeMYlm8oXFC4E_yAqlFBfvrGDRrg/viewform?usp=sf_link"
 
 uber::config::dept_head_checklist:
   creating_shifts:
