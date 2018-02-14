@@ -3,11 +3,6 @@
 
 classes:
 - roles::uber_server
-- uber::plugin_panels
-- uber::plugin_guests
-- uber::plugin_tabletop
-- uber::plugin_magfest
-- uber::plugin_mivs
 
 uber::plugins::extra_plugins:
   magwest:
@@ -18,7 +13,7 @@ uber::plugins::extra_plugins:
 # disable after the first launch is done.
 uber::config::hardcore_optimizations_enabled: 'False'
 
-uber::config::priority_plugins: "uber, panels, guests"
+uber::config::priority_plugins: "uber,"
 
 uber::config::hotel_req_hours: 24
 
@@ -62,10 +57,10 @@ uber::config::dealer_payment_due: ''        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
-uber::plugin_panels::hide_schedule: 'True'
+uber::config::hide_schedule: 'True'
 
-uber::plugin_panels::panel_app_deadline: '2018-07-03'
-uber::plugin_panels::expected_response: 'July 2018'
+uber::config::panel_app_deadline: '2018-07-03'
+uber::config::expected_response: 'July 2018'
 
 uber::config::at_the_con: False
 uber::config::post_con: False
@@ -309,8 +304,8 @@ uber::config::volunteer_checklist:
   5: 'signups/shifts_item.html'
 
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
-uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
-uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLScnOE2dQHf0kyajgmMiMbqeMYlm8oXFC4E_yAqlFBfvrGDRrg/viewform?usp=sf_link"
+uber::config::treasury_dept_checklist_form_url:   "#"
+uber::config::techops_dept_checklist_form_url:    "#"
 
 uber::config::dept_head_checklist:
   creating_shifts:
@@ -377,42 +372,42 @@ uber::config::peglegs_sig: |
 
 uber::config::panels_email: 'MAGWest Panels <panels@magwest.org>'
 
-uber::plugin_guests::band_email:           'MAGWest Music Department <music@magwest.org>'
-uber::plugin_guests::band_email_signature: '- MAGWest Music Department'
+uber::config::band_email:           'MAGWest Music Department <music@magwest.org>'
+uber::config::band_email_signature: '- MAGWest Music Department'
 
-uber::plugin_guests::auction_start:            '2018-08-12 11' # placeholder
+uber::config::auction_start:            '2018-08-12 11' # placeholder
 
-uber::plugin_guests::band_panel_deadline: '2018-06-29'
-uber::plugin_guests::band_bio_deadline: '2018-06-24'
-uber::plugin_guests::band_info_deadline: '2018-06-24'
-uber::plugin_guests::band_taxes_deadline: '2018-06-29'
-uber::plugin_guests::band_merch_deadline: '2018-07-07'
-uber::plugin_guests::band_charity_deadline: '2018-08-05'
-uber::plugin_guests::band_badges_deadline: '2018-08-05'
-uber::plugin_guests::band_stage_plot_deadline: '2018-07-03'
+uber::config::band_panel_deadline: '2018-06-29'
+uber::config::band_bio_deadline: '2018-06-24'
+uber::config::band_info_deadline: '2018-06-24'
+uber::config::band_taxes_deadline: '2018-06-29'
+uber::config::band_merch_deadline: '2018-07-07'
+uber::config::band_charity_deadline: '2018-08-05'
+uber::config::band_badges_deadline: '2018-08-05'
+uber::config::band_stage_plot_deadline: '2018-07-03'
 
-uber::plugin_guests::guest_panel_deadline: '2018-06-29'
-uber::plugin_guests::guest_bio_deadline: '2018-06-24'
-uber::plugin_guests::guest_taxes_deadline: '2018-06-29'
-uber::plugin_guests::guest_merch_deadline: '2018-07-07'
-uber::plugin_guests::guest_charity_deadline: '2018-08-05'
-uber::plugin_guests::guest_autograph_deadline: '2018-06-24'
-uber::plugin_guests::guest_interview_deadline: '2018-06-24'
-uber::plugin_guests::guest_travel_plans_deadline: '2018-06-24'
-uber::plugin_guests::guest_info_deadline: '2018-06-24'
-uber::plugin_guests::guest_badges_deadline: '2018-08-05'
+uber::config::guest_panel_deadline: '2018-06-29'
+uber::config::guest_bio_deadline: '2018-06-24'
+uber::config::guest_taxes_deadline: '2018-06-29'
+uber::config::guest_merch_deadline: '2018-07-07'
+uber::config::guest_charity_deadline: '2018-08-05'
+uber::config::guest_autograph_deadline: '2018-06-24'
+uber::config::guest_interview_deadline: '2018-06-24'
+uber::config::guest_travel_plans_deadline: '2018-06-24'
+uber::config::guest_info_deadline: '2018-06-24'
+uber::config::guest_badges_deadline: '2018-08-05'
 
-uber::plugin_guests::guest_merch_enums:
+uber::config::guest_merch_enums:
   no_merch:     "Not selling merch"
   own_table:    "Dedicated table"
   # rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
-uber::plugin_mivs::mivs_round_one_deadline:    "2018-04-10"
-uber::plugin_mivs::mivs_round_two_start:       "2018-04-11"
-uber::plugin_mivs::mivs_round_two_deadline:    "2018-05-10"
-uber::plugin_mivs::mivs_judging_deadline:      "2018-05-28"
-uber::plugin_mivs::mivs_round_two_complete:    "2018-05-28"
-uber::plugin_mivs::mivs_confirm_deadline: 14
-uber::plugin_mivs::mivs_start_year: 2018
-uber::plugin_mivs::mivs_submission_grace_period: 10
+uber::config::mivs_round_one_deadline:    "2018-04-10"
+uber::config::mivs_round_two_start:       "2018-04-11"
+uber::config::mivs_round_two_deadline:    "2018-05-10"
+uber::config::mivs_judging_deadline:      "2018-05-28"
+uber::config::mivs_round_two_complete:    "2018-05-28"
+uber::config::mivs_confirm_deadline: 14
+uber::config::mivs_start_year: 2018
+uber::config::mivs_submission_grace_period: 10
