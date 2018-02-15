@@ -20,6 +20,7 @@ uber::config::prereg_confirm_email_enabled: True
 uber::nginx::onsite_uber_address: 'https://onsite.uber.magfest.org' # leave off trailing slash
 
 uber::config::kiosk_cc_enabled: True
+uber::config::attractions_enabled: False
 
 uber::config::shirt_sizes:
   no shirt: 0
