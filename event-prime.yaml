@@ -157,6 +157,7 @@ uber::config::badge_stocks:
 
 # prereg form UI options
 uber::config::donations_enabled: true
+uber::config::attractions_enabled: true
 
 uber::config::extra_ribbon_types:
   band: "RockStar"
