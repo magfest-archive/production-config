@@ -232,12 +232,12 @@ uber::config::dept_head_checklist:
     name: "MPoint Needs"
     deadline: "2018-08-29"
     description: "Tell us whether you need any mpoints for your department."
-    path: "/magfest_dept_checklist/treasury"
+    path: "/dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
     deadline: "2018-07-26"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
-    path: "/magfest_dept_checklist/allotments"
+    path: "/dept_checklist/allotments"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
     deadline: "2018-07-21"
@@ -246,7 +246,7 @@ uber::config::dept_head_checklist:
   tech_requirements:
     deadline: "2018-07-16"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/magfest_dept_checklist/tech_requirements"
+    path: "/dept_checklist/tech_requirements"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2018-08-11"
