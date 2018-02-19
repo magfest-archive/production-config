@@ -1,0 +1,211 @@
+---
+classes:
+- roles::uber_server
+- uber::plugin_magstock
+
+uber::config::priority_plugins: "uber,"
+
+uber::config::numbered_badges: 'False'
+
+uber::config::event_name:     'MAGStock'
+uber::config::year: 8
+
+uber::config::event_venue: 'Small Country Campground'
+uber::config::event_venue_address: '4400 Byrd Mill Road, Louisa, VA 23093'
+uber::config::prereg_faq_url: 'http://super.magfest.org/magstockfaq/'
+
+uber::config::use_checkin_barcode: False
+
+uber::config::groups_enabled: 'False'
+uber::config::kiosk_cc_enabled: True
+
+uber::config::epoch: '2018-06-07 14'
+uber::config::eschaton: '2018-06-10 18'
+uber::config::prereg_open: '2018-03-01 15'
+uber::config::prereg_takedown: '2018-06-06'
+uber::config::placeholder_deadline: '2018-06-10'
+uber::config::shirt_deadline: '2018-05-25 18'
+uber::config::supporter_deadline: '2018-05-25 18'
+#uber::config::printed_badge_deadline: ''
+#uber::config::dealer_reg_start: ''
+uber::config::shifts_created: '2018-05-25'    # change to whatever date shifts were imported
+uber::config::uber_takedown: '2018-06-06'
+
+uber::config::max_badge_sales: 1000   # review this as we get closer to cap
+
+uber::config::at_the_con: False
+uber::config::post_con: True
+uber::config::send_emails: False
+
+uber::config::donation_tier:
+ No thanks: 0
+ Shirt: SHIRT_LEVEL
+ Supporter Package: SUPPORTER_LEVEL
+
+uber::config::badge_enums:
+        attendee_badge:         "Attendee"
+        staff_badge:            "Staff"
+        guest_badge:            "Guest"
+       # one_day_badge:          "One Day"
+       # Review at on-site meeting
+
+# prereg form UI options
+uber::config::donations_enabled: true
+
+uber::config::consent_form_url: ""
+
+uber::config::badge_types:
+  staff_badge:
+    range_start: 1
+    range_end: 99
+  supporter_badge:
+    range_start: 100
+    range_end: 299
+  attendee_badge:
+    range_start: 300
+    range_end: 650
+  one_day_badge:
+    range_start: 30000
+    range_end: 39999
+
+uber::config::preassigned_badge_types: ','
+
+uber::config::initial_attendee: 50    # badge price
+uber::config::one_days_enabled: false
+uber::config::badge_prices:
+  attendee:
+     '2018-05-29': 40
+     '2018-05-30': 50
+     '2018-06-01': 60
+     '2018-06-08': 70
+
+uber::config::job_interests:
+#  cat_herding: "Cat_herding" - Not being used as an option for general, to be assigned by Admin team
+  food: "Food"
+  misc: "General Support"
+  music: "Music"
+  registration: "Registration"
+  slip_slide: "Slip 'n Slide"
+  activities: "Events"
+
+uber::config::job_locations:
+  cat_herding: "Security"
+  food: "Food"
+  misc: "General Support"
+  music: "Concert Tent"
+  regdesk: ""
+  registration: "Registration"
+  slip_slide: "Slip 'n Slide"
+  activities: "Events"
+
+uber::config::event_locations:
+  concerts: "Concerts"
+  events: "Events"
+  slip-n-slide: "Slip -N- Slide"
+
+uber::plugin_magstock::noise_levels:
+  quiet:   "As quiet as possible at night"
+  conversational: "I can sleep when people talk"
+  normal:  "I can sleep through reasonable levels of noise"
+  noisy:   "While others sleep, I PARTY!"
+  WUAAAGAAAAHHH: "I can't get enough WUAAAGAAAHHH in my life"
+
+uber::plugin_magstock::shirt_colors:
+  no_shirt_color:     "No shirt"
+  black_shirt:  "Black Shirt"
+  white_shirt:  "White Shirt (for tie-dyeing later)"
+
+uber::plugin_magstock::site_types:
+  primitive:  "Primitive - NO ELECTRIC OR WATER (but you get a token of our appreciation)"
+  normal:     "Normal - has electric and water hookups"
+
+uber::plugin_magstock::camping_types:
+  small_tent:  "Small Tent (small footprint)"
+  medium_tent: "Medium Tent (around four people)"
+  large_tent:  "Large Tent (large and in charge)"
+  car:         "Car - I plan to sleep in my car at my site for an additonal fee."
+  rv:          "RV - I plan to sleep in an RV or something similar for an additonal fee."
+  special_site: "Special - I'm planning something that takes up a lot of space."
+  cabin:      "Cabin - I plan to sleep in a cabin or house provided by the campground."
+
+uber::plugin_magstock::coming_as_types:
+  tent_leader:    "I am the Tent Leader"
+  tent_follower:  "I'm not the one coordinating my group"
+  alone:          "I'm coming alone"
+  unknown:        "I don't know yet"
+
+# number of people allowed to buy meals.
+# this number does NOT include people who get free meals automatically like: staff badges, performers, and their +1s
+# the amount of meals we need to serve may end up ~40 higher than this number.
+uber::plugin_magstock::food_stock: 150
+uber::plugin_magstock::food_price: 25
+
+uber::config::supporter_stock: 50
+uber::config::supporter_level: 50
+
+uber::config::shirt_level: 20
+
+uber::config::extra_ribbon_types:
+  roughing_it: "Roughing It"
+
+uber::config::interest_list:
+  chilling:     'Chilling'
+  grilling:     'Grilling'
+  music:        'Music'
+  slip_slide:   'Slip n Slide'
+  lake:         'Lake'
+  video_games:  'Video Games'
+  moonbounce:   'Moonbounce'
+  activities:   'Activities'
+
+uber::config::volunteer_checklist:
+  2: 'signups/shifts_item.html'
+  3: ''   # need to leave blank for magstock to work - skip food allergies
+  4: ''   # need to leave blank for magstock to work - skip shirt sizes
+
+uber::config::dept_head_checklist:
+  creating_shifts:
+    deadline: "2018-06-6"
+    description: "The managment team is happy to assist you in creating shifts. Please let us know if you need assistance with this step."
+    path: "/jobs/index?department_id={department_id}"
+  assigned_volunteers:
+    name: "Volunteers Assigned to Your Department"
+    deadline: "2015-06-13"
+    description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
+    path: "/jobs/staffers?department_id={department_id}"
+  postcon_hours:
+    name: "(After the Event) Marking and Rating Shifts"
+    deadline: "2018-07-15"
+    description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
+    path: "/jobs/signups?department_id={department_id}"
+    email_post_con: True
+
+# unset panel rooms for magstock because magstock doesn't have any locations called "panels1", which causes errors
+uber::config::panel_rooms: ","   # empty list
+
+uber::config::hide_schedule: true
+
+uber::config::band_email:           'MAGStock Music Department <music@magstock.org>'
+uber::config::band_email_signature: '- MAGStock Music Department'
+
+uber::config::band_panel_deadline:      ''  # disabled for magstock
+uber::config::band_bio_deadline:        '2018-04-20 20'
+uber::config::band_info_deadline:  '2018-03-20 20'
+uber::config::band_taxes_deadline:         '2018-06-01 20'
+uber::config::band_merch_deadline:      '2018-06-01 20'
+uber::config::band_charity_deadline:    ''  # disabled for magstock
+uber::config::band_badges_deadline:      '2018-06-01 20'
+uber::config::band_stage_plot_deadline: '2018-04-01 20'
+
+uber::config::guest_panel_deadline: ''
+uber::config::guest_bio_deadline: '2018-04-20 20'
+uber::config::guest_taxes_deadline: '2018-06-01 20'
+uber::config::guest_merch_deadline: '2018-06-01 20'
+uber::config::guest_charity_deadline: '2018-03-20 20'
+uber::config::guest_autograph_deadline: '2018-03-20 20'
+uber::config::guest_interview_deadline: '2018-03-20 20'
+uber::config::guest_travel_plans_deadline: '2018-03-20 20'
+uber::config::guest_info_deadline: '2018-03-20 20'
+uber::config::guest_badges_deadline: '2018-06-01 20'
+
+uber::config::require_dedicated_guest_table_presence: false
