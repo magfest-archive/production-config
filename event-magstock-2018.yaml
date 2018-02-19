@@ -94,7 +94,6 @@ uber::config::job_locations:
   food: "Food"
   misc: "General Support"
   music: "Concert Tent"
-  regdesk: ""
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
   activities: "Events"
