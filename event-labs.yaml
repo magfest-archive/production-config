@@ -168,7 +168,6 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   mops: "Mediatron!"
   merch: "Merchandise"
-  regdesk: "Regdesk"
   rescuers: "Rescuers"
   security: "Security"
   staff_support: "Staff Support"
