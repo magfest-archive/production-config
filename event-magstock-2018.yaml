@@ -135,7 +135,7 @@ uber::plugin_magstock::food_price: 30
 
 uber::config::supporter_stock: 50
 uber::config::supporter_level: 50
-
+uber::config::season_level: 100  # We are using the SEASON_LEVEL variable for "Super Supporter"
 uber::config::shirt_level: 20
 
 uber::config::extra_ribbon_types:
