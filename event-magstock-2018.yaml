@@ -104,7 +104,7 @@ uber::plugin_magstock::noise_levels:
   noisy:   "While others sleep, I PARTY!"
 
 uber::plugin_magstock::shirt_colors:
-  no_shirt_color:  "No shirt"
+  no_shirt_color:  "No Shirt"
   black_shirt:  "Black Shirt"
   white_shirt:  "White Shirt (for tie-dyeing later)"
 
@@ -123,7 +123,7 @@ uber::plugin_magstock::camping_types:
 
 uber::plugin_magstock::coming_as_types:
   group_leader:    "I am the Group Leader"
-  group_follower:  "I'm not the one coordinating my group"
+  group_follower:  "I'm not the one coordinating my Group"
   alone:          "I'm coming alone"
   unknown:        "I don't know yet"
 
