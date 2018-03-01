@@ -42,7 +42,7 @@ uber::config::donation_tier:
  No thanks: 0
  Shirt: SHIRT_LEVEL
  Supporter Package: SUPPORTER_LEVEL
- Super Supporter: SUPERSUPPORTER_LEVEL
+ Super Supporter: SEASON_LEVEL
 
 uber::config::badge_enums:
         attendee_badge:         "Attendee"
@@ -86,9 +86,9 @@ uber::config::job_interests:
   activities: "Events"
 
 uber::config::job_locations:
-  security: "Security"
+  cat_herding: "Security"
   food: "Food"
-  general: "General Support"
+  misc: "General Support"
   music: "Concert Pavilion"
   registration: "Registration"
   activities: "Events"
@@ -122,8 +122,8 @@ uber::plugin_magstock::camping_types:
   cabin:      "Cabin - I plan to sleep in a cabin or house provided by the campground."
 
 uber::plugin_magstock::coming_as_types:
-  group_leader:    "I am the Group Leader"
-  group_follower:  "I'm not the one coordinating my Group"
+  tent_leader:    "I am the Group Leader"
+  tent_follower:  "I'm not the one coordinating my Group"
   alone:          "I'm coming alone"
   unknown:        "I don't know yet"
 
@@ -145,7 +145,7 @@ uber::config::interest_list:
   chilling:     'Chilling'
   grilling:     'Grilling'
   music:        'Music'
-  lake:         'Lake Swimm'n'
+  lake:         "Lake Swimm'n"
   video_games:  'Video Games'
   moonbounce:   'Moonbounce'
   activities:   'Activities'
