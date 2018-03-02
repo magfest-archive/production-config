@@ -116,8 +116,8 @@ uber::plugin_magstock::camping_types:
   small_tent:  "Small Tent (small footprint)"
   medium_tent: "Medium Tent (around four people)"
   large_tent:  "Large Tent (large and in charge)"
-  car:         "Car - I plan to sleep in my car at my site for an additonal fee."
-  rv:          "RV - I plan to sleep in an RV or something similar for an additonal fee."
+  car:         "Car - I plan to sleep in my car at my site for an additional fee."
+  rv:          "RV - I plan to sleep in an RV or something similar for an additional fee."
   special_site: "Special - I'm planning something that may take up a lot of space."
   cabin:      "Cabin - I plan to sleep in a cabin or house provided by the campground."
 
