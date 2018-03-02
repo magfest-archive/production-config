@@ -157,6 +157,8 @@ uber::config::interest_list:
   moonbounce:   'Moonbounce'
   activities:   'Activities'
 
+ber::config::hours_for_refund: 18
+
 uber::config::volunteer_checklist:
   2: 'signups/shifts_item.html'
   3: ''   # need to leave blank for magstock to work - skip food allergies
