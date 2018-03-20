@@ -159,6 +159,13 @@ uber::config::interest_list:
 
 uber::config::hours_for_refund: 18
 
+regdesk_email_signature = '''MAGStock Team'''
+stops_email_signature = '''MAGStock Team'''
+marketplace_email_signature = '''MAGStock Team'''
+peglegs_email_signature = '''MAGStock Team'''
+guest_email_signature = '''MAGStock Team'''
+
+
 uber::config::volunteer_checklist:
   2: 'signups/shifts_item.html'
   3: ''   # need to leave blank for magstock to work - skip food allergies
