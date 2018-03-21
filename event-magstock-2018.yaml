@@ -109,8 +109,8 @@ uber::plugin_magstock::shirt_colors:
   white_shirt:  "White Shirt (for tie-dyeing later)"
 
 uber::plugin_magstock::site_types:
-  primitive:  "Primitive - NO ELECTRIC OR WATER"
   normal:     "Normal - has electric and water hookups"
+  primitive:  "Primitive - NO ELECTRIC OR WATER"
 
 uber::plugin_magstock::camping_types:
   small_tent:  "Small Tent (small footprint)"
