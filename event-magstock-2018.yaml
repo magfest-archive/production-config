@@ -52,20 +52,20 @@ uber::config::donation_tier_descriptions:
     description: "No thanks"
     link: ""
   shirt:
-    name: "T-Shirt Bundle"
+    name: 'T-Shirt Bundle'
     icon: "../static/icons/iconshirt.png"
-    description: "Ribbon|T-Shirt"
-    link: "../static_views/ribbon.html|../static_views/tshirt.html"
+    description: 'T-Shirt'
+    link: '../static_views/tshirt.html'
   supporter_package:
-    name: "Supporter Package"
-    icon: '../static/icons/heart.png'
-    description: 'Cool Swag'
+    name: 'Supporter Package'
+    icon: '../static/icons/star.png'
+    description: 'Supporter Swag'
     link: '../static_views/supporter.html'
   super_supporter:
-    name: "Super Supporter"
-    icon: '../static/icons/heart.png'
-    description: 'Exclusive Swag'
-    link: '../static_views/supporter.html'
+    name: 'Pioneer Package'
+    icon: '../static/icons/wagon.png'
+    description: 'Crazy Exclusive Swag'
+    link: '../static_views/pioneer.html'
 
 uber::config::badge_enums:
         attendee_badge:         "Attendee"
