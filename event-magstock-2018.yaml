@@ -79,23 +79,28 @@ uber::config::badge_prices:
      '2018-06-01': 70
 
 uber::config::job_interests:
-  food: "Food"
-  misc: "General Support"
-  music: "Music"
+  general: "General Support"
   registration: "Registration"
-  activities: "Events"
+  food: "Food Prep"
+  events: "Events"
+  music: "Music Pavilion"
+  security: "Security"
 
 uber::config::job_locations:
-  cat_herding: "Security"
-  food: "Food"
-  misc: "General Support"
-  music: "Concert Pavilion"
+  general: "General Support"
   registration: "Registration"
-  activities: "Events"
+  food: "Food Prep"
+  events: "Events"
+  music: "Music Pavilion"
+  security: "Security"
 
 uber::config::event_locations:
-  concerts: "Concerts"
-  events: "Events"
+  pavilion: "Upper Pavilion"
+  concerts: "Concert Pavilion"
+  hillside: "Hillside"
+  lake: "Lakeside"
+  black: "Somewhere in Black"
+  techstock: "Techstock"
 
 uber::plugin_magstock::noise_levels:
   quiet:   "Away from the main drag"
