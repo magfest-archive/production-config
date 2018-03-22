@@ -177,8 +177,8 @@ uber::config::panel_rooms: ","   # empty list
 
 uber::config::hide_schedule: true
 
-uber::config::band_email:           'MAGStock Music Department <music@magstock.org>'
-uber::config::band_email_signature: '- MAGStock Music Department'
+uber::config::band_email:           'MAGStock Music <music@magstock.org>'
+uber::config::band_email_signature: 'MAGStock Music Department'
 
 uber::config::band_panel_deadline:      ''  # disabled for magstock
 uber::config::band_bio_deadline:  '2018-04-20 20'
