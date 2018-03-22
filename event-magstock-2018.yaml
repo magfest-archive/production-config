@@ -102,20 +102,20 @@ uber::config::badge_prices:
      '2018-06-01': 70
 
 uber::config::job_interests:
-  general: "General Support"
+  misc: "General Support"
   registration: "Registration"
   food: "Food Prep"
-  events: "Events"
+  activities: "Events"
   music: "Music Pavilion"
   security: "Security"
 
 uber::config::job_locations:
-  general: "General Support"
+  misc: "General Support"
   registration: "Registration"
   food: "Food Prep"
-  events: "Events"
+  activities: "Events"
   music: "Music Pavilion"
-  security: "Security"
+  cat_herding: "Security"
 
 uber::config::event_locations:
   pavilion: "Upper Pavilion"
