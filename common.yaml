@@ -16,11 +16,14 @@ uber::config::event_timezone: "US/Eastern"
 uber::config::contact_url: 'http://magfest.org/contact'
 uber::config::consent_form_url: ''
 uber::config::prereg_confirm_email_enabled: True
+uber::config::security_email: 'MAGFest Security <security@magfest.org>'
+uber::config::guest_email: 'MAGFest Guests <guests@magfest.org>'
 
 uber::nginx::onsite_uber_address: 'https://onsite.uber.magfest.org' # leave off trailing slash
 
 uber::config::kiosk_cc_enabled: True
 uber::config::attractions_enabled: False
+uber::config::separate_staff_merch: False
 
 uber::config::shirt_sizes:
   no shirt: 0
