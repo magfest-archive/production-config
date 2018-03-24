@@ -54,6 +54,8 @@ uber::config::donations_enabled: true
 
 uber::config::consent_form_url: ""
 
+uber::config::separate_staff_merch: False
+
 uber::config::badge_types:
   staff_badge:
     range_start: 1
@@ -164,6 +166,13 @@ uber::config::stops_sig: 'MAGStock Staffing Department'
 uber::config::marketplace_sig: 'MAGStock Marketplace Department'
 uber::config::peglegs_sig: 'MAGStock Events Department'
 uber::config::guest_sig: 'MAGStock Guest Department'
+
+uber::config::guest_email: 'MAGStock Guests <admin@magstock.org>'
+uber::config::security_email: 'MAGStock Security <security@magstock.org>'
+uber::config::panels_email: 'MAGStock Panels <admin@magstock.org>'
+uber::config::marketplace_email: 'MAGStock Marketplace <admin@magstock.org>'
+uber::config::staff_email: 'MAGStock Staffing <admin@magstock.org>'
+uber::config::regdesk_email: 'MAGStock Registration <admin@magstock.org>'
 
 uber::config::volunteer_checklist:
   2: 'signups/shifts_item.html'
