@@ -16,8 +16,10 @@ uber::config::prereg_faq_url: 'http://super.magfest.org/magstockfaq/'
 
 uber::config::use_checkin_barcode: False
 
-uber::config::groups_enabled: 'False'
+uber::config::groups_enabled: False
 uber::config::kiosk_cc_enabled: True
+uber::config::hotels_enabled: False
+uber::config::panels_enabled: False
 
 uber::config::epoch: '2017-06-08 14'
 uber::config::eschaton: '2017-06-11 18'
