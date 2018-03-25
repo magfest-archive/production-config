@@ -32,7 +32,7 @@ uber::config::code_of_conduct: 'http://super.magfest.org/codeofconduct'
 uber::config::event_venue: 'The Gaylord National Hotel and Convention Center'
 uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745'
 
-uber::config::use_checkin_barcode: True
+uber::config::use_checkin_barcode: 'True'
 uber::config::badge_promo_codes_enabled: True
 uber::config::only_prepay_at_door: False
 
