@@ -25,6 +25,11 @@ uber::config::kiosk_cc_enabled: True
 uber::config::attractions_enabled: False
 uber::config::separate_staff_merch: False
 
+uber::config::hotels_enabled: True
+uber::config::mits_enabled: False
+uber::config::mivs_enabled: False
+uber::config::panels_enabled: True
+
 uber::config::shirt_sizes:
   no shirt: 0
   small: 1
