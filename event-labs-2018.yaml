@@ -64,8 +64,8 @@ uber::config::donation_tier_descriptions:
   supporter_pack:
     name: "Supporter Pack"
     icon: "../static/icons/star.png"
-    description: "Upgraded electronic badge|Swag Bag"
-    link: "../static_views/badge.html|../static_views/swag_bag.html"
+    description: "Swag Bag|Lab-Inspired Drinking Vessel"
+    link: "../static_views/swag_bag.html"
   super_supporter:
     name: "Super Supporter"
     icon: "../static/icons/flask.png"
