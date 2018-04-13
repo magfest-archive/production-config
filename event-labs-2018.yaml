@@ -17,8 +17,8 @@ uber::config::group_discount: 5,
 uber::config::epoch: '2018-09-07 08'
 uber::config::eschaton: '2018-09-09 18'
 
-uber::config::prereg_open: '2018-03-09 11'
-uber::config::prereg_takedown: '2018-09-10'
+uber::config::prereg_open: '2018-04-13 11'
+uber::config::prereg_takedown: '2018-09-06'
 uber::config::group_prereg_takedown: '2018-08-25'
 uber::config::uber_takedown: '2018-09-10'
 
@@ -29,10 +29,10 @@ uber::config::shirt_deadline: '2018-08-10'
 uber::config::printed_badge_deadline: '2018-08-03'
 uber::config::shifts_created: '2018-07-11' # CHANGE to whatever date you import shifts
 
-uber::config::dealer_reg_start: '2018-07-01'          # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2018-07-15 03'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2018-07-20'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2018-08-15'        # dealers must pay by this date
+uber::config::dealer_reg_start: '2018-06-22'          # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: '2018-08-10'       # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2018-08-10'       # after this date, no new applications allowed
+uber::config::dealer_payment_due: '2018-08-17'        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000
 
@@ -65,7 +65,7 @@ uber::config::donation_tier_descriptions:
     name: "Supporter Pack"
     icon: "../static/icons/star.png"
     description: "Swag Bag|Lab-Inspired Drinking Vessel"
-    link: "../static_views/swag_bag.html"
+    link: "../static_views/swag_bag.html|../static_views/drink_ware.html"
   super_supporter:
     name: "Super Supporter"
     icon: "../static/icons/flask.png"
@@ -117,7 +117,7 @@ uber::config::badge_prices:
     Saturday: 35
     Sunday: 15
   attendee:
-    '2018-09-07': 60
+    '2018-09-07': 55
 
 uber::config::shift_custom_badges: False
 
@@ -273,7 +273,7 @@ uber::config::dept_head_checklist:
 uber::config::panel_rooms: "panels_1,panels_2,panels_3"
 uber::config::hide_schedule: True
 
-uber::config::panel_app_deadline: '2018-07-31 20'
+uber::config::panel_app_deadline: '2018-06-30'
 uber::config::expected_response: 'August 2018'
 
 uber::config::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
@@ -306,7 +306,7 @@ uber::config::require_dedicated_guest_table_presence: False
 uber::config::guest_merch_enums:
   no_merch:     "Not selling merch"
   own_table:    "Dedicated table"
-#   rock_island:  "Rock Island" # enable rock island
+  rock_island:  "Rock Island" # enable rock island
 
 uber::config::regdesk_sig: |
     - Elyse Krumbein,
@@ -314,11 +314,11 @@ uber::config::regdesk_sig: |
 
 uber::config::marketplace_email: "MAGFest Laboratories Marketplace <labs-marketplace@magfest.org>"
 uber::config::marketplace_sig: |
-    - Shane Borrelli,
+    - David Childress/Kat Huffman,
     MAGFest Laboratories Marketplace Coordinator
 
 uber::config::guest_sig: |
-    - C. Adam Bullock,
+    - Dustin East,
     MAGFest Guest Relations
 
 uber::config::panels_email: 'MAGLabs Panels <labs-panels@magfest.org>'
