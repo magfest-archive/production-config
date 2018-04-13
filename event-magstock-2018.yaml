@@ -98,7 +98,7 @@ uber::config::initial_attendee: 50    # badge price
 uber::config::one_days_enabled: false
 uber::config::badge_prices:
   attendee:
-     '2018-04-15': 60
+     '2018-04-18': 60
      '2018-06-01': 70
 
 uber::config::job_interests:
