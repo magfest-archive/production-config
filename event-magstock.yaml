@@ -161,7 +161,7 @@ uber::config::interest_list:
   moonbounce:   'Moonbounce'
   activities:   'Activities'
 
-uber::config::hours_for_refund: 18
+uber::config::hours_for_refund: 24
 
 uber::config::regdesk_sig: 'MAGStock Registration Department'
 uber::config::stops_sig: 'MAGStock Staffing Department'
