@@ -274,7 +274,7 @@ uber::config::panel_rooms: "panels_1,panels_2,panels_3"
 uber::config::hide_schedule: True
 
 uber::config::panel_app_deadline: '2018-06-30'
-uber::config::expected_response: 'August 2018'
+uber::config::expected_response: 'the beginning of August 2018'
 
 uber::config::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
 uber::config::band_email_signature: '- MAGLabs Music Department'
