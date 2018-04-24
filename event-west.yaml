@@ -20,6 +20,7 @@ uber::config::hotel_req_hours: 24
 uber::config::room_deadline: '2017-07-29'
 
 uber::config::groups_enabled: False
+uber::config::collect_extra_donation: True
 
 uber::config::event_name: 'MAGWest'
 uber::config::year: 2017
