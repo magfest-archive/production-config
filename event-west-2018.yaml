@@ -396,7 +396,7 @@ uber::config::guest_badges_deadline: '2018-08-05'
 
 uber::config::guest_merch_enums:
   no_merch:     "Not selling merch"
-  own_table:    "Dedicated table"
+  own_table:    "Selling merch"
   # rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
