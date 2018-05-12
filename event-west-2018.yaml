@@ -375,13 +375,13 @@ uber::config::band_email_signature: '- MAGWest Music Department'
 uber::config::auction_start:            '2018-08-12 11' # placeholder
 
 uber::config::band_panel_deadline: '2018-06-29'
-uber::config::band_bio_deadline: '2018-06-24'
+uber::config::band_bio_deadline: '2018-05-24'
 uber::config::band_info_deadline: '2018-06-24'
 uber::config::band_taxes_deadline: '2018-06-29'
 uber::config::band_merch_deadline: '2018-07-07'
 uber::config::band_charity_deadline: '2018-08-05'
 uber::config::band_badges_deadline: '2018-08-05'
-uber::config::band_stage_plot_deadline: '2018-07-03'
+uber::config::band_stage_plot_deadline: '2018-06-01'
 
 uber::config::guest_panel_deadline: '2018-06-29'
 uber::config::guest_bio_deadline: '2018-06-24'
