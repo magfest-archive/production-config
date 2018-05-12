@@ -159,6 +159,7 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   mops: "Mediatron!"
   merch: "Merchandise"
+  rock_island: "Rock Island"
   rescuers: "Rescuers"
   security: "Security"
   staff_support: "Staff Support"
