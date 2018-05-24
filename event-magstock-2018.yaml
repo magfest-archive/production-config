@@ -156,9 +156,8 @@ uber::plugin_magstock::coming_as_types:
   unknown:        "I don't know yet"
 
 # number of people allowed to buy meals.
-# this number does NOT include people who get free meals automatically like: staff badges, performers, and their +1s
-# the amount of meals we need to serve may end up ~40 higher than this number.
-uber::plugin_magstock::food_stock: 103
+# this number DOES include people who get free meals automatically like: staff badges, performers, and their +1s
+uber::plugin_magstock::food_stock: 125
 uber::plugin_magstock::food_price: 30
 
 uber::config::supporter_stock: 50
