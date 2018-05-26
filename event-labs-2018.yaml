@@ -10,6 +10,7 @@ uber::config::prereg_faq_url: 'https://labs.magfest.org/frequently-asked-questio
 
 uber::config::use_checkin_barcode: True
 uber::config::collect_extra_donation: True
+uber::config::badge_promo_codes_enabled: True
 
 uber::config::groups_enabled: True
 uber::config::group_discount: 5,
