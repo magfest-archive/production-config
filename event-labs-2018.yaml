@@ -222,41 +222,41 @@ uber::config::dept_head_checklist:
   creating_shifts:
     deadline: "2018-07-11"
     description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from MAGClassic.  Please let us know if you need assistance with this step or what changes you have."
-    path: "/jobs/index?location={department}"
+    path: "/jobs/index?department_id={department_id}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
     deadline: "2018-07-16"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
-    path: "/jobs/staffers?location={department}"
+    path: "/jobs/staffers?department_id={department_id}"
   treasury:
     name: "MPoint Needs"
     deadline: "2018-08-29"
     description: "Tell us whether you need any mpoints for your department."
-    path: "/dept_checklist/treasury"
+    path: "/dept_checklist/treasury?department_id={department_id}"
   allotments:
     name: "Treasury Information"
     deadline: "2018-07-26"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
-    path: "/dept_checklist/allotments"
+    path: "/dept_checklist/allotments?department_id={department_id}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
     deadline: "2018-07-21"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
-    path: "/hotel/index?department={department}"
+    path: "/hotel/index?department_id={department_id}"
   tech_requirements:
     deadline: "2018-07-16"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/dept_checklist/tech_requirements"
+    path: "/dept_checklist/tech_requirements?department_id={department_id}"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2018-08-11"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
-    path: "/hotel/requests?department={department}"
+    path: "/hotel/requests?department_id={department_id}"
   placeholders:
     name: "Checking Placeholder Registrations"
     deadline: "2018-08-11"
     description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
-    path: "/registration/placeholders?department={department}"
+    path: "/registration/placeholders?department_id={department_id}"
   printed_signs:
     deadline: "2018-08-15"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
@@ -267,7 +267,7 @@ uber::config::dept_head_checklist:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2018-09-20"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
-    path: "/jobs/signups?location=59983785"
+    path: "/jobs/signups?department_id=59983785"
     email_post_con: True
 
 # entries here must also exist in event_locations
