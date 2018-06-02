@@ -311,9 +311,9 @@ uber::config::require_dedicated_guest_table_presence: False
 uber::config::rock_island_groups: "band,"  # enable rock island for bands
 
 uber::config::guest_merch_enums:
-  no_merch:     "Neither Rock Island nor Marketplace; a table during my performance is all I need"
-  own_table:    "A table in the Marketplace at a reduced rate of $30"
   rock_island:  "I'll use the Rock Island services provided by Labs"  # enable rock island
+  own_table:    "A table in the Marketplace at a reduced rate of $30"
+  no_merch:     "Neither Rock Island nor Marketplace; a table during my performance is all I need"
 
 uber::config::regdesk_sig: |
     - Elyse Krumbein,
