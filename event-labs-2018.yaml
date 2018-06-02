@@ -306,6 +306,7 @@ uber::config::guest_info_deadline: '2018-06-25 08'
 uber::config::guest_badges_deadline: '2018-08-10 08'
 
 uber::config::require_dedicated_guest_table_presence: False
+uber::config::rock_island_groups: "band,"
 
 uber::config::guest_merch_enums:
   no_merch:     "Not selling merch"
