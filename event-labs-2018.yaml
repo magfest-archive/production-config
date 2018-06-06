@@ -299,7 +299,7 @@ uber::config::guest_bio_deadline: '2018-07-01 08'
 uber::config::guest_taxes_deadline: '2018-07-25 08'
 uber::config::guest_merch_deadline: '2018-07-22 08'
 uber::config::guest_charity_deadline: '2018-08-24 08'
-uber::config::guest_autograph_deadline: '2018-08-24 08'
+uber::config::guest_autograph_deadline: ''
 uber::config::guest_interview_deadline: '2018-08-24 08'
 uber::config::guest_travel_plans_deadline: '2018-08-24 08'
 uber::config::guest_info_deadline: '2018-06-25 08'
@@ -308,7 +308,7 @@ uber::config::guest_badges_deadline: '2018-08-10 08'
 uber::config::rock_island_deadline: '2018-08-20 08'
 
 uber::config::require_dedicated_guest_table_presence: False
-uber::config::rock_island_groups: "band,"  # enable rock island for bands
+uber::config::rock_island_groups: "band,guest"  # enable rock island for bands and guests
 
 uber::config::guest_merch_enums:
   rock_island:  "I'll use the Rock Island services provided by Labs"  # enable rock island
