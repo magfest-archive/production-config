@@ -29,7 +29,9 @@ uber::config::event_venue_address: '5101 Great America Pkwy, Santa Clara, CA 950
 uber::config::event_timezone: 'US/Pacific'
 uber::config::prereg_faq_url: 'http://magwest.org/faq'
 
-uber::config::guest_sig: ' - Ashley Watts,\nMAGWest Guest Coordinator'
+uber::config::guest_sig: |
+    - Ashley Watts,
+    MAGWest Guest Coordinator
 
 uber::config::use_checkin_barcode: 'True'
 uber::config::badge_promo_codes_enabled: True
