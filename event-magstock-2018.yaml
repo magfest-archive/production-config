@@ -33,7 +33,7 @@ uber::config::uber_takedown: '2018-06-06'
 
 uber::config::max_badge_sales: 600
 
-uber::config::at_the_con: False
+uber::config::at_the_con: True
 uber::config::post_con: False
 uber::config::send_emails: True
 uber::config::send_sms: False
