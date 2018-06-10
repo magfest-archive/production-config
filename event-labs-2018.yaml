@@ -4,7 +4,7 @@
 uber::config::event_name: 'MAGFest Laboratories'
 uber::config::year: 2018
 
-uber::config::event_venue: 'The Hilton Alexandria Mark Center'
+uber::config::event_venue: 'Hilton Alexandria Mark Center'
 uber::config::event_venue_address: '5000 Seminary Rd, Alexandria, VA 22311'
 uber::config::prereg_faq_url: 'https://labs.magfest.org/frequently-asked-questions'
 
