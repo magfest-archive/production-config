@@ -67,6 +67,9 @@ uber::config::at_the_con: False
 uber::config::post_con: True
 uber::config::send_emails: False
 
+uber::config::guest_email: 'MAGWest Guests Department <guests@magwest.org>'
+uber::config::guest_sig: '- MAGWest Guests Department'
+
 uber::config::donation_tier:
   No thanks: 0
   T-Shirt Bundle: SHIRT_LEVEL

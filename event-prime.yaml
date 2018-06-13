@@ -87,6 +87,9 @@ uber::config::badge_price_waived: '2018-01-07 12'
 uber::config::max_badge_sales: 22250
 
 uber::config::hide_schedule: false
+uber::config::panel_rooms: "panels_1,panels_2,panels_3,panels_4"
+uber::config::tabletop_locations: "tabletop_tournaments,tabletop_tournaments_2,tabletop_indie"
+uber::config::music_rooms: "concerts,chiptunes,pose_lounge,lobby_bar,jamspace,jam_clinic"
 
 uber::config::panel_app_deadline: '2017-10-31'
 uber::config::expected_response: 'December 2017'
