@@ -41,7 +41,7 @@ uber::config::at_the_con: False   # WHEN SETTING THIS FROM TRUE TO FALSE, MAKE S
 uber::config::post_con: False
 uber::config::send_emails: True
 uber::config::send_sms: False
-uber::config::enable_pending_emails_report: False
+uber::config::enable_pending_emails_report: True
 uber::config::redirect_all_traffic_onsite: False
 
 uber::config::out_of_shirts: False
