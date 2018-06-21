@@ -314,12 +314,12 @@ uber::config::techops_dept_checklist_form_url:    "https://docs.google.com/forms
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2018-05-25"
+    deadline: "2018-06-29"
     description: "We have the ability to import shifts from MAGWest 2017 to MAGWest 2018, if you are only making minor changes and want assistance with this step, please let us know"
     path: "/jobs/index?department_id={department_id}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2018-06-01"
+    deadline: "2018-07-01"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?department_id={department_id}"
   treasury:
@@ -329,7 +329,7 @@ uber::config::dept_head_checklist:
     path: "/dept_checklist/treasury?department_id={department_id}"
   allotments:
     name: "Treasury Information"
-    deadline: "2017-07-18"
+    deadline: "2017-07-07"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/dept_checklist/allotments?department_id={department_id}"
   approve_setup_teardown:
@@ -339,7 +339,7 @@ uber::config::dept_head_checklist:
     path: "/hotel/requests?department_id={department_id}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2018-07-09"
+    deadline: "2018-07-05"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department_id={department_id}"
   printed_signs:
@@ -348,9 +348,6 @@ uber::config::dept_head_checklist:
   office_supplies:
     deadline: "2018-07-09"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
-  custom_ribbons:
-    deadline: "2018-07-09"
-    description: "Besides the ribbons given out at registration, you may need your own ribbon type to help manage access to certain restricted areas. If so, please let us know what they should say, how many you'll need, and what color you'd like them to be. These ribbons will be given to you at the beginning of MAGFest to distribute to whoever needs them.  (Note: Small orders of ribbons are very expensive - please request a ribbon type only if you need it, and tell us why you need it so we can make sure there's no duplication between departments.)"
   placeholders:
     name: "Checking Placeholder Registrations"
     deadline: "2018-07-08"
