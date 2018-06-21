@@ -329,7 +329,7 @@ uber::config::dept_head_checklist:
     path: "/dept_checklist/treasury?department_id={department_id}"
   allotments:
     name: "Treasury Information"
-    deadline: "2017-07-07"
+    deadline: "2018-07-07"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/dept_checklist/allotments?department_id={department_id}"
   approve_setup_teardown:
