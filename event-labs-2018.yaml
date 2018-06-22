@@ -314,8 +314,8 @@ uber::config::rock_island_groups: "band,guest"  # enable rock island for bands a
 
 uber::config::guest_merch_enums:
   rock_island:  "I'll use the Rock Island services provided by Labs"  # enable rock island
-  own_table:    "A table in the Marketplace at a reduced rate of $30"
-  no_merch:     "Neither Rock Island nor Marketplace; a table during my performance is all I need"
+  own_table:    "I'll staff a table in the Marketplace"
+  no_merch:     "I won't be selling merch throughout the festival"
 
 uber::config::regdesk_sig: |
     - Elyse Krumbein,
