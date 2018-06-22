@@ -285,7 +285,7 @@ uber::config::band_email_signature: '- MAGLabs Music Department'
 uber::config::default_loadin_minutes: 30
 uber::config::default_performance_minutes: 60
 
-uber::config::auction_start: '2018-09-03 11'
+uber::config::auction_start: '2018-09-09 12'
 
 uber::config::band_panel_deadline: '2018-08-01 08'
 uber::config::band_bio_deadline: '2018-07-01 08'
