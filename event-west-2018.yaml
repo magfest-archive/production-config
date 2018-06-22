@@ -73,6 +73,7 @@ uber::config::at_the_con: False
 uber::config::post_con: False
 uber::config::send_emails: False
 uber::config::enable_pending_emails_report: True
+uber::config::mivs_enabled: True
 
 uber::config::donation_tier:
   No thanks: 0
@@ -407,11 +408,11 @@ uber::config::guest_merch_enums:
   # rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
-uber::config::mivs_round_one_deadline:    "2018-04-10"
-uber::config::mivs_round_two_start:       "2018-04-11"
-uber::config::mivs_round_two_deadline:    "2018-05-10"
-uber::config::mivs_judging_deadline:      "2018-05-28"
-uber::config::mivs_round_two_complete:    "2018-05-28"
+uber::config::mivs_round_one_deadline:    "2018-07-07"
+uber::config::mivs_round_two_start:       "2018-07-08"
+uber::config::mivs_round_two_deadline:    "2018-07-18"
+uber::config::mivs_judging_deadline:      "2018-07-28"
+uber::config::mivs_round_two_complete:    "2018-07-28"
 uber::config::mivs_confirm_deadline: 14
 uber::config::mivs_start_year: 2018
 uber::config::mivs_submission_grace_period: 10
