@@ -1,7 +1,7 @@
 ---
 
 # event settings
-uber::config::event_name: 'MAGFest Laboratories'
+uber::config::event_name: 'MAGLabs'
 uber::config::year: 2018
 
 uber::config::event_venue: 'Hilton Alexandria Mark Center'
