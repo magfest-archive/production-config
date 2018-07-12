@@ -408,11 +408,12 @@ uber::config::guest_merch_enums:
   # rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
 
 
-uber::config::mivs_round_one_deadline:    "2018-07-07"
-uber::config::mivs_round_two_start:       "2018-07-08"
-uber::config::mivs_round_two_deadline:    "2018-07-18"
-uber::config::mivs_judging_deadline:      "2018-07-28"
-uber::config::mivs_round_two_complete:    "2018-07-28"
+uber::config::mivs_round_one_deadline:    "2018-08-01 12"   # Noon, Aug 1
+uber::config::mivs_video_response_expected: "by August 1st"
+uber::config::mivs_round_two_start:       "2018-08-01"      # Midnight, Aug 1
+uber::config::mivs_round_two_deadline:    "2018-08-08"      # Midnight, Aug 8
+uber::config::mivs_judging_deadline:      "2018-08-09 12"   # Noon, Aug 9
+uber::config::mivs_round_two_complete:    "2018-08-09"      # Midnight, Aug 9
 uber::config::mivs_confirm_deadline: 14
 uber::config::mivs_start_year: 2018
-uber::config::mivs_submission_grace_period: 10
+uber::config::mivs_submission_grace_period: 1
