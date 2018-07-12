@@ -412,7 +412,7 @@ uber::config::mivs_round_one_deadline:    "2018-08-01 12"   # Noon, Aug 1
 uber::config::mivs_video_response_expected: "by August 8th"
 uber::config::mivs_round_two_start:       "2018-08-01"      # Midnight, Aug 1
 uber::config::mivs_round_two_deadline:    "2018-08-08"      # Midnight, Aug 8
-uber::config::mivs_judging_deadline:      "2018-08-09 12"   # Noon, Aug 9
+uber::config::mivs_judging_deadline:      "2018-08-09 23"   # 11pm, Aug 9
 uber::config::mivs_round_two_complete:    "2018-08-09"      # Midnight, Aug 9
 uber::config::mivs_confirm_deadline: 14
 uber::config::mivs_start_year: 2018
