@@ -126,7 +126,7 @@ uber::config::extra_ribbon_types:
 uber::config::badge_types:
   staff_badge:
     range_start: 13
-    range_end: 313
+    range_end: 339
   guest_badge:
     range_start: 420
     range_end: 1420
