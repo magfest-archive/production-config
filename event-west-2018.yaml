@@ -128,17 +128,17 @@ uber::config::badge_types:
     range_start: 13
     range_end: 313
   guest_badge:
-    range_start: 314
-    range_end: 419
+    range_start: 420
+    range_end: 1420
   attendee_badge:
     range_start: 420
-    range_end:  2420
+    range_end:  1420
   one_day_badge:
     range_start: 2421
     range_end: 3299
   child_badge:
-    range_start: 3300
-    range_end: 3600
+    range_start: 420
+    range_end: 1420
 
 uber::config::initial_attendee: 70    # badge price
 uber::config::dealer_badge_price: 35
