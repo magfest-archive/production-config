@@ -303,6 +303,7 @@ uber::config::event_locations:
   tabletop_ccg: "Tabletop CCG (Unknown)"
   concerts: "Concerts (Convention Ballroom)"
   jamspace: "Jam Space (Cypress)"
+  chipspace: "Chipspace (Lafayette)"
 
 uber::config::volunteer_checklist:
   3: ''
