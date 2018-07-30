@@ -33,7 +33,7 @@ uber::config::uber_takedown: '2017-09-01'
 
 uber::config::placeholder_deadline: '2017-08-28'
 uber::config::supporter_deadline: '2017-08-05'
-uber::config::room_deadline: '2017-07-28'
+uber::config::room_deadline: '2017-08-05'
 uber::config::shirt_deadline: '2017-08-11'
 uber::config::printed_badge_deadline: '2017-08-05'
 uber::config::shifts_created: '2017-07-11' # CHANGE to whatever date you import shifts
