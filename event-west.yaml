@@ -284,6 +284,9 @@ uber::config::interest_list:
   tabletop: "Tabletop Games"
   dealers: "Dealers"
   tournaments: "Tournaments"
+  
+uber::config::panel_rooms: "panels_1,panels_2"
+uber::config::music_rooms: "concerts,jamspace"
 
 #Event Locations needs to updated once layout is finalized.
 uber::config::event_locations:
