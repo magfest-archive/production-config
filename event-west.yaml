@@ -308,8 +308,7 @@ uber::config::event_locations:
 uber::config::volunteer_checklist:
   3: ''
   4: 'hotel_requests/hotel_item.html'
-  5: ''
-  99: 'signups/shifts_item.html'
+  5: 'signups/volunteer_agreement_item.html'
 
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
 uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
