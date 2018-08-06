@@ -310,7 +310,8 @@ uber::config::event_locations:
 uber::config::volunteer_checklist:
   3: ''
   4: 'hotel_requests/hotel_item.html'
-  5: 'signups/shifts_item.html'
+  5: ''
+  99: 'signups/shifts_item.html'
 
 # TODO: Verify that both of these are correct for MAGWest 2018
 uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
