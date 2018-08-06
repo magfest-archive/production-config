@@ -17,6 +17,8 @@ uber::config::priority_plugins: "uber,"
 
 uber::config::hotel_req_hours: 24
 
+uber::config::volunteer_agreement_enabled: true
+
 uber::config::room_deadline: '2018-07-14'
 
 uber::config::groups_enabled: False
