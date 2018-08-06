@@ -220,8 +220,6 @@ uber::config::hotel_req_hours: 24
 uber::config::volunteer_checklist:
   3: ''
   4: 'hotel_requests/hotel_item.html'
-  5: ''
-  99: 'signups/shifts_item.html'
 
 # TODO: changeme: these are last year's forms
 uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1h8tkHJ5JjH7T0fwLnK-5-DifuEHBm4Wzkf20uonPUhA/edit#gid=316806961"
