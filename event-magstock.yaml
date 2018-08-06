@@ -177,9 +177,10 @@ uber::config::staff_email: 'MAGStock Staffing <admin@magstock.org>'
 uber::config::regdesk_email: 'MAGStock Registration <admin@magstock.org>'
 
 uber::config::volunteer_checklist:
-  2: 'signups/shifts_item.html'
+  2: ''
   3: ''   # need to leave blank for magstock to work - skip food allergies
   4: ''   # need to leave blank for magstock to work - skip shirt sizes
+  99: 'signups/shifts_item.html'
 
 uber::config::dept_head_checklist:
   creating_shifts:
