@@ -291,21 +291,16 @@ uber::config::interest_list:
 
 #Event Locations needs to updated once layout is finalized.
 uber::config::event_locations:
-  panels_1: "Panels 1 (Santa Clara Ballroom)"
-  panels_2: "Panels 2 (Santa Clara Ballroom)"
-  console_stage: "Arena (Grand Ballroom D)"
-  console_tournament: "Console (Gameroom Tournaments)"
-  console_attendee: "Console (Attendee Tournaments)"
+  panels_1: "Panels 1 (Grand Ballroom D)"
+  panels_2: "Panels 2 (Grand Ballroom A)"
   arcade_tournaments_1: "Arcade (Tournaments 1)"
   arcade_tournaments_2: "Arcade (Tournaments 2)"
-  lan_1: "LAN 1"
-  lan_2: "LAN 2"
-  lan_3: "LAN 3"
-  tabletop_tournaments: "Tabletop (Tournaments)"
-  tabletop_ccg: "Tabletop CCG (Unknown)"
-  concerts: "Concerts (Convention Ballroom)"
+  concerts: "Concerts (Grand Ballroom E-H)"
   jamspace: "Jam Space (Cypress)"
   chipspace: "Chipspace (Lafayette)"
+  console_tournament: "Consoles (Tournaments)"
+  console_attendee: "Consoles (Attendee Tournaments)"
+  tabletop_tournaments: "Tabletop (2nd Floor Mezzanine)"
 
 uber::config::volunteer_checklist:
   3: ''
