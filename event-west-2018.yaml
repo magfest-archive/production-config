@@ -25,6 +25,7 @@ uber::config::groups_enabled: False
 
 uber::config::event_name: 'MAGWest'
 uber::config::year: 2018
+uber::config::code_of_conduct: 'http://magwest.org/codeofconduct'
 
 uber::config::event_venue: 'The Hyatt Regency Santa Clara'
 uber::config::event_venue_address: '5101 Great America Pkwy, Santa Clara, CA 95054'
