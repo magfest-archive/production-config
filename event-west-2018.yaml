@@ -73,7 +73,7 @@ uber::config::panel_app_deadline: '2018-07-03'
 uber::config::expected_response: 'July 2018'
 
 uber::config::at_the_con: False
-uber::config::post_con: False
+uber::config::post_con: True
 uber::config::send_emails: False
 uber::config::enable_pending_emails_report: True
 uber::config::mivs_enabled: True
