@@ -322,7 +322,7 @@ uber::config::regdesk_sig: |
 
 uber::config::marketplace_email: "MAGFest Laboratories Marketplace <labs-marketplace@magfest.org>"
 uber::config::marketplace_sig: |
-    - David Childress/Kat Huffman,
+    - Kat Huffman,
     MAGFest Laboratories Marketplace Coordinator
 
 uber::config::guest_sig: |
