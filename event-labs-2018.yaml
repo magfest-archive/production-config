@@ -193,6 +193,7 @@ uber::config::event_locations:
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
   makerspace: "Makerspace Workshops"
+  makerspace_2: "Makers 2"
 
 uber::config::shirt_level: 20
 uber::config::supporter_level: 70
