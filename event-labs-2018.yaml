@@ -183,6 +183,7 @@ uber::config::event_locations:
   concerts: "Concerts"
   console: "Console Room"
   horizons: "Escape Room"
+  jamspace: "Jamspace"
   lan_1: "LAN Free Play"
   lan_2: "LAN Tournaments"
   outdoors: "Outdoor Events"
