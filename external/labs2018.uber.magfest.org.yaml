@@ -18,7 +18,7 @@
 
 uber::nginx::redirect_all_traffic_onsite: False
 
-uber::config::at_the_con: False
+uber::config::at_the_con: True
 uber::config::post_con: False
 
 uber::config::send_emails: True
