@@ -275,7 +275,7 @@ uber::config::dept_head_checklist:
 
 # entries here must also exist in event_locations
 uber::config::panel_rooms: "panels_1,panels_2,panels_3"
-uber::config::hide_schedule: True
+uber::config::hide_schedule: False
 
 uber::config::panel_app_deadline: '2018-08-01 08'
 uber::config::expected_response: 'the beginning of August 2018'
