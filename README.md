@@ -1,3 +1,7 @@
+# THIS REPOSITORY IS ARCHIVED
+
+For current Reggie configuration, see https://github.com/magfest/infrastructure
+
 # Magfest-specific ubersystem production configuration
 If you're trying to do an install for the first time, please ignore this repo and follow the instructions here: https://github.com/magfest/simple-rams-deploy
 
