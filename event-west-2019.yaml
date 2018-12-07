@@ -1,0 +1,431 @@
+---
+# MagWest event-specific settings
+
+classes:
+- roles::uber_server
+
+uber::plugins::extra_plugins:
+  magwest:
+    git_repo: 'https://github.com/magfest/magwest'
+    git_branch: 'master'
+
+# optimizations designed for handling the heaviest load, use for magprime prereg launch flood.
+# disable after the first launch is done.
+uber::config::hardcore_optimizations_enabled: 'False'
+
+uber::config::priority_plugins: "uber,"
+
+uber::config::hotel_req_hours: 24
+
+uber::config::volunteer_agreement_enabled: true
+
+uber::config::room_deadline: '2019-07-14'
+
+uber::config::groups_enabled: False
+
+uber::config::event_name: 'MAGWest'
+uber::config::year: 2019
+uber::config::code_of_conduct: 'http://magwest.org/codeofconduct'
+
+uber::config::event_venue: 'The Hyatt Regency Santa Clara'
+uber::config::event_venue_address: '5101 Great America Pkwy, Santa Clara, CA 95054'
+uber::config::event_timezone: 'US/Pacific'
+uber::config::prereg_faq_url: 'http://magwest.org/faq'
+
+uber::config::guest_sig: |
+    - Ashley Watts,
+    MAGWest Guest Coordinator
+
+uber::config::stops_sig: |
+    Thank You,
+    Staff Operations, West: MAGFest Inc.
+    https://magwest.org
+
+uber::config::use_checkin_barcode: 'True'
+uber::config::badge_promo_codes_enabled: True
+
+uber::config::epoch: '2019-08-10 08'
+uber::config::eschaton: '2019-08-12 18'
+
+uber::config::hide_prereg_open_date: 'True'
+uber::config::prereg_open: '2019-08-20 8'
+uber::config::prereg_takedown: '2019-08-09'
+uber::config::group_prereg_takedown: '2019-08-08'
+uber::config::uber_takedown: '2019-08-08'
+
+uber::config::placeholder_deadline: '2019-06-20'
+uber::config::supporter_deadline: '2019-07-27 18'
+uber::config::shirt_deadline: '2019-07-27 18'
+uber::config::printed_badge_deadline: '2019-07-10'
+
+uber::config::shifts_created: '2016-06-01'   # TODO: set this once we import, if we do.
+
+uber::config::dealer_reg_start: ''       # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: ''    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: ''       # after this date, no new applications allowed
+uber::config::dealer_payment_due: ''        # dealers must pay by this date
+
+uber::config::max_badge_sales: 250   # set low for starters, bump up as needed
+
+uber::config::hide_schedule: 'True'
+
+uber::config::panel_app_deadline: '2019-07-03'
+uber::config::expected_response: 'July 2019'
+
+uber::config::at_the_con: False
+uber::config::post_con: False
+uber::config::send_emails: True
+uber::config::enable_pending_emails_report: True
+uber::config::mivs_enabled: True
+
+uber::config::donation_tier:
+  No thanks: 0
+  Donating For A T-Shirt: SHIRT_LEVEL
+  Donating For Something Cool: SUPPORTER_LEVEL
+  Donating For Faith In The Cause: 420
+  Donating For Tax Credits: 1000
+  Donating For A Suspicious Amount Of Tax Credits: 6969
+
+# everything in here must match the "name" of something from donation_tier
+uber::config::donation_tier_descriptions:
+  no_thanks:
+    name: "No thanks"
+    icon: ""
+    description: "No thanks"
+    link: ""
+  donating_for_a_tshirt:
+    name: "Donating For A T-Shirt"
+    icon: "../static/icons/iconshirt.png"
+    description: "T-Shirt"
+    link: "../static_views/ribbon.html|../static_views/tshirt.html"
+  donating_for_something_cool:
+    name: "Donating For Something Cool"
+    icon: '../static/icons/heart.png'
+    description: 'T-Shirt and an item arbitrarily deemed cool. Maybe some other stuff.'
+    link: '../static_views/senpai.html'
+  donating_for_faith_in_the_cause:
+    name: "Donating For Faith In The Cause"
+    icon: '../static/icons/heart.png'
+    description: 'T-Shirt, the item arbitrarily deemed cool, that other stuff, and what will be your new bible.'
+    link: '../static_views/senpai.html'
+  donating_for_tax_credits:
+    name: "Donating For Tax Credits"
+    icon: '../static/icons/heart.png'
+    description: 'T-Shirt, the item arbitrarily deemed cool, that other stuff, your new bible, and whatever we can get people to donate for this kick-in.'
+    link: '../static_views/senpai.html'
+  donating_for_a_suspicious_amount_of_tax_credits:
+    name: "Donating For A Suspicious Amount Of Tax Credits"
+    icon: '../static/icons/heart.png'
+    description: 'Donate for this ridiculous amount of money and receive the t-shirt, the item arbitrarily deemed cool, that other stuff, your new bible, whatever people donate, and an open invite to deal with all the chaos behind the scenes.'
+    link: '../static_views/senpai.html'
+
+uber::config::badge_enums:
+  attendee_badge:         "Attendee"
+  child_badge:            "Minor"
+  staff_badge:            "Staff"
+  guest_badge:            "Guest"
+  one_day_badge:          "One Day"
+
+uber::config::badge_stocks:
+  friday: 300
+  saturday: 500
+  sunday: 100
+
+# prereg form UI options
+uber::config::donations_enabled: true
+
+uber::config::extra_ribbon_types:
+  band: "RockStar"
+  under_13: "Under 13"
+  guest: "Guest" # Follow up with Rob on ribbon types coming from where
+
+uber::config::badge_types:
+  staff_badge:
+    range_start: 13
+    range_end: 339
+  guest_badge:
+    range_start: 420
+    range_end: 1420
+  attendee_badge:
+    range_start: 420
+    range_end:  1420
+  one_day_badge:
+    range_start: 2421
+    range_end: 3299
+  child_badge:
+    range_start: 420
+    range_end: 1420
+
+uber::config::initial_attendee: 70    # badge price
+uber::config::dealer_badge_price: 35
+uber::config::max_dealers: 10  # max # of dealer badges they can select to buy
+uber::config::default_table_price: 150
+
+uber::config::table_prices:
+  1: 100
+  2: 150
+  3: 200
+  4: 250
+
+uber::config::badge_prices:
+  single_day:
+    Friday: 45
+    Saturday: 50
+    Sunday: 25
+
+  attendee:
+    '2019-08-09': 80
+    #4000: 55
+    #5000: 60
+    #6000: 65
+    #7000: 70
+    #9000: 75
+    #11000: 80
+
+uber::config::shift_custom_badges: true
+
+uber::config::job_interests:
+  anything: "Anything"
+  arcade: "Arcade"
+#  challenges: "Challenges Booth"
+  charity: "Charity"
+  chipspace: "Chipspace"
+  concert: "Main Theater Operations"
+  console: "Consoles"
+#  film_fest: "Film Festival"
+  indie_games: "Indie Showcase"
+#  shedspace: "Jam Clinic"
+  jamspace: "Jam Space"
+  lan: "LAN"
+#  larp: "LARP"
+#  museum: "Museum"
+  panels: "Panels"
+  regdesk: "Regdesk"
+  security: "Security"
+#  food_prep: "Staff Suite"
+  staff_support: "Staff Support"
+  tabletop: "Tabletop"
+  tech_ops: "Tech Ops"
+  tea_room: "Tea Room"
+  other: "Other"
+
+uber::config::job_locations:
+  console: "Consoles"
+  arcade: "Arcade"
+#  arcade_crew: "Arcade_Crew"
+  attendee_service: "Attendee Services"
+#  autographs: "Autographs"
+#  challenges: "Challenges"
+  charity: "Charity"
+  chipspace: "Chipspace"
+  concert_ops: "Main Theater Operations" #includes stage hands and concert security
+#  concert_tech: "Main Theater Tech"
+  con_ops: "Fest Ops"
+#  dispatch: "Dispatch"
+  dorsai: "FLARE"
+#  escape_room: "Escape Room"
+  panels: "Panels and Events"
+#  grand_championship: "MAGFest Grand Championship"
+#  food_prep: "Staff Suite"
+#  film_fest: "Games on Film"
+  indie_games: "Indie Games"
+  jamspace: "Jam Space"
+  lan: "LAN"
+#  larp: "LARP"
+  loadin: "Logistics"
+  loudr: "Rock Island"
+#  mages: "MAGES"
+  marketplace: "Marketplace"
+  merch: "Merchandise"
+#  merch_contractor: "Yetee Staff"
+  mops: "MEDIATRON!"
+#  museum: "Museum"
+ # nga: "Nexus Gaming Alliance"
+#  public_safety: "Public Safety"
+  regdesk: "Regdesk"
+  security: "Security"
+#  shedspace: "Jam Clinic"
+#  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
+  staff_support: "Staff Support"
+  stops: "Staffing Ops"
+  tabletop: "Tabletop"
+#  tabletop_rpg: "Tabletop (Pathfinder)"
+#  tabletop_ddal: "Tabletop (DDAL)"
+#  tabletop_ccg: "Tabletop (CCG)"
+  treasury: "Treasury"
+  tech_ops: "Tech Ops"
+  tea_room: "Tea Room"
+#  zombie_tag: "Zombie Tag"
+
+uber::config::shiftless_depts: "dorsai,con_ops"
+#Con/Fest Ops primarily used for Outside Contractors - Signage, Light/Sound production, these are groups we pay but still want in the system.
+
+uber::config::shirt_level: 20
+uber::config::supporter_level: 80
+uber::config::season_level: 160
+
+uber::config::shirt_sizes:
+  no shirt: 0               # MUST BE 'no shirt' all lowercase or things break
+  S Unisex: 1
+  M Unisex: 2
+  L Unisex: 3
+  XL Unisex: 4
+  2XL Unisex: 5
+  3XL Unisex: 6
+  4XL Unisex: 11
+  5XL Unisex: 12
+  S Unisex slim fit: 14
+  M Unisex slim fit: 15
+  L Unisex slim fit: 16
+  XL Unisex slim fit: 17
+  2XL Unisex slim fit: 18
+  S Women's: 7
+  M Women's: 8
+  L Women's: 9
+  XL Women's: 10
+  2XL Women's: 13
+  S Women's slim fit: 19
+  M Women's slim fit: 20
+  L Women's slim fit: 21
+  XL Women's slim fit: 22
+  2XL Women's slim fit: 23
+
+uber::config::interest_list:
+  console: "Consoles"
+  arcade: "Arcade"
+  lan: "LAN"
+  music: "Concerts"
+  Jams: "Jam Space"
+  panels: "Guests/Panels"
+  tabletop: "Tabletop Games"
+  dealers: "Dealers"
+  tournaments: "Tournaments"
+  tea_room: "Tea Room"
+  indie_games: "Indie Games"
+
+#Event Locations needs to updated once layout is finalized.
+uber::config::event_locations:
+  panels_1: "Panels 1 (Grand Ballroom D)"
+  panels_2: "Panels 2 (Grand Ballroom A)"
+  arcade_tournaments_1: "Arcade (Magnolia)"
+  arcade_tournaments_2: "Arcade (Magnolia)"
+  concerts: "Concerts (Grand Ballroom E-H)"
+  jamspace: "Jam Space (Cypress)"
+  chipspace: "Chipspace (Lafayette)"
+  console_tournament: "Consoles Tournaments (Santa Clara Ballroom)"
+  console_attendee: "Consoles Attendee Tournaments (Santa Clara Ballroom)"
+  tabletop_tournaments: "Tabletop (2nd Floor Mezzanine)"
+
+uber::config::volunteer_checklist:
+  3: ''
+  4: 'hotel_requests/hotel_item.html'
+  5: 'signups/volunteer_agreement_item.html'
+
+# TODO: Verify that both of these are correct for MAGWest 2019
+uber::config::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1tw-AZnf5K7dkfJOm50Ks3osGKCSYlTI1glz7WLhM7G8/edit#gid=316806961"
+uber::config::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLScnOE2dQHf0kyajgmMiMbqeMYlm8oXFC4E_yAqlFBfvrGDRrg/viewform?usp=sf_link"
+
+uber::config::dept_head_checklist:
+  creating_shifts:
+    deadline: "2019-06-29"
+    description: "We have the ability to import shifts from MAGWest 2019 to MAGWest 2019, if you are only making minor changes and want assistance with this step, please let us know"
+    path: "/jobs/index?department_id={department_id}"
+  assigned_volunteers:
+    name: "Volunteers Assigned to Your Department"
+    deadline: "2019-07-01"
+    description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
+    path: "/jobs/staffers?department_id={department_id}"
+  treasury:
+    name: "MPoint Needs"
+    deadline: "2019-08-08"
+    description: "Tell us whether you need any mpoints for your department."
+    path: "/dept_checklist/treasury?department_id={department_id}"
+  allotments:
+    name: "Treasury Information"
+    deadline: "2019-07-07"
+    description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
+    path: "/dept_checklist/allotments?department_id={department_id}"
+  approve_setup_teardown:
+    name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
+    deadline: "2019-07-01"
+    description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
+    path: "/hotel/requests?department_id={department_id}"
+  hotel_eligible:
+    name: "Staffers Requesting Hotel Space"
+    deadline: "2019-07-05"
+    description: "Double check that everyone in your department who you know needs hotel space has requested it."
+    path: "/hotel/index?department_id={department_id}"
+  printed_signs:
+    deadline: "2019-07-09"
+    description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
+  office_supplies:
+    deadline: "2019-07-09"
+    description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
+  placeholders:
+    name: "Checking Placeholder Registrations"
+    deadline: "2019-07-08"
+    description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
+    path: "/registration/placeholders?department_id={department_id}"
+  tech_requirements:
+    name: "Tech Requirements"
+    deadline: "2019-07-13"
+    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
+    path: "/dept_checklist/tech_requirements?department_id={department_id}"
+  postcon_hours:
+    name: "(After the Event) Marking and Rating Shifts"
+    deadline: "2019-09-05"
+    description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
+    path: "/jobs/signups?department_id={department_id}"
+    email_post_con: True
+
+# Section for Signature Changes specific to event:
+uber::config::dept_head_overrides:
+  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
+
+uber::config::peglegs_sig: |
+    - MAGFest Director of Panel Operations
+
+uber::config::panels_email: 'MAGWest Panels <panels@magwest.org>'
+
+uber::config::band_email:           'MAGWest Music Department <music@magwest.org>'
+uber::config::band_email_signature: '- MAGWest Music Department'
+
+uber::config::auction_start:            '2019-08-12 11' # placeholder
+
+uber::config::band_panel_deadline: '2019-06-29'
+uber::config::band_bio_deadline: '2019-05-24'
+uber::config::band_info_deadline: '2019-06-24'
+uber::config::band_taxes_deadline: '2019-06-29'
+uber::config::band_merch_deadline: '2019-07-07'
+uber::config::band_charity_deadline: ''
+uber::config::band_badges_deadline: '2019-08-05'
+uber::config::band_stage_plot_deadline: '2019-06-01'
+
+uber::config::guest_panel_deadline: '2019-06-29'
+uber::config::guest_bio_deadline: '2019-06-24'
+uber::config::guest_taxes_deadline: '2019-06-29'
+uber::config::guest_merch_deadline: '2019-07-07'
+uber::config::guest_charity_deadline: ''
+uber::config::guest_autograph_deadline: ''
+uber::config::guest_interview_deadline: '2019-06-24'
+uber::config::guest_travel_plans_deadline: '2019-06-24'
+uber::config::guest_info_deadline: '2019-06-24'
+uber::config::guest_badges_deadline: '2019-08-05'
+
+uber::config::require_dedicated_guest_table_presence: False
+
+uber::config::guest_merch_enums:
+  no_merch:     "Not selling merch"
+  own_table:    "Selling merch"
+  # rock_island:  "Rock Island" # comment out this line to disable rock island in guest agreement / plugin
+
+
+uber::config::mivs_round_one_deadline:    "2019-08-01 12"   # Noon, Aug 1
+uber::config::mivs_video_response_expected: "by August 8th"
+uber::config::mivs_round_two_start:       "2019-08-01"      # Midnight, Aug 1
+uber::config::mivs_round_two_deadline:    "2019-08-08"      # Midnight, Aug 8
+uber::config::mivs_judging_deadline:      "2019-08-09 23"   # 11pm, Aug 9
+uber::config::mivs_round_two_complete:    "2019-08-09"      # Midnight, Aug 9
+uber::config::mivs_confirm_deadline: 14
+uber::config::mivs_start_year: 2019
+uber::config::mivs_submission_grace_period: 1
